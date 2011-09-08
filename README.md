@@ -8,6 +8,12 @@ Pantomime is a tiny Clojure library that deals with MIME types.
 Not yet published to clojars.org.
 
 
+## Supported Clojure versions
+
+Pantomime was built for Clojure 1.3 and later, although it is a really small library that should
+work fine on 1.2.x as well.
+
+
 ## Usage
 
 TBD
