@@ -5,7 +5,11 @@ Pantomime is a tiny Clojure library that deals with MIME types.
 
 ## Maven Artifact
 
-Not yet published to clojars.org.
+Leiningen:
+
+```clojure
+[com.novemberain/pantomime "0.1.0-SNAPSHOT"]
+```
 
 
 ## Supported Clojure versions
