@@ -25,6 +25,3 @@
 (deftest test-content-type-detection
   (is (= "image/png" (mime-type-of "an_awesome_icon.png")))
   (is nil?           (mime-type-of "an_awesome_icon")))
-
-;; (deftest test-content-type-detection-for-png-with-overriden-types-map
-;;  (is (= "image/awesomesauce" (mime-type-for "an_awesome_icon.png" { "png" "image/awesomesauce" })) "Content type of .png is image/png"))

@@ -3,7 +3,7 @@
 
 ;; Borrowed from the MIT-licensed Ring library by Mark McGranaghan (https://github.com/mmcgrana/ring)
 ;; with additions from the BSD-licensed default Nginx () mime types list.
-(def default-mime-types
+(def ^:dynamic *mime-types*
   {"7z"    "application/x-7z-compressed"
    "aac"   "audio/aac"
    "ai"    "application/postscript"
@@ -114,7 +114,7 @@
     (mime-type-of (File. path)))
   (mime-type-for
     [^String extension]
-    (default-mime-types (.toLowerCase extension)))
+    (*mime-types* (.toLowerCase extension)))
 
   File
   (mime-type-of
