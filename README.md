@@ -49,6 +49,6 @@ An example:
 
 ## License
 
-Copyright (C) 2011 Michael S. Klishin
+Copyright (C) 2011-2012 Michael S. Klishin
 
 Distributed under the Eclipse Public License, the same as Clojure.
