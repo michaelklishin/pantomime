@@ -1,4 +1,4 @@
-# Pantomime
+# What is Pantomime
 
 Pantomime is a tiny Clojure library that deals with MIME types.
 
@@ -8,7 +8,7 @@ Pantomime is a tiny Clojure library that deals with MIME types.
 Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "0.1.0-SNAPSHOT"]
+[com.novemberain/pantomime "1.0.0"]
 ```
 
 
@@ -20,7 +20,18 @@ work fine on 1.2.x as well.
 
 ## Usage
 
-TBD
+### Detecting MIME type
+
+``` clojure
+(ns your.app.namespace
+  (:use [pantomime.core]))
+
+
+(mime-type-of "filename.pdf")
+(mime-type-of (File. "some/file/path.pdf"))
+(mime-type-of (File. "some/file/without/extension"))
+(mime-type-of (URL. "http://domain.com/some/url/path.pdf"))
+```
 
 
 ## License
