@@ -1,6 +1,6 @@
 # What is Pantomime
 
-Pantomime is a tiny Clojure library that deals with MIME types. It uses [Apache Tika]() under the hood to detect
+Pantomime is a tiny Clojure library that deals with MIME types. It uses [Apache Tika](http://tika.apache.org/) under the hood to detect
 MIME types using several techniques:
 
  * Known file extensions
