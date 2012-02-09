@@ -1,5 +1,5 @@
-(ns pantomime.test.core
-  (:use [pantomime.core]
+(ns pantomime.test.mime
+  (:use [pantomime.mime]
         [clojure.test])
   (:require [clojure.java.io :as io])
   (:import [java.io File FileInputStream]

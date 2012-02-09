@@ -1,7 +1,8 @@
-(ns pantomime.core
+(ns pantomime.mime
   (:import [java.io File InputStream]
            [java.net URL]
-           [org.apache.tika Tika]))
+           [org.apache.tika Tika]
+           [org.apache.tika.mime MediaType MimeType]))
 
 (def detector (Tika.))
 
