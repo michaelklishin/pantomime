@@ -30,14 +30,14 @@ work fine on 1.2.x as well.
 
 ### Detecting MIME type
 
-`pantomime.core/mime-type-of` function accepts filenames as strings, java.io.File, java.io.InputStream and java.net.URL instances
+`pantomime.mime/mime-type-of` function accepts filenames as strings, java.io.File, java.io.InputStream and java.net.URL instances
 and returns MIME type as a string or "application/octet-stream" if detection failed.
 
 An example:
 
 ``` clojure
 (ns your.app.namespace
-  (:use [pantomime.core]))
+  (:use [pantomime.mime]))
 
 
 (mime-type-of "filename.pdf")
