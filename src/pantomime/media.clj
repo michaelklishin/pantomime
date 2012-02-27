@@ -22,7 +22,7 @@
   String
   (base-type
     [^String input]
-    (.getBaseType (media-type-named input)))
+    (.getBaseType ^MediaType (media-type-named input)))
 
   MediaType
   (base-type

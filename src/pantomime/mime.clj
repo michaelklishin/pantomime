@@ -4,7 +4,7 @@
            [org.apache.tika Tika]
            [org.apache.tika.mime MediaType MimeType]))
 
-(def detector (Tika.))
+(def ^Tika detector (Tika.))
 
 
 ;;
