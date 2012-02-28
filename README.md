@@ -16,7 +16,7 @@ and so on.
 Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "1.0.0"]
+[com.novemberain/pantomime "1.1.0"]
 ```
 
 
