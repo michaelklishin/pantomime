@@ -8,7 +8,7 @@ MIME types using several techniques:
  * Content-type information for resources served via HTTP
  * XML schema information
 
-and so on. 
+and so on.
 
 
 ## Maven Artifact
@@ -45,6 +45,23 @@ An example:
 (mime-type-of (File. "some/file/without/extension"))
 (mime-type-of (URL. "http://domain.com/some/url/path.pdf"))
 ```
+
+## Continuous Integration
+
+[![Continuous Integration status](https://secure.travis-ci.org/michaelklishin/pantomime.png)](http://travis-ci.org/michaelklishin/pantomime)
+
+CI is hosted by [travis-ci.org](http://travis-ci.org)
+
+
+## Development
+
+Pantomime uses [Leiningen 2](https://github.com/technomancy/leiningen/blob/master/doc/TUTORIAL.md). Make
+sure you have it installed and then run tests against Clojure 1.3.0 using
+
+    lein2 with-profile dev test
+
+Then create a branch and make your changes on it. Once you are done with your changes and all
+tests pass, submit a pull request on Github.
 
 
 ## License
