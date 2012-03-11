@@ -56,9 +56,9 @@ CI is hosted by [travis-ci.org](http://travis-ci.org)
 ## Development
 
 Pantomime uses [Leiningen 2](https://github.com/technomancy/leiningen/blob/master/doc/TUTORIAL.md). Make
-sure you have it installed and then run tests against Clojure 1.3.0 using
+sure you have it installed and then run tests against Clojure 1.3.0 and 1.4.0[-beta4] using
 
-    lein2 with-profile dev test
+    lein2 with-profile dev:1.4 test
 
 Then create a branch and make your changes on it. Once you are done with your changes and all
 tests pass, submit a pull request on Github.
