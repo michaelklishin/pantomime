@@ -12,6 +12,9 @@
     (are [a b] (is (= a (mime-type-of b)))
          "image/png"                "an_awesome_icon.png"
          "application/pdf"          "tika_in_action.pdf"
+         "application/pdf"          (io/resource "pdf/qrl.pdf")
+         "application/pdf"          (io/input-stream (io/resource "pdf/qrl.pdf"))
+         "application/pdf"          (io/as-file (io/resource "pdf/qrl.pdf"))
          "application/epub+zip"     "tika_in_action.epub"
          "text/plain"               (io/resource "txt/a_text_file1.txt")
          "text/plain"               (io/resource "txt/a_text_file2")
