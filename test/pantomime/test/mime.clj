@@ -15,6 +15,8 @@
          "application/pdf"          (io/resource "pdf/qrl.pdf")
          "application/pdf"          (io/input-stream (io/resource "pdf/qrl.pdf"))
          "application/pdf"          (io/as-file (io/resource "pdf/qrl.pdf"))
+         ;; slurp turns content into a string
+         "application/octet-stream" (slurp (io/resource "pdf/qrl.pdf"))
          "application/epub+zip"     "tika_in_action.epub"
          "text/plain"               (io/resource "txt/a_text_file1.txt")
          "text/plain"               (io/resource "txt/a_text_file2")
