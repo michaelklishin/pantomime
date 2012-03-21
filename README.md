@@ -29,8 +29,8 @@ Pantomime was built for Clojure 1.3 and later, although it is a really small lib
 
 ### Detecting MIME type
 
-`pantomime.mime/mime-type-of` function accepts filenames as strings, java.io.File, java.io.InputStream and java.net.URL instances
-and returns MIME type as a string or "application/octet-stream" if detection failed.
+`pantomime.mime/mime-type-of` function accepts content as byte arrays, java.io.InputStream and java.net.URL instances as well as
+filenames as strings and java.io.File instances, and returns MIME type as a string or "application/octet-stream" if detection failed.
 
 An example:
 
@@ -38,11 +38,15 @@ An example:
 (ns your.app.namespace
   (:use [pantomime.mime]))
 
-
-(mime-type-of "filename.pdf")
+;; by content (as byte array)
 (mime-type-of (.getBytes "filename.pdf"))
+;; by file extension
+(mime-type-of "filename.pdf")
+;; by file extension + content
 (mime-type-of (File. "some/file/path.pdf"))
+;; by file content (as java.io.File)
 (mime-type-of (File. "some/file/without/extension"))
+;; by content (as java.net.URL)
 (mime-type-of (URL. "http://domain.com/some/url/path.pdf"))
 ```
 
