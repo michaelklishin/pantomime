@@ -46,6 +46,15 @@ An example:
 (mime-type-of (URL. "http://domain.com/some/url/path.pdf"))
 ```
 
+
+## Community
+
+[Pantomime has a mailing list](https://groups.google.com/group/clojure-pantomime). Feel free to join it and ask any questions you may have.
+
+To subscribe for announcements of releases, important changes and so on, please follow [@ClojureWerkz](https://twitter.com/#!/clojurewerkz) on Twitter.
+
+
+
 ## Continuous Integration
 
 [![Continuous Integration status](https://secure.travis-ci.org/michaelklishin/pantomime.png)](http://travis-ci.org/michaelklishin/pantomime)
