@@ -1,0 +1,4265 @@
+<!-- main -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+    
+            
+        
+    
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+<title>Section: Cars </title>
+
+
+    
+
+
+
+
+
+
+
+<meta name="Copyright" content="Copyright (c) 2012 Cond&eacute; Nast Digital. All rights reserved." />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="distribution" content="Global" />
+
+
+        <meta name="ROBOTS" content="INDEX,FOLLOW,NOODP,NOYDIR" />
+    
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta http-equiv="imagetoolbar" content="false" />
+<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+<meta name="Author" content="Wired" />
+
+
+<meta property="fb:admins" content="648235154,789168297,688620285,650984415" />
+<meta property="fb:page_id" content="19440638720" />
+<meta property="og:site_name" content="WIRED" />
+<meta property="og:title" content="Section: Cars" />
+
+
+
+<meta name="gmapkey" content="ABQIAAAAF5yd_X_vTzike6sB6lp3wBQ4h890iMeKvsDZGQOc75SG0lWKAhQW755bw9E_-3ijKe6eqE5sg_NLEw" />
+
+
+
+    
+            <meta name="description"
+                  content="Get the latest Car and Automotive News from Wired.com, including electric cars, hybrid cars, future automobiles and concept vehicles."/>
+            <meta name="keywords"
+                  content="cars 2.0, electric cars, hybrids, concept cars, technology, tech, gadgets, gizmos, SUVs, van, motorcycle, sports car, convertible, ethanol, alternative fuels, hybrid vehicles"/>
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        <!-- ECOM: added ecom.common.targeters -->
+        
+        
+        <!-- ECOM: added ecom.headerCallout.targeters -->
+        
+        
+
+        
+                <!-- ECOM: added ecom.global.subService.targeters -->
+                
+                
+
+                
+                        <!-- ECOM: added ecom.xrail.sections.targeters -->
+                        
+                        
+                    
+
+            
+        
+
+        <!-- CSS: global -->
+        <link rel="stylesheet" type="text/css" media="all" href="/css/global.css?ver=20120312" />
+        <link rel="stylesheet" type="text/css" media="all" href="/css/xrail.css" />
+        <link rel="alternate stylesheet" type="text/css" media="screen,print" href="/css/fontSmall.css" title="small" />
+        <link rel="alternate stylesheet" type="text/css" media="screen,print" href="/css/fontLarge.css" title="large" />
+        <link rel="alternate stylesheet" type="text/css" media="screen,print" href="/css/fontLarge2.css" title="largest" />
+
+        <!-- JAVASCRIPT: global -->
+        <script type="text/javascript" src="/js/cn-fe-common/jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="/js/cn-fe-common/cn.js"></script>
+
+        <!-- JAVASCRIPT: dart -->
+        <script type="text/javascript" src="/js/cn-fe-ads/cn.dart.js"></script>
+        <script type="text/javascript" src="/js/cn-fe-ads/cn.ad.lotame.js"></script>
+        <script type="text/javascript" src="/js/cn-fe-ads/cn.ad.yieldex.js"></script>
+
+        <script type="text/javascript" src="/js/global.js"></script>
+
+        <script type="text/javascript">
+        // <!--
+            var platformEnvironment = "production";
+            CN.site.init({
+                code: 'WIR',
+                title: 'Wired',
+                name: 'wired'
+            });
+        // -->
+        </script>
+
+        <!-- JAVASCRIPT: ecom -->
+        <script type="text/javascript" src="/js/ecom/ecomfw.min.js"></script>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+            
+                
+            
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+                                
+                
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+<script>
+
+    var _ghearst_vars = (function() {
+    var metaKeyWords = (function(){
+    var metaKeywordContent='';
+    metaCollection = document.getElementsByTagName('meta');
+    for (i=0;i<metaCollection.length;i++) {
+        nameAttribute = metaCollection[i].name.search(/keywords/);
+        if (nameAttribute!= -1) {
+            metaKeywordContent = metaCollection[i].content;
+            metaKeywordContent = metaKeywordContent.replace(/,/g,'%2C'); // to replace ,
+            metaKeywordContent = metaKeywordContent.replace(/ /g,''); // to replace space
+        }
+    }
+    return metaKeywordContent;
+    })();
+    return {
+    'ams_ads_script_src': 'http://subscribe.wired.com/ams/page-ads.js?ad_category_prefix=cars&browser_path=%2Fcars%2F&cat_prefixes=%2Ccars%2C&keywords='+metaKeyWords+'&position_list=AMS_WIR_GLOBAL_NAVBAR%2CAMS_WIR_GLOBAL_NAVBAR_ROLLOVER%2CAMS_WIR_CONTENTPAGE_HEADERCALLOUT%2CAMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES%2CAMS_WIR_SECTIONS_RIGHTRAIL_A&site_prefix=wired&subdomain=www&url_name='
+    };
+    })();
+    if (!window.$h) {window.$h = {}}(function(){
+    if (!$h.util){$h.util = {
+        buildScriptTag: function(src){
+            if (!!src){
+                document.write('<scr' + 'ipt src="'+src+'" language="javascript"></scr' + 'ipt>')
+                }
+            }
+        }
+    }
+    $h.util.buildScriptTag(_ghearst_vars.ams_ads_script_src)})();
+
+</script>
+
+
+
+    
+
+
+
+
+
+        
+        <link rel="alternate" type="application/rss+xml" title="Wired Top Stories"  href="http://feeds.wired.com/wired/index" />
+
+        
+            <!-- TYPEKIT -->
+            <script type="text/javascript" src="http://fonts.condenast.com/ztc8lol.js"></script>
+            <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+            <!-- Microsoft Campaign -->
+            <script type="text/javascript">
+            //<!--
+                // Async load
+                var buildmypinnedsite = document.createElement('script');
+                    buildmypinnedsite.type = 'text/javascript';
+                    buildmypinnedsite.async = true;
+                    buildmypinnedsite.src = '/js/buildmypinnedsite_634612705116045234.js';
+                    //buildmypinnedsite.src = 'http://buildmypinnedsite.com/script/v1.0/634612705116045234.js';
+                var async_head = document.getElementsByTagName('head')[0];
+                async_head.appendChild(buildmypinnedsite);
+            //-->
+            </script>
+        
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/tag.css" />
+    
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+            <script type="text/javascript">
+    //<!--
+        
+        CN.dart.init({site:'wiredcom.dart', zone: 'cars_front;', kws:[ "cars"], charmap : {' ' : '+', '-' : '_'}});
+    //-->
+    </script>
+        
+
+
+</head>
+
+<body class="s_cars/">
+<div id="global_header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="leaderboard">
+            <div class="advertisement" id="bannerAd">
+                
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+        <div id="topLeaderboard728x90_frame" class="displayAd"></div>
+    <script type="text/javascript">
+    //<!--
+        
+        CN.dart.call('topLeaderboard', {sz:'728x90', kws:["top"]});
+    //-->
+    </script>
+    
+
+                
+            </div>
+            <div class="subscriptionUnit">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="AMS_WIR_CONTENTPAGE_HEADERCALLOUT">
+            <a target="_new" href="https://w1.buysub.com/loc/WIR/ATGFailsafe">
+                <img alt="Subscribe to Wired" src="/images/global_header/subscribe/gh_lbSubUnit.gif" />
+            </a>
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<script>
+
+(function(){
+    if((typeof pageAds != 'undefined') && (typeof pageAds.AMS_WIR_CONTENTPAGE_HEADERCALLOUT != 'undefined') && (CN.url.params('nojoy') !=1) ) {
+        var div = document.getElementById("AMS_WIR_CONTENTPAGE_HEADERCALLOUT");
+        div.innerHTML = "";
+        document.write(pageAds.AMS_WIR_CONTENTPAGE_HEADERCALLOUT);
+    }
+    else { // If NO response from HEARST
+        //var failSafeArea = ""; var displayFailsafeDiv = document.getElementById(failSafeArea); displayFailsafeDiv.style.display = "block";
+    }
+
+    
+})();
+
+</script>
+
+        </div>
+    
+
+
+            </div>
+            <div class="clearer"></div>
+        </div>
+    
+    
+<!-- global nav -->
+<div id="global_navigation">
+	<div id="primary_navigation">
+		<ul id="pnav_list">
+			<li id="pn_home">
+				<a class="primaryLink" href="/"><span>Wired Home</span></a>
+			</li>
+
+		
+                <li id="pn_subscribe_a">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="global_navBar">
+        <div id="AMS_WIR_GLOBAL_NAVBAR">
+            <a target="_new" class="primaryLink" href="https://w1.buysub.com/loc/WIR/ATGFailsafe">
+                <span>Subscribe</span>
+            </a>
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<script>
+
+(function(){
+    if((typeof pageAds != 'undefined') && (typeof pageAds.AMS_WIR_GLOBAL_NAVBAR != 'undefined') && (CN.url.params('nojoy') !=1) ) {
+        var div = document.getElementById("AMS_WIR_GLOBAL_NAVBAR");
+        div.innerHTML = "";
+        document.write(pageAds.AMS_WIR_GLOBAL_NAVBAR);
+    }
+    else { // If NO response from HEARST
+        //var failSafeArea = ""; var displayFailsafeDiv = document.getElementById(failSafeArea); displayFailsafeDiv.style.display = "block";
+    }
+
+    
+})();
+
+</script>
+
+        </div>
+        </div>
+    
+
+
+                    <div class="dropdownMenu">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="AMS_WIR_GLOBAL_NAVBAR_ROLLOVER">
+            <a target="_new" id="global_navBar_failsafe" href="https://w1.buysub.com/loc/WIR/ATGFailsafe">
+                <img src="/images/global_header/subscribe/gh_flyout_failsafe.gif" alt="Subscribe to Wired" />
+            </a>
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<script>
+
+(function(){
+    if((typeof pageAds != 'undefined') && (typeof pageAds.AMS_WIR_GLOBAL_NAVBAR_ROLLOVER != 'undefined') && (CN.url.params('nojoy') !=1) ) {
+        var div = document.getElementById("AMS_WIR_GLOBAL_NAVBAR_ROLLOVER");
+        div.innerHTML = "";
+        document.write(pageAds.AMS_WIR_GLOBAL_NAVBAR_ROLLOVER);
+    }
+    else { // If NO response from HEARST
+        //var failSafeArea = ""; var displayFailsafeDiv = document.getElementById(failSafeArea); displayFailsafeDiv.style.display = "block";
+    }
+
+    
+})();
+
+</script>
+
+        </div>
+    
+
+
+                    </div>
+                </li>
+            
+
+			<li id="pn_sections">
+				<a class="primaryLink"><span>Sections</span></a>
+				<div class="dropdownMenu">
+					<ul>
+						<li><a href="/cars/">Cars 2.0</a></li>
+						<li><a href="/culture/">Culture</a></li>
+						<li><a href="/entertainment/">Entertainment</a></li>
+						<li><a href="/gadgets/">Gadgets</a></li>
+						<li><a href="/gaming/">Gaming</a></li>
+						<li><a href="http://howto.wired.com">How-To</a></li>
+						<li><a href="/medtech/">Med Tech</a></li>
+					</ul>
+					<ul>
+						<li><a href="/multimedia/">Multimedia</a></li>
+						<li><a href="/politics/">Politics</a></li>
+						<li><a href="/reviews/">Product Reviews</a></li>
+						<li><a href="/science/">Science</a></li>
+						<li><a href="/software/">Software</a></li>
+						<li><a href="/techbiz/">Tech Biz</a></li>
+						<li><a href="http://jobs.wired.com/">Tech Jobs</a></li>
+					</ul>
+					<div class="featured">
+						<ul>
+                            <li><a href="http://wiredbusinessconference.com/">Wired Biz</a></li>
+							<li><a href="http://wiredinsider.com">Wired Insider</a></li>
+						</ul>
+                        <ul>
+                            <li><a href="/wellness">Weekly Wellness</a></li>
+                        </ul>
+					</div>
+				</div>
+			</li>
+			<li id="pn_blogs">
+				<a class="primaryLink" href="/blogs"><span>Blogs</span></a>
+				<div class="dropdownMenu">
+                    <ul>
+                        <li><a href="/autopia/">Autopia</a></li>
+                        <li><a href="/cloudline/">Cloudline</a></li>
+                        <li><a href="/dangerroom/">Danger Room</a></li>
+                        <li><a href="/magazine/decode/">Decode</a></li>
+                        <li><a href="/epicenter/">Epicenter</a></li>
+                        <li><a href="/gadgetlab/">Gadget Lab</a></li>
+                        <li><a href="/gamelife/">Game | Life</a></li>
+                        <li><a href="/geekdad/">GeekDad</a></li>
+                        <li><a href="/playbook/">Playbook</a></li>
+                    </ul>
+                    <ul>
+						<li><a href="/rawfile/">Raw File</a></li>
+                        <li><a href="/thisdayintech/">This Day in Tech</a></li>
+                        <li><a href="/threatlevel/">Threat Level</a></li>
+                        <li><a href="/underwire/">Underwire</a></li>
+                        <li><a href="http://www.webmonkey.com/">Webmonkey</a></li>
+                        <li><a href="/wiredenterprise/">Wired Enterprise</a></li>
+                        <li><a href="/wiredscience/">Wired Science</a></li>
+						<li><a href="/wiredscience/science-blogs/">Wired Science Blogs</a></li>
+                        <li><a href="/blogs/">All Blogs</a></li>
+                    </ul>
+				</div>
+			</li>
+			<li id="pn_reviews">
+				<a class="primaryLink" href="/reviews/"><span>Reviews</span></a>
+				<div class="dropdownMenu">
+					<ul>
+						<li><a href="/reviews/category/automotive/">Automotive</a></li>
+						<li><a href="/reviews/category/desktops-and-accessories/">Desktops</a></li>
+						<li><a href="/reviews/category/digital-cameras-and-camcorders/">Digital Cameras</a></li>
+						<li><a href="/reviews/category/gaming-gear/">Gaming Gear</a></li>
+						<li><a href="/reviews/category/home-audio-and-video/">Home Audio/Video</a></li>
+						<li><a href="/reviews/category/household/">Household</a></li>
+						<li><a href="/reviews/category/media-players/">Media Players</a></li>
+						<li><a href="/reviews/category/mobile-audio/">Mobile Audio</a></li>
+					</ul>
+					<ul>
+						<li><a href="/reviews/category/mobile-phones/">Mobile Phones</a></li>
+						<li><a href="/reviews/category/notebooks-and-accessories/">Notebooks</a></li>
+						<li><a href="/reviews/category/roundups/">Roundups</a></li>
+						<li><a href="/reviews/category/software-and-apps/">Software/Apps</a></li>
+						<li><a href="/reviews/category/sports-and-outdoors/">Sports/Outdoors</a></li>
+						<li><a href="/reviews/category/tablets-and-ebook-readers/">Tablets/eBooks</a></li>
+						<li><a href="/reviews/category/televisions/">Televisions</a></li>
+						<li><a href="/reviews/">All Reviews</a></li>
+					</ul>
+				</div>
+			</li>
+			<li id="pn_video">
+				<a class="primaryLink" href="/video/"><span>Video</span></a>
+			</li>
+			<li id="pn_how_to">
+				<a class="primaryLink" href="http://howto.wired.com/"><span>How To</span></a>
+			</li>
+			<li id="pn_magazine">
+				<a class="primaryLink" href="/magazine/"><span>Magazine</span></a>
+			</li>
+			
+			
+
+            <li id="pn_ipad">
+                <a class="primaryLink" href="/magazine/ipad"><span>iPad</span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="extra_navigation">
+    <div id="secondary_navigation">
+        <div id="supplemental_links">
+            <ul id="user_options">
+                <li id="gh_greeting"></li>
+                <li id="gh_rss">
+                    <a id="header_rss_icon" href="/about/rss_feeds/">RSS Feeds</a>
+                </li>
+
+			</ul>
+		</div>
+		<div id="global_search">
+		    <form id="gs_search_form" name="search" action="/search">
+            <input id="q" name="query" size="19" type="text" autocomplete="on" value="" />
+            <select name="cx" id="cx">
+                <option name="all" value="010858178366868418930:fk33zkiunj8">All Wired</option>
+                <option name="bc_video" value="bc_video">Videos</option>
+            </select>
+            <input id="gs_submit" type="submit" value="Go" />
+            <input type="hidden" name="cof" value="FORID:9"/>
+            <input type="hidden" name="ie" value="UTF-8"/>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" language="JavaScript 1.5">
+//Init code put here so that the nav is usuable as early as possible.
+(function(){
+	var listElement, menu;
+	listElement = document.getElementById('pnav_list');
+	menu = new DropdownMenu('350');
+	menu.addList(listElement, 'primaryLink', 'dropdownMenu');
+	globalNav.init("pn_subscribe_a", menu);
+})();
+</script>
+
+
+
+
+</div>
+<div id="shell">
+    <div id="content">
+        <div id="contentwell">
+            <div id="tag_header">
+            <div id="tag_topicsHeadline">                                                                <!--http://feeds.wired.com/wired/cars-->
+                <h1><a class="sectionNameHeader" href="">Cars</a> <a target="_blank" href="/rss/cars.xml" class="rssLink"><img alt="rss" src="/images/icon_rss.gif"></a></h1>
+                
+            </div>
+            <div id="tag_FeaturePackage">
+                
+                    <ul>
+                        
+                            
+                        <li >
+                            <!--<div style="background: white url(http://www.wired.com/images/cms/220x152/reviews/wp-content/uploads/2012/03/ts_revelectricmotos5_f.jpeg) center center no-repeat; height:152px; width:220px;">-->
+                                <a href="http://www.wired.com/reviews/2012/03/reviews_electricmotorcycles/">
+                                    <img src="http://www.wired.com/images/cms/220x152/reviews/wp-content/uploads/2012/03/ts_revelectricmotos5_f.jpeg" alt="Electric Mayhem" />
+                                </a>
+                            <!--</div>-->
+                            <div class="caption">
+                                <a href="http://www.wired.com/reviews/2012/03/reviews_electricmotorcycles/">Electric Mayhem</a>
+                            </div>
+                        </li>
+                        
+                            
+                        <li >
+                            <!--<div style="background: white url(http://www.wired.com/images/cms/220x152/images_blogs/autopia/2012/03/imiev.jpg) center center no-repeat; height:152px; width:220px;">-->
+                                <a href="http://www.wired.com/autopia/2012/03/mitsubishi-turns-their-evs-into-portable-power-supplies/">
+                                    <img src="http://www.wired.com/images/cms/220x152/images_blogs/autopia/2012/03/imiev.jpg" alt="Mitsubishi Turns Their EVs Into Portable Power Supplies" />
+                                </a>
+                            <!--</div>-->
+                            <div class="caption">
+                                <a href="http://www.wired.com/autopia/2012/03/mitsubishi-turns-their-evs-into-portable-power-supplies/">Mitsubishi Turns Their EVs Into Portable Power Supplies</a>
+                            </div>
+                        </li>
+                        
+                            
+                        <li  class="last">
+                            <!--<div style="background: white url(http://www.wired.com/images/cms/220x152/geekdad/wp-content/uploads/2012/03/Geekdad-4.jpg) center center no-repeat; height:152px; width:220px;">-->
+                                <a href="http://www.wired.com/geekdad/2012/03/start-up-trek-money/">
+                                    <img src="http://www.wired.com/images/cms/220x152/geekdad/wp-content/uploads/2012/03/Geekdad-4.jpg" alt="A Start-Up Trek - Money Makes the World Go Around" />
+                                </a>
+                            <!--</div>-->
+                            <div class="caption">
+                                <a href="http://www.wired.com/geekdad/2012/03/start-up-trek-money/">A Start-Up Trek - Money Makes the World Go Around</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                
+            </div>
+            <div class="clearer"></div>
+        </div>
+
+        <div id="tag_content" class="allContentTypes">
+            <div id="primary_tag_content">
+                <div class="tag_articleListing">
+                    
+                        <h2>591 articles on Cars</h2>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/behind-the-wheel-not-all-distractions-are-equal/">Behind the Wheel, Not All Distractions Are Equal</a>
+                                    <div></div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.16.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/boeings-composite-airliner-wins-top-award/">Boeing's Composite Airliner Wins Top Award</a>
+                                    <div></div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.15.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/new-diesel-electric-hybrid-ferries-are-a-seagoing-first/">New Diesel Electric Hybrid Ferries Are A Seagoing First</a>
+                                    <div></div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.15.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/nissan-deltawing/">Batmobile-Like Nissan DeltaWing Is the Future of Racing</a>
+                                    <div>If you want to know what the future of racing looks like, the Nissan DeltaWing is it. It's lighter, more aerodynamic and uses half the fuel of a conventional race car. And against all odds, it's coming to the only race that matters: the 24 Hours of LeMans.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.13.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/mercedes-benz-classics-center/">Inside Mercedes-Benz's American Dream Factory</a>
+                                    <div>There are many fine restoration shops that will bring your old Mercedes-Benz up to par. But there is only one in the United States that has the factory' full backing to make your car good as new. Join us as we step inside.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.12.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/futuristic-airports-unhindered-with-the-baggage-of-todays-reality/">Futuristic Airports Unhindered By the Baggage of Reality</a>
+                                    <div>The airport of the future will float, and we'll fly here and there on hypersonic aircraft that take off and land vertically. So goes the winning entry in a contest to envision the airport of tomorrow.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.09.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/geekdad/2012/03/geeks-inherited-the-earth/">The Geeks Have Officially Inherited the Earth</a>
+                                    <div></div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.09.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/2012-geneva-motor-show/">Sensible, Creative and Sublime: Our Favorites From the 2012 Geneva Motor Show</a>
+                                    <div>Take a closer look at the sensible superminis, creative concepts and sublime supercars of the 2012 Geneva Motor Show.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.09.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/reviews/2012/03/ducati-panigale/">Mamma Mia!</a>
+                                    <div>When viewed purely as a monument to two-wheeled speed, the Ducati 1199 Panigale is about as good as production superbikes get.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.09.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/ferrari-f12berlinetta-video/">Video: Enjoy a Little Ferocious Ferrari Porn</a>
+                                    <div>We've given you the stats. We've explained the styling. Now we show you video for the Ferrari F12berlinetta.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.08.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/infiniti-emerg-e-ev/">Infiniti's Gorgeous EV Proves 'Silence Is the New Vroom'</a>
+                                    <div>Infinit's first mid-engine sports car is a range-extended electric sports car, providing yet another glimpse at the direction premium luxury sports cars are headed.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.08.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/valmet-dawn-electric-car/">Finns Show Off New EV That Appears to Have Melted</a>
+                                    <div>The Finns, in building an EV that looks like a melted Roomba, put the French on notice that they no longer own the market for bizarre concept cars.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.08.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/morgan-plue-e/">Morgan's New-Old EV Has a 5-Speed</a>
+                                    <div>You don't need gears in an electric vehicle, but that isn't keeping the retro-loving blokes at Morgan Motor Co. from installing a five-speed in their slick Plus E roadster.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.08.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/ferrari-f12berlinetta-debut/">Ferrari F12berlinetta Says Goodbye West, Hello East</a>
+                                    <div>Even more than most Ferrari's, the latest flagship from Maranello is designed to say, "I've got money." Which means it is targeted squarely at the explosive markets of Asia and the Middle East.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.07.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/video-flying-around-the-world-at-30-miles-per-gallon/">Video: Flying Around The World At 30 MPG</a>
+                                    <div></div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.07.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/ford-b-max/">Ford B-Max: A European Reality Check With Sliding Doors</a>
+                                    <div>For all the outrageous supercars and ostentatious SUVs we're seing in Geneva, its cars like the pedestrian Ford B-Max that reflect what's really happening in the auto biz.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.07.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/dangerroom/2012/03/spaceplane-year/">A Year Later, Mysterious Space Plane Is Still in Orbit </a>
+                                    <div>The Air Force's secretive X-37B space plane gets more mysterious by the day. Designed to spend up to nine months skipping across orbits on its unspecified errands, the second copy of the Boeing-made craft has now been in space for a year and two days -- and is still going strong. The endurance milestone is unqualified good news for America's space force at a time when its funding and future missions are in doubt.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.07.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/a-turbocharged-porsche-museum-goes-on-the-block/">Going Once, Going Twice: An Unreal Lot of Turbocharged Porsches</a>
+                                    <div>The Drendel collection is more than a collection. It is a potted education in the history of blown Porsches, and its sale is a landmark event.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.07.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/toyota-gt-86/">Toyota's GT 86 Is the Perfect 30-Year-Old Car</a>
+                                    <div>The Toyota GT 86 isn't exactly new, but it's still the most exciting car at the Geneva Motor Show, both for what it is and what it represents.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.06.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/bentley-exp-95-suv/">Bentley's SUV Is a Rapper's Delight</a>
+                                    <div>Bentley rolls into Geneva with an SUV only slightly smaller than a Manhattan apartment, and good lord is it gaudy.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.06.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/volt-ampera-europe-car-year/">Chevrolet Volt Named European Car of the Year</a>
+                                    <div></div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.05.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/geekdad/2012/03/start-up-trek-name/">A Start-Up Trek - What's in a Name?</a>
+                                    <div></div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.05.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/reviews/2012/03/fisker-karma/">Karma Comes Around at Last</a>
+                                    <div>Curvy as a chanteuse and as bright-eyed as a Hollywood musical, the Fisker Karma is a blue-sky vision of a green future.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.02.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/03/battery-boosted-rapid-ev-charging-station-wont-shock-the-electric-grid/">Battery-Boosted Quick-Charger Doesn't Shock System</a>
+                                    <div>Portland State University installs the nation's first battery-buffer quick-charger, which minimizes the impact of a quick charge on the grid and your wallet.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                03.01.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/02/ferrari-f12berlinetta/">Behold: The Most Fabulously Ferocious Ferrari Ever</a>
+                                    <div>Let's skip to the numbers: 750 horsepower. Zero to 62 in 3.1 seconds. Top speed of 210. For that, we'll overlook the styling.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                02.29.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/02/now-the-autonomous-quadrotors-can-play-music/">Video: Autonomous Quadrotors Perform Music</a>
+                                    <div>The University of Pennsylvania's amazing robocopters are back, and they're making music. Literally.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                02.29.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                            <ul>
+                                <li>
+                                    <a href="http://www.wired.com/autopia/2012/02/how-nascar-took-over-twitter/">How NASCAR Took Over Twitter</a>
+                                    <div>Twitter and NASCAR became inextricably linked when the Daytona 500 exploded in a fireball Monday night, and the sport of good ol' boys will never be the same.</div>
+                                    <div class="tag_articleMeta">
+                                        
+                                        <span>
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        
+    
+
+    
+     
+
+        
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                02.28.12
+            
+         
+     
+
+    
+
+
+    
+
+
+
+
+                                        </span>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                    
+                </div>
+                
+                    <div id="pagination">
+                        <!-- Pagination Begins -->
+                        
+
+
+
+
+   
+   
+   Results 1 to 30 of 591 | Page:
+   
+       
+   
+       
+               <span id="selectedPage"><a class="currentPage">1</a></span>
+           
+   
+       
+               <span class="pglnk2"><a href="?page=2">2</a></span>
+           
+   
+       
+               <span class="pglnk3"><a href="?page=3">3</a></span>
+           
+   
+       
+               <span class="pglnk4"><a href="?page=4">4</a></span>
+           
+   
+       
+               <span class="pglnk5"><a href="?page=5">5</a></span>
+           
+   
+       
+               <span class="pglnk6"><a href="?page=6">6</a></span>
+           
+   
+       
+               <span class="pglnk7"><a href="?page=7">7</a></span>
+           
+   
+       
+               <span class="pglnk8"><a href="?page=8">8</a></span>
+           
+   
+       
+               <span class="pglnk9"><a href="?page=9">9</a></span>
+           
+   
+       
+               <span class="pglnk10"><a href="?page=10">10</a></span>
+           
+   
+       
+               <span class="pglnk11"><a href="?page=11">11</a></span>
+           
+   
+       
+               <span class="pglnk12"><a href="?page=12">12</a></span>
+           
+   
+       
+               <span class="pglnk13"><a href="?page=13">13</a></span>
+           
+   
+       
+               <span class="pglnk14"><a href="?page=14">14</a></span>
+           
+   
+       
+               <span class="pglnk15"><a href="?page=15">15</a></span>
+           
+   
+       
+               <span class="pglnk16"><a href="?page=16">16</a></span>
+           
+   
+       
+               <span class="pglnk17"><a href="?page=17">17</a></span>
+           
+   
+       
+               <span class="pglnk18"><a href="?page=18">18</a></span>
+           
+   
+       
+               <span class="pglnk19"><a href="?page=19">19</a></span>
+           
+   
+       
+               <span class="pglnk20"><a href="?page=20">20</a></span>
+           
+   
+   
+           <a href="?page=2" title="Next">next &#187;</a>
+       
+
+                        <!-- Pagination Ends -->
+                    </div>
+                
+            </div>
+            
+            <div class="clearer"></div>
+        </div>
+        </div>
+        <div id="xrail">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+    <!-- start xrail -->
+    <!-- null-->
+
+    
+
+            <br class="ad_margin"/>
+
+            
+            
+                
+
+
+
+
+
+
+
+
+
+
+        <div id="xrailTop300x250_frame" class="displayAd"></div>
+    <script type="text/javascript">
+    //<!--
+        
+        CN.dart.call('xrailTop', {sz:'300x250', kws:["top"]});
+    //-->
+    </script>
+    
+
+                <div class="matchbook_bubble"></div>
+                <br class="ad_margin"/>
+            
+
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="AMS_WIR_SECTIONS_RIGHTRAIL_A">
+            <div id="mag_sub_promo">
+                <div class="sub_unit">
+                    <div class="cover_img">
+                        <a target="_new" href="https://w1.buysub.com/loc/WIR/ATGFailsafe"><img src="/images/subscribe/xrail_cover.gif"></a>
+                    </div>
+                    <div class="text_side">
+                        <div class="xrail_headline">
+                            <a target="_new" href="https://w1.buysub.com/loc/WIR/ATGFailsafe"><img src="/images/subscribe/xrail_headline.gif"></a>
+                            <br clear="all"/>
+                        </div>
+                        <div class="xrail_bullets">
+                            <p>
+                                <a target="_new" href="https://w1.buysub.com/loc/WIR/ATGFailsafe">Subscribe to WIRED</a>
+
+                            </p>
+                            <p>
+                                <a target="_new" href="https://w1.buysub.com/servlet/CSGateway?cds_mag_code=WIR&amp;cds_page_id=2659">Renew</a>
+                            </p>
+                            <p>
+                                <a target="_new" href="https://w1.buysub.com/loc/WIR/ATGFailsafeGift">Give a gift</a>
+                            </p>
+                            <p>
+
+                                <a target="_new" href="https://w1.buysub.com/servlet/CSGateway?cds_mag_code=WIR&amp;cds_page_id=2659">Customer Service</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<script>
+
+(function(){
+    if((typeof pageAds != 'undefined') && (typeof pageAds.AMS_WIR_SECTIONS_RIGHTRAIL_A != 'undefined') && (CN.url.params('nojoy') !=1) ) {
+        var div = document.getElementById("AMS_WIR_SECTIONS_RIGHTRAIL_A");
+        div.innerHTML = "";
+        document.write(pageAds.AMS_WIR_SECTIONS_RIGHTRAIL_A);
+    }
+    else { // If NO response from HEARST
+        //var failSafeArea = ""; var displayFailsafeDiv = document.getElementById(failSafeArea); displayFailsafeDiv.style.display = "block";
+    }
+
+    
+})();
+
+</script>
+
+        </div>
+    
+
+
+                <div class="matchbook_bubble"></div>
+            
+
+            
+            
+                <!-- iterate through the XrailComponents -->
+                
+                    
+                        
+                        
+                        
+<script type="text/javascript" src="/js/ecom/ecomPlacement.js"></script>
+<!--Commentary Scrape-->
+<div class="scrape">
+    <div class="mod5">
+        <h3 class="feat_com"></h3>
+
+        
+            
+                
+                
+
+                <div class="inner"><p>
+                    
+                    <h4><a href=""></a></h4>
+                    
+                    <h2><a href="">&nbsp;</a></h2>
+                    
+                    <blockquote><!-- Autopia Xrail Brightcove Player zindex fixed --><script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.wired.com/js/videos/MobileCompatibility.js"></script>
+
+<object id="myExperience" class="BrightcoveExperience">
+
+  <param name="bgcolor" value="#FFFFFF" />
+
+  <param name="wmode" value="transparent" />
+
+  <param name="width" value="300" />
+
+  <param name="height" value="340" />
+
+  <param name="playerID" value="748779844001" />
+
+  <param name="publisherID" value="1564549380"/>
+
+  <param name="isVid" value="true" />
+
+  <param name="isUI" value="true" />
+
+  <param name="dynamicStreaming" value="true" />
+
+</object><script type="text/javascript"> runMobileCompatibilityScript('myExperience', 'anId'); </script><!-- End of Brightcove Player --></blockquote>
+                    
+                    
+                    <p>
+                        <!-- need link -->
+                        
+                    </p>
+                </div>
+                <div class="clearer">&nbsp;</div>
+            
+        
+
+        <div class="matchbook_bubble"></div>
+    </div>
+</div>
+
+                    
+                
+            
+            
+
+            
+
+            
+            
+                
+
+
+
+
+
+
+
+
+
+
+        <div id="xrailLowerBody300x250_frame" class="displayAd"></div>
+    <script type="text/javascript">
+    //<!--
+        
+        CN.dart.call('xrailLowerBody', {sz:'300x250', kws:["lowerbody"]});
+    //-->
+    </script>
+    
+
+                <div class="matchbook_bubble"></div>
+            
+        
+
+    
+
+
+    
+    
+    <div class="scrape">
+        <div id="services">
+           <h3 id="serv_mod_title"><span>Services</span></h3>
+            
+            
+            
+            
+                   
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="AMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES">
+            <div class="group"><strong>Subscription: </strong><a target="_new" href="https://w1.buysub.com/loc/WIR/ATGFailsafe">Subscribe</a> | <a target="_new" href="https://w1.buysub.com/loc/WIR/ATGFailsafeGift">Give&nbsp;a&nbsp;Gift</a> | <a target="_new" href="https://w1.buysub.com/servlet/CSGateway?cds_mag_code=WIR&amp;cds_page_id=2659">Renew</a> | <a target="_new" href="https://w1.buysub.com/loc/WIR/ATGFailsafeInt">International</a> | <a target="_new" href="https://w1.buysub.com/servlet/CSGateway?cds_mag_code=WIR&amp;cds_page_id=2659">Questions</a> | <a target="_new" href="https://w1.buysub.com/servlet/CSGateway?cds_mag_code=WIR&amp;cds_page_id=2659">Change&nbsp;Address</a></div>
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<script>
+
+(function(){
+    if((typeof pageAds != 'undefined') && (typeof pageAds.AMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES != 'undefined') && (CN.url.params('nojoy') !=1) ) {
+        var div = document.getElementById("AMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES");
+        div.innerHTML = "";
+        document.write(pageAds.AMS_WIR_GLOBAL_RIGHTRAIL_SUBSERVICES);
+    }
+    else { // If NO response from HEARST
+        //var failSafeArea = ""; var displayFailsafeDiv = document.getElementById(failSafeArea); displayFailsafeDiv.style.display = "block";
+    }
+
+    
+})();
+
+</script>
+
+        </div>
+    
+
+
+            <div class="group"><strong>Quick Links: </strong><a href="/about/feedback/">Contact Us</a> | <a href="/user/login" id="login_link">Login/Register</a><a href="/user/logout" id="logout_link">Logout</a> | <a href="/services/newsletters">Newsletter</a> | <a href="/about/rss_feeds/">RSS&nbsp;Feeds</a> | <a href="http://jobs.wired.com">Tech&nbsp;Jobs</a> | <a href="/about/mobile/">Wired&nbsp;Mobile</a> | <a href="/about/faq">FAQ</a> | <a href="/about/sitemap/">Sitemap</a></div>
+            <div class="matchbook_bubble" id="mb_bottom">&nbsp;</div>
+        </div>
+    </div>
+    
+
+<!-- end xrail -->
+
+
+        </div>
+        <div class="clearer"><!--  --></div>
+        
+        
+
+
+
+
+
+<div id="footer">
+	<div id="foot_row1">
+		<div class="pad">
+			<span class="link_row">
+                <a href="/services/corrections/">Corrections</a>
+                | <a href="/about/sitemap/">Sitemap</a>
+                | <a href="/about/faq/">FAQ</a>
+                | <a href="/about/feedback/">Contact Us</a>
+                | <a href="/about/staff_web/">Wired Staff</a>
+                | <a href="/about/staff_publishing/" target="_blank">Advertising</a>
+                | <a href="/about/press/">Press Center</a>
+                | <a href="http://www.wired.com/customerservice" target="_blank">Subscription Services</a>
+                | <a href="/services/newsletters">Newsletter</a>
+                | <a id="footer_rss_icon" href="/about/rss_feeds/">RSS Feeds</a>
+            </span>
+			<span class="text_size" id="footer_text_size_widget">
+                <img alt="Text Size: " height="18" src="/images/label_textsize.gif" width="50" />
+                <a href="#" id="small" onclick="setActiveStyleSheet('small'); return false;"></a>
+                <a href="#" id="normal" onclick="setActiveStyleSheet('normal'); return false;"></a>
+                <a href="#" id="large" onclick="setActiveStyleSheet('large'); return false;"></a>
+                <a href="#" id="largest" onclick="setActiveStyleSheet('largest'); return false;"></a>
+                <script type="text/javascript">
+                //<!--
+                    var textPref = getCookie("style");
+                    var ActiveStyleSheetTitle = textPref ? textPref : getPreferredStyleSheet();
+                    setActiveStyleSheet(ActiveStyleSheetTitle);
+                //-->
+                </script>
+            </span>
+        </span>
+    </div>
+        <div class="clear"></div>
+    </div>
+	<div id="foot_row3">
+		<div class="pad">
+			<strong>Cond&eacute; Nast Web Sites:</strong>
+			<div class="condenet_sites">
+                <a href="http://www.webmonkey.com">Webmonkey</a> |
+                <a href="http://www.reddit.com">Reddit</a> |
+                <a href="http://www.arstechnica.com">ArsTechnica</a> |
+                <a href="http://www.details.com/">Details</a> |
+                <a href="http://www.golfdigest.com/">Golf Digest</a> |
+        		<a href="http://www.gq.com/">GQ</a> |
+		        <a href="http://www.newyorker.com/">New Yorker</a>
+            </div>
+			<div id="drop_downs">
+                <form id="footer_dropdowns">
+                <fieldset>
+                <select id="footer_dropdowns_subscribe" name="footer_dropdowns_subscribe">
+                    <option>Subscribe to a magazine:</option>
+                    <option value="http://www.magazinestoresubscriptions.com/?source=SITEFOOTER">View All Titles</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Allure?source=SITEFOOTER">Allure</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_ArchitecturalDigest?source=SITEFOOTER">Architectural Digest</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_BonAppetite?source=SITEFOOTER">Bon App&#233;tit</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Brides?source=SITEFOOTER">Brides</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_CondeNastTraveler?source=SITEFOOTER">Cond&#233; Nast Traveler</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Details?source=SITEFOOTER">Details</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Glamour?source=SITEFOOTER">Glamour</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GolfDigest?source=SITEFOOTER">Golf Digest</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GolfWorld?source=SITEFOOTER">Golf World</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GQ?source=SITEFOOTER">GQ</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Lucky?source=SITEFOOTER">Lucky</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Self?source=SITEFOOTER">Self</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_TeenVogue?source=SITEFOOTER">Teen Vogue</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_NewYorker?source=SITEFOOTER">The New Yorker</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_VanityFair?source=SITEFOOTER">Vanity Fair</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Vogue?source=SITEFOOTER">Vogue</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_W?source=SITEFOOTER">W</option>
+                    <option value="http://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Wired?source=SITEFOOTER">Wired</option>
+                </select>
+                <select id="footer_dropdowns_sites" name="footer_dropdowns_sites">
+                    <option>Cond&#233; Nast web sites:</option>
+                    <option value="http://www.allure.com/">Allure</option>
+                    <option value="http://www.architecturaldigest.com/">Architectural Digest</option>
+                    <option value="http://www.arstechnica.com/">ArsTechnica</option>
+                    <option value="http://www.bonappetit.com/">Bon App&eacute;tit</option>
+                    <option value="http://www.brides.com/">Brides.com</option>
+                    <option value="http://www.cntraveler.com/">Cond&eacute; Nast Traveler</option>
+                    <option value="http://www.portfolio.com/">Cond&eacute; Nast Portfolio</option>
+                    <option value="http://www.concierge.com/">Concierge</option>
+                    <option value="http://www.details.com/">Details</option>
+                    <option value="http://www.epicurious.com/">Epicurious</option>
+                    <option value="http://www.glamour.com/">Glamour</option>
+                    <option value="http://www.golfdigest.com">Golf Digest</option>
+                    <option value="http://www.golfworld.com">Golf World</option>
+                    <option value="http://www.gq.com/">GQ</option>
+                    <option value="http://www.hotelchatter.com/">Hotel Chatter</option>
+                    <option value="http://www.jaunted.com/">Jaunted</option>
+                    <option value="http://www.luckymag.com/">Lucky</option>
+                    <option value="http://www.nutritiondata.com/">Nutrition Data</option>
+                    <option value="http://www.reddit.com/">Reddit</option>
+                    <option value="http://www.self.com/">Self</option>
+                    <option value="http://www.style.com">Style.com</option>
+                    <option value="http://www.teenvogue.com/">Teen Vogue</option>
+                    <option value="http://www.newyorker.com/">The New Yorker</option>
+                    <option value="http://www.vanityfair.com/">Vanity Fair</option>
+                    <option value="http://www.vogue.com">Vogue</option>
+                    <option value="http://www.webmonkey.com">Webmonkey</option>
+                    <option value="http://www.wmagazine.com/">W</option>
+                </select>
+                <select id="footer_dropdowns_international" name="footer_dropdowns_international">
+                    <option>International Sites:</option>
+                    <option value="http://www.wired.co.uk">Wired UK</option>
+                    <option value="http://www.wired.it">Wired Italy</option>
+                    <option value="http://wired.jp">Wired Japan</option>
+                </select>
+                </fieldset>
+                </form>
+			</div>
+
+           <div class="copyright">
+                <p>Wired.com &copy; 2012 Cond&eacute; Nast. All rights reserved. Use of this Site constitutes acceptance of our <a href="http://www.condenast.com/privacy-policy" title="User Agreement" target="_blank">User Agreement</a> <span class="revision-date">(effective 3/21/12)</span> and <a href="http://www.condenast.com/privacy-policy#privacypolicy" title="Privacy Policy" target="_blank">Privacy Policy</a> <span class="revision-date">(effective 3/21/12)</span>. <a href="http://www.condenast.com/privacy-policy#privacypolicy-california" title="Privacy Policy" target="_blank">Your California Privacy Rights</a>.</p>
+                <p>The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Cond&eacute; Nast.</p>
+                <div class="add-choice">
+                    <a class="ac" href="http://www.condenast.com/privacy-policy#privacypolicy-optout" title="Privacy Policy" target="_blank">Ad Choices</a>
+                </div>
+            </div>
+		</div>
+        <div class="clear"></div>
+	</div>
+    <div class="clear"></div>
+</div>
+
+
+    </div>
+    <!-- close content div -->
+</div>
+<!-- close shell div -->
+
+<!-- Stats -->
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+//<!--
+    var _gaq = _gaq || [];
+    _gaq.push(['a._setAccount', 'UA-2624369-1']);
+    _gaq.push(['a._trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+//-->
+</script>
+
+<!-- SiteCatalyst code version: H.15.1.
+Copyright 1997-2008 Omniture, Inc. More info available at
+http://www.omniture.com -->
+
+<script type="text/javascript">
+//<!--
+    var s_account="conde-wired";
+    var s_linkInternalFilters="javascript:,wired.com";
+    var s_trackingServer="stats.wired.com";
+    var s_trackingServerSecure='sstats.wired.com';
+//-->
+</script>
+
+<script type="text/javascript" src="/js/omniture/s_code.js"></script>
+<script type="text/javascript">
+//<!--
+    /* You may give each page an identifying name, server, and channel on
+    the next lines. Omniture variables. */
+    s.pageType=setPageType
+    s.prop1=setProp1
+    s.prop2=setProp2
+    s.prop3="";
+    s.prop5=setProp5
+    s.prop6=setProp6
+    s.prop7=setProp7
+    s.prop8=setProp8
+    s.prop9=setProp9
+    try{
+        s.prop10=s.prop1.replace(/ /g,',')
+    } catch(err) {
+        s.prop10="";
+    }
+    s.events=setEvents
+    s.hier1=omniHierarchy
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+    var s_code=s.t();
+    if(s_code) {
+        document.write(s_code);
+    }
+//-->
+</script>
+<script type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img
+src="http://condenast.112.2o7.net/b/ss/conde-wired/1/H.15.1--NS/0"
+height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.15.1. -->
+
+
+</body>
+</html>

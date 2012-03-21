@@ -1,0 +1,1278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+  <head>
+      <script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+        <title>Ars Technica</title>
+
+  <!-- Begin CSS -->
+  <link rel="stylesheet" type="text/css" href="http://static.arstechnica.net//public/v6/styles/light/light.c.css?1323894855" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://static.arstechnica.net//public/v6/styles/print/print.css?1323894855" media="print" />
+  <!-- End CSS -->
+
+  <link rel="apple-touch-icon" href="http://static.arstechnica.net/apple-touch-icon.png" />
+  <link rel="canonical" href="http://arstechnica.com/index.php" /> 
+    
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Ars Technica" /> 
+  <link rel="shortcut icon" href="http://static.arstechnica.net/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="http://static.arstechnica.net/favicon.ico" />
+
+  <!-- Begin Feeds -->
+    
+    <link rel="alternate" type="application/rss+xml" title="All Articles " href="http://feeds.arstechnica.com/arstechnica/everything" />
+    <!-- End Feeds -->
+
+  <!-- C-razy IE9 stuff -->
+  <meta name="application-name" content="Ars Technica"/>
+  <meta name="msapplication-starturl" content="http://arstechnica.com/"/>
+  <meta name="msapplication-tooltip" content="Ars Technica: Serving the technologist for 1.2 decades"/>
+  <meta name="msapplication-task" content="name=News;action-uri=http://arstechnica.com/;icon-uri=http://arstechnica.com/favicon.ico"/>
+  <meta name="msapplication-task" content="name=Features;action-uri=http://arstechnica.com/features/;icon-uri=http://static.arstechnica.net/ie-jump-menu/jump-features.ico"/>
+  <meta name="msapplication-task" content="name=OpenForum;action-uri=http://arstechnica.com/civis/;icon-uri=http://static.arstechnica.net/ie-jump-menu/jump-forum.ico"/>
+  <meta name="msapplication-task" content="name=One Microsoft Way;action-uri=http://arstechnica.com/microsoft/;icon-uri=http://static.arstechnica.net/ie-jump-menu/jump-omw.ico"/>
+  <meta name="msapplication-task" content="name=Subscribe;action-uri=http://arstechnica.com/subscriptions/;icon-uri=http://static.arstechnica.net/ie-jump-menu/jump-subscribe.ico"/>
+
+  
+  <!-- Begin Metadata -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=1000" />
+        <meta name="description" content="Serving the Technologist for more than a decade. IT news, reviews, and analysis." />
+            
+    <meta name="advertising" content="ask" />
+  <meta property="fb:admins" content="13703630" />
+  <!-- End Metadata -->
+  <!-- Placeholder - homepage -->
+<style type="text/css" id="resource-styles">  </style>
+      <script type="text/javascript" src="http://static.arstechnica.com/public/shared/scripts/da-1.5.js"></script>
+    <script type="text/javascript">
+    try {
+                              cnp.ad.dart.setSite("ars.dart");
+                              cnp.ad.dart.setZone('homepage');
+      //cnp.ad.dart.addParameterString('');
+      cnp.ad.emptyFrameSrc="/public/shared/scripts/empty.html";
+      cnp.ad.loaderFrameSrc="/public/shared/scripts/ad-loader-frame.html";
+    } catch(e) {}
+    </script>
+     
+  <script type="text/javascript" charset="utf-8">
+    // In case someone on a desktop clicks a mobile #! link
+    var l = window.location;
+    if(l.hash.indexOf('#!') !== -1){
+      window.location = l.protocol + '//' + l.host + l.hash.slice(2);
+    }
+  </script>
+  </head>
+  <body class="homepage">
+    <div id="page" class="">
+      
+<div id="masthead" class="">
+      <div id="logo"><a href="/"><img src="http://static.arstechnica.net//public/v6/styles/light/images/masthead/logo.png?1323894855" alt="Ars Technica: The Art of Technology" width="110" height="81" /></a></div>      
+    <div id="ebc51ce07629d0e14d2fbc4236e44067" >
+<script type="text/javascript">
+  var pbanner_start = new Date();
+  try {
+    var pbanner = cnp.ad.create(cnp.ad.refreshable, false);
+    //pbanner.addParameter({'dcopt':'ist'});
+    pbanner.addParameterString('');
+    pbanner.addParameter({'sz': '728x90' });
+  } catch(e) {}
+</script>
+</div>
+  </div>
+      
+<div id="search-navigation">
+  <div id="search">
+    <a id="search-link" href="http://www.google.com/cse?cx=011835048811694782689:7zpko-isndo">Search</a>
+    
+    <div class="form">
+    <span>Search:</span>
+    <form action="http://www.google.com/cse" id="search-form">
+      <div>
+        <input type="hidden" value="011835048811694782689:7zpko-isndo" name="cx"/>
+        <input type="hidden" value="UTF-8" name="ie"/>
+        <input type="text" id="search-form-text" value="" name="q"/>
+      </div>
+    </form>
+    </div>
+  </div>
+  <div id="navigation">
+    <ul id="primary-navigation">
+          <li class=" selected"><a href="/">All</a></li>
+          <li class="apple"><a href="/apple/">Apple</a></li>
+          <li class="ask-ars"><a href="/ask-ars/">Ask Ars</a></li>
+          <li class="business"><a href="/business/">Business</a></li>
+          <li class="gadgets"><a href="/gadgets/">Gadgets</a></li>
+          <li class="gaming"><a href="/gaming/">Gaming</a></li>
+          <li class="microsoft"><a href="/microsoft/">Microsoft</a></li>
+          <li class="open-source"><a href="/open-source/">Open Source</a></li>
+          <li class="science"><a href="/science/">Science</a></li>
+          <li class="tech-policy"><a href="/tech-policy/">Tech Policy</a></li>
+          <li id="primary-navigation-more" style="display:none;">
+        More
+        <ul >
+                  <li><a href="/hardware/">Hardware</a></li>
+                  <li><a href="/media/">Media</a></li>
+                  <li><a href="/security/">Security</a></li>
+                  <li><a href="/software/">Software</a></li>
+                  <li><a href="/staff/">Staff</a></li>
+                  <li><a href="/telecom/">Telecom</a></li>
+                  <li><a href="/web/">Web</a></li>
+                  <li style="padding:0;"><span style="display:inline;background-color: #920404; padding: 3px; color:white; -webkit-border-radius: 4px;">New</span> <a style="display:inline;" href="/site/tv.ars" title="Ars Technica TV">Ars.TV</a></li>
+        </ul>
+      </li>
+    </ul>
+   
+    <ul id="secondary-navigation" class="">
+                            <li class="news selected"><a href="/">News</a></li>
+                                          <li class="guides"><a href="/guides/">Guides</a></li>
+                                          <li class="reviews"><a href="/reviews/">Reviews</a></li>
+                                          <li class="features"><a href="/features/">Features</a></li>
+                      </ul>
+    <ul id="auxiliary-navigation">
+        <li class="subscribe"><a href="/subscriptions/">Upgrade to a Premier Subscription</a>
+         
+    </li>
+    <li class="customize" style="display:none;">
+      <a href="#">Customize ▾</a>
+      <ul>
+        <li>
+          <p>Site Theme:</p>
+          <label><input type="radio" checked="checked" value="light.css" class="site-style" name="site-style" /> White</label>
+          <label><input type="radio" value="dark.css" class="site-style" name="site-style" /> Black</label>
+        </li>
+        <li>
+          <p>Choose body font:</p>
+          <label><input type="radio" checked="checked" value="arial" class="body_font" name="body_font" /> Arial</label>
+          <label><input type="radio" value="helvetica" class="body_font" name="body_font" /> Helvetica</label>
+        </li>
+        <li>
+          <p>Layout (beta):</p>
+          <label><input type="radio" checked="checked" value="normal" class="fp_layout" name="fp_layout" /> Normal</label>
+          <label><input type="radio" value="compact" class="fp_layout" name="fp_layout" /> Compact</label>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="openforum"><a href="http://arstechnica.com/civis/">OpenForum</a></li>
+    
+          <li class="login-join"><a href="/civis/ucp.php?mode=login&amp;return_to=http%3A%2F%2Farstechnica.com%2Findex.php">Login/Join</a></li>
+          </ul>
+  </div>
+</div>
+      
+            
+      <div id="news-bar">
+        <div id="news-bar-inner">
+          <ul class="type">
+            <li class="all selected"><div class="tab-inner"><a href="#" title="All ars articles">All</a></div></li>
+            <li style="display:none;" class="etc"><div class="tab-inner"><a href="#" title="Important links from around the web" >Etc</a></div></li>
+          </ul>
+          <div class="category-label" style="display:none;">Sort By:</div>
+          <ul class="category" style="display:none;">
+            <li class="apple"><span class="tab-inner"><a href="/apple/" title="View articles about Apple">Apple</a></span></li>
+            <li class="gaming"><span class="tab-inner"><a href="/gaming/" title="View articles about Gaming">Gaming</a></span></li>
+            <li class="microsoft"><span class="tab-inner"><a href="/microsoft/" title="View articles about Microsoft">Microsoft</a></span></li>
+            <li class="gadgets"><span class="tab-inner"><a href="/gadgets/" title="View articles about Gadgets">Gadgets</a></span></li>
+            <li class="open-source"><span class="tab-inner"><a href="/open-source/" title="View articles about Open Source">Open Source</a></span></li>
+            <li class="business"><span class="tab-inner"><a href="/business/" title="View articles about Business IT">Business</a></span></li>
+            <li class="science"><span class="tab-inner"><a href="/science/" title="View articles about Science">Science</a></span></li>
+            <li class="tech-policy"><span class="tab-inner"><a href="/tech-policy/" title="View articles about Tech Policy">Tech Policy</a></span></li>
+            <li class="staff"><span class="tab-inner"><a href="/staff/" title="View articles by the Ars Staff">Staff</a></span></li>
+          </ul>
+        </div>
+      </div>
+      <div id="main">
+                
+        <div id="content" class="normal">    
+<div id='content-inner'><div id='all-stories' class='front'>
+  <div id="story-1" class="story report tech-policy">
+  <div class="story-inner">
+        <h2 class="title"><a href="/tech-policy/news/2011/12/technology-entrepreneurs-attack-sopa-on-eve-of-hearings.ars" class="article-title" title="">Tech entrepreneurs attack SOPA on the eve of&nbsp;markup</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/tech-policy/news/2011/12/technology-entrepreneurs-attack-sopa-on-eve-of-hearings.ars"><img src="http://static.arstechnica.net/assets/2011/12/sergey_brin_of_google_at_web_2_0-4ee9347-listing-thumb-133x75-28585-f.jpg" alt="Tech entrepreneurs attack SOPA on the eve of markup" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-15T1:00:00Z">December 14, 2011 7:00 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/timothy-b-lee/">Timothy B. Lee</a>
+</span> | <span class="category">Posted in: <a href="/tech-policy/">Law &amp; Disorder</a></span></div>
+                  <div class="teaser">
+              <p>With the House Judiciary Committee scheduled to meet on Thursday to consider changes to the Stop Online Piracy Act, the co-founders of some of the nation's leading Internet companies have signed a letter condemning the proposal.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/tech-policy/news/2011/12/technology-entrepreneurs-attack-sopa-on-eve-of-hearings.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/tech-policy/news/2011/12/technology-entrepreneurs-attack-sopa-on-eve-of-hearings.ars?comments=1#comments-bar" title="View reader comments (53) on this article">Comment  (53)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-2" class="story report gaming">
+  <div class="story-inner">
+        <h2 class="title"><a href="/gaming/news/2011/12/sonic-cd-remains-fun-fast-and-now-includes-the-japanese-soundtrack.ars" class="article-title" title=""><em>Sonic CD</em> remains fun, fast, and now includes the Japanese&nbsp;soundtrack</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/gaming/news/2011/12/sonic-cd-remains-fun-fast-and-now-includes-the-japanese-soundtrack.ars"><img src="http://static.arstechnica.net/assets/2011/12/soniccdxbla-4ee91b8-listing-thumb-133x75-28582-f.jpg" alt="&lt;em&gt;Sonic CD&lt;/em&gt; remains fun, fast, and now includes the Japanese soundtrack" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-14T22:11:00Z">December 14, 2011 4:11 PM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-14T22:29:03Z">December 14, 2011 4:29 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/ben-kuchera/">Ben Kuchera</a>
+</span> | <span class="category">Posted in: <a href="/gaming/">Opposable Thumbs</a></span></div>
+                  <div class="teaser">
+              <p><em>Sonic CD</em> is out now on the Xbox Live Arcade for $5. We'll describe how it looks and plays, but it's a classic, it's $5, and it's coming to a variety of platforms. This one is a no-brainer.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/gaming/news/2011/12/sonic-cd-remains-fun-fast-and-now-includes-the-japanese-soundtrack.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/gaming/news/2011/12/sonic-cd-remains-fun-fast-and-now-includes-the-japanese-soundtrack.ars?comments=1#comments-bar" title="View reader comments (37) on this article">Comment  (37)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-3" class="story report apple">
+  <div class="story-inner">
+        <h2 class="title"><a href="/apple/news/2011/12/stolen-iphone-your-imessages-may-still-be-going-to-the-wrong-place.ars" class="article-title" title="">Stolen iPhone? Your iMessages may still be going to the wrong&nbsp;place</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/apple/news/2011/12/stolen-iphone-your-imessages-may-still-be-going-to-the-wrong-place.ars"><img src="http://static.arstechnica.net/assets/2011/12/listing_stoleniphone-4ee9106-listing-thumb-133x75-28580-f.png" alt="Stolen iPhone? Your iMessages may still be going to the wrong place" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-14T21:50:00Z">December 14, 2011 3:50 PM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-14T23:47:54Z">December 14, 2011 5:47 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/jacqui-cheng/">Jacqui Cheng</a>
+</span> | <span class="category">Posted in: <a href="/apple/">Infinite Loop</a></span></div>
+                  <div class="teaser">
+              <p>iPhone owners shouldn't have to worry that a thief might receive their messages after they remote wipe and deactivate the account, right? Maybe not. For some users, iMessages seem to go through to their stolen devices even after taking the right precautionary measures.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/apple/news/2011/12/stolen-iphone-your-imessages-may-still-be-going-to-the-wrong-place.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/apple/news/2011/12/stolen-iphone-your-imessages-may-still-be-going-to-the-wrong-place.ars?comments=1#comments-bar" title="View reader comments (59) on this article">Comment  (59)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-4" class="story report science">
+  <div class="story-inner">
+        <h2 class="title"><a href="/science/news/2011/12/the-milky-ways-black-hole-may-spring-to-life-in-2013.ars" class="article-title" title="">The Milky Way's black hole may spring to life in&nbsp;2013</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/science/news/2011/12/the-milky-ways-black-hole-may-spring-to-life-in-2013.ars"><img src="http://static.arstechnica.net/assets/2011/12/gillessen2-4ee8f3f-listing-thumb-133x75-28575-f.jpg" alt="The Milky Way's black hole may spring to life in 2013" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-14T19:59:00Z">December 14, 2011 1:59 PM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-15T0:35:11Z">December 14, 2011 6:35 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/john-timmer/">John Timmer</a>
+</span> | <span class="category">Posted in: <a href="/science/">Nobel Intent</a></span></div>
+                  <div class="teaser">
+              <p>Astronomers have spotted a cloud of gas with three times the mass of the Earth on a near-collision course with the Milky Way's central black hole.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/science/news/2011/12/the-milky-ways-black-hole-may-spring-to-life-in-2013.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/science/news/2011/12/the-milky-ways-black-hole-may-spring-to-life-in-2013.ars?comments=1#comments-bar" title="View reader comments (69) on this article">Comment  (69)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-5" class="story brief apple">
+  <div class="story-inner">
+        <h2 class="title"><a href="/apple/news/2011/12/apple-may-be-ready-to-ship-retina-macbook-pros-starting-next-year.ars" class="article-title" title="">"Retina" MacBook Pros shipping next year? It's&nbsp;possible</a></h2>
+            <div class="body">
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-14T17:42:00Z">December 14, 2011 11:42 AM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-14T19:26:26Z">December 14, 2011 1:26 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/chris-foresman/">Chris Foresman</a>
+</span> | <span class="category">Posted in: <a href="/apple/">Infinite Loop</a></span></div>
+                  <div class="teaser">
+              <p>Apple might release a super high resolution "retina" MacBook Pro beginning in 2012, which would be a perfect fit for Lion's HiDPI display technology.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/apple/news/2011/12/apple-may-be-ready-to-ship-retina-macbook-pros-starting-next-year.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/apple/news/2011/12/apple-may-be-ready-to-ship-retina-macbook-pros-starting-next-year.ars?comments=1#comments-bar" title="View reader comments (125) on this article">Comment  (125)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-6" class="story report tech-policy">
+  <div class="story-inner">
+        <h2 class="title"><a href="/tech-policy/news/2011/12/the-ntsb-wants-you-to-shut-up-and-drive.ars" class="article-title" title="">The NTSB wants you to shut up and&nbsp;drive</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/tech-policy/news/2011/12/the-ntsb-wants-you-to-shut-up-and-drive.ars"><img src="http://static.arstechnica.net/assets/2011/12/texting_while_at_the_wheel-4ee8d0e-listing-thumb-133x75-28573-f.jpg" alt="The NTSB wants you to shut up and drive" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-14T17:35:00Z">December 14, 2011 11:35 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/sean-gallagher/">Sean Gallagher</a>
+</span> | <span class="category">Posted in: <a href="/tech-policy/">Law &amp; Disorder</a></span></div>
+                  <div class="teaser">
+              <p>After studying crash statistics and the causes of a fatal Missouri accident last year, the NTSB has recommended banning the use of all electronic devices while driving.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/tech-policy/news/2011/12/the-ntsb-wants-you-to-shut-up-and-drive.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/tech-policy/news/2011/12/the-ntsb-wants-you-to-shut-up-and-drive.ars?comments=1#comments-bar" title="View reader comments (214) on this article">Comment  (214)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-7" class="story report science">
+  <div class="story-inner">
+        <h2 class="title"><a href="/science/news/2011/12/scientists-shrink-a-stirling-heat-engine-to-single-microscopic-particle.ars" class="article-title" title="">Scientists shrink a Stirling heat engine to single microscopic&nbsp;particle</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/science/news/2011/12/scientists-shrink-a-stirling-heat-engine-to-single-microscopic-particle.ars"><img src="http://static.arstechnica.net/assets/2011/12/stirling-4ee8c8f-listing-thumb-133x75-28568-f.jpg" alt="Scientists shrink a Stirling heat engine to single microscopic particle" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-14T16:23:00Z">December 14, 2011 10:23 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/kyle-niemeyer/">Kyle Niemeyer</a>
+</span> | <span class="category">Posted in: <a href="/science/">Nobel Intent</a></span></div>
+                  <div class="teaser">
+              <p>Researchers created a microscopic version of the Stirling engine using a single particle. At such small scales, the random fluctuations of Brownian motion affect the position of the particle and the work output of the engine.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/science/news/2011/12/scientists-shrink-a-stirling-heat-engine-to-single-microscopic-particle.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/science/news/2011/12/scientists-shrink-a-stirling-heat-engine-to-single-microscopic-particle.ars?comments=1#comments-bar" title="View reader comments (23) on this article">Comment  (23)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-8" class="story report gaming">
+  <div class="story-inner">
+        <h2 class="title"><a href="/gaming/news/2011/12/the-latest-humble-bundle-offers-amazing-games-promotes-multiplatform-releases.ars" class="article-title" title="">The latest Humble Bundle offers amazing games, promotes multiplatform&nbsp;releases</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/gaming/news/2011/12/the-latest-humble-bundle-offers-amazing-games-promotes-multiplatform-releases.ars"><img src="http://static.arstechnica.net/assets/2011/12/humble4-4ee8ad1-intro-thumb-133x75-28561-f.jpg" alt="The latest Humble Bundle offers amazing games, promotes multiplatform releases" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-14T15:55:00Z">December 14, 2011 9:55 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/ben-kuchera/">Ben Kuchera</a>
+</span> | <span class="category">Posted in: <a href="/gaming/">Opposable Thumbs</a></span></div>
+                  <div class="teaser">
+              <p>The latest Humble Bundle may offer the best series of games yet, including both <em>Super Meat Boy</em>, and <em>Shank</em>, and the "Bundle Advocate" hints at what's coming in the future for the Humble team. </p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/gaming/news/2011/12/the-latest-humble-bundle-offers-amazing-games-promotes-multiplatform-releases.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/gaming/news/2011/12/the-latest-humble-bundle-offers-amazing-games-promotes-multiplatform-releases.ars?comments=1#comments-bar" title="View reader comments (85) on this article">Comment  (85)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-9" class="story report science">
+  <div class="story-inner">
+        <h2 class="title"><a href="/science/news/2011/12/devonian-era-lungfish-may-have-faked-us-out-left-tetrapod-like-tracks.ars" class="article-title" title="">Devonian-era lungfish may have faked us out, left tetrapod-like&nbsp;tracks</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/science/news/2011/12/devonian-era-lungfish-may-have-faked-us-out-left-tetrapod-like-tracks.ars"><img src="http://static.arstechnica.net/assets/2011/12/australian-lungfish-4ee8b47-listing-thumb-133x75-28564-f.jpg" alt="Devonian-era lungfish may have faked us out, left tetrapod-like tracks" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-14T14:57:00Z">December 14, 2011 8:57 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/john-timmer/">John Timmer</a>
+</span> | <span class="category">Posted in: <a href="/science/">Nobel Intent</a></span></div>
+                  <div class="teaser">
+              <p>The modern relatives of the fish that gave rise to vertebrates with four limbs can also go for a walk, using their fins to propel themselves across river floors.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/science/news/2011/12/devonian-era-lungfish-may-have-faked-us-out-left-tetrapod-like-tracks.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/science/news/2011/12/devonian-era-lungfish-may-have-faked-us-out-left-tetrapod-like-tracks.ars?comments=1#comments-bar" title="View reader comments (15) on this article">Comment  (15)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-10" class="story report microsoft">
+  <div class="story-inner">
+        <h2 class="title"><a href="/microsoft/news/2011/12/leadership-change-could-herald-windows-8-powered-phones-whats-the-hurry.ars" class="article-title" title="">Leadership change could herald Windows 8-powered phones; what's the&nbsp;hurry?</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/microsoft/news/2011/12/leadership-change-could-herald-windows-8-powered-phones-whats-the-hurry.ars"><img src="http://static.arstechnica.net/assets/2011/12/lees_print-4ee7ebc-listing-thumb-133x75-28559-f.jpg" alt="Leadership change could herald Windows 8-powered phones; what's the hurry?" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-14T14:14:00Z">December 14, 2011 8:14 AM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-14T14:50:09Z">December 14, 2011 8:50 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/peter-bright/">Peter Bright</a>
+</span> | <span class="category">Posted in: <a href="/microsoft/">One Microsoft Way</a></span></div>
+                  <div class="teaser">
+              <p>Andy Lees, president of Windows Phone at Microsoft has been moved into a new role that bridges Windows Phone and Windows 8. It's hard to tell if this is a promotion or a demotion; this could be a first step towards a unified Windows platform that runs everywhere from the phone to the PC to the living room, or it could be a move to sideline a man whose major product, Windows Phone, hasn't been overwhelmingly successful.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/microsoft/news/2011/12/leadership-change-could-herald-windows-8-powered-phones-whats-the-hurry.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/microsoft/news/2011/12/leadership-change-could-herald-windows-8-powered-phones-whats-the-hurry.ars?comments=1#comments-bar" title="View reader comments (68) on this article">Comment  (68)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-11" class="story report business">
+  <div class="story-inner">
+        <h2 class="title"><a href="/business/news/2011/12/facebook-looks-to-fix-php-performance-with-hiphop-virtual-machine.ars" class="article-title" title="">Facebook looks to fix PHP performance with HipHop virtual&nbsp;machine</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/business/news/2011/12/facebook-looks-to-fix-php-performance-with-hiphop-virtual-machine.ars"><img src="http://static.arstechnica.net/assets/2011/12/php_elephant-4ee7b23-listing-thumb-133x75-28553-f.jpg" alt="Facebook looks to fix PHP performance with HipHop virtual machine" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T20:50:00Z">December 13, 2011 2:50 PM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-13T23:21:55Z">December 13, 2011 5:21 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/sean-gallagher/">Sean Gallagher</a>
+</span> | <span class="category">Posted in: <a href="/business/">Uptime</a></span></div>
+                  <div class="teaser">
+              <p>Based on the open-source PHP-to-C++ translator used to create nearly all of Facebook's production websites, the HipHop virtual machine turns script into bytecode, boosting performance.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/business/news/2011/12/facebook-looks-to-fix-php-performance-with-hiphop-virtual-machine.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/business/news/2011/12/facebook-looks-to-fix-php-performance-with-hiphop-virtual-machine.ars?comments=1#comments-bar" title="View reader comments (75) on this article">Comment  (75)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-12" class="story brief business">
+  <div class="story-inner">
+        <h2 class="title"><a href="/business/news/2011/12/microsoft-squashes-duqu-threat-with-windows-patch.ars" class="article-title" title="">Microsoft squashes Duqu threat with Windows&nbsp;patch</a></h2>
+            <div class="body">
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T20:12:00Z">December 13, 2011 2:12 PM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-14T1:31:50Z">December 13, 2011 7:31 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/jon-brodkin/">Jon Brodkin</a>
+</span> | <span class="category">Posted in: <a href="/business/">Uptime</a></span></div>
+                  <div class="teaser">
+              <p>A month after releasing a temporary workaround to block malware exploiting a Windows kernel vulnerability, Microsoft today issued a patch for all supported releases of Windows aimed at putting an end to attacks based on the Duqu worm.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/business/news/2011/12/microsoft-squashes-duqu-threat-with-windows-patch.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/business/news/2011/12/microsoft-squashes-duqu-threat-with-windows-patch.ars?comments=1#comments-bar" title="View reader comments (14) on this article">Comment  (14)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-13" class="story brief business">
+  <div class="story-inner">
+        <h2 class="title"><a href="/business/news/2011/12/google-pulls-22-malicious-android-apps-to-prevent-fraudulent-charges.ars" class="article-title" title="">Google pulls 22 apps from Android Market to prevent fraudulent&nbsp;charges</a></h2>
+            <div class="body">
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T19:40:00Z">December 13, 2011 1:40 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/jon-brodkin/">Jon Brodkin</a>
+</span> | <span class="category">Posted in: <a href="/business/">Uptime</a></span></div>
+                  <div class="teaser">
+              <p>Google has reportedly removed 22 malicious applications from the Android Market after security vendors pointed out that the apps had been downloaded 14,000 times and were attempting to trick users into accepting fraudulent charges via SMS. </p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/business/news/2011/12/google-pulls-22-malicious-android-apps-to-prevent-fraudulent-charges.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/business/news/2011/12/google-pulls-22-malicious-android-apps-to-prevent-fraudulent-charges.ars?comments=1#comments-bar" title="View reader comments (112) on this article">Comment  (112)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-14" class="story report gaming">
+  <div class="story-inner">
+        <h2 class="title"><a href="/gaming/news/2011/12/raams-shadow.ars" class="article-title" title=""><em>RAAM's Shadow</em> DLC adds context, richness to world of <em>Gears of&nbsp;Wars</em></a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/gaming/news/2011/12/raams-shadow.ars"><img src="http://static.arstechnica.net/assets/2011/12/raamscreenie-4edfce6-listing-thumb-133x75-28348-f.png" alt="&lt;em&gt;RAAM's Shadow&lt;/em&gt; DLC adds context, richness to world of &lt;em&gt;Gears of Wars&lt;/em&gt;" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T19:20:00Z">December 13, 2011 1:20 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/ben-kuchera/">Ben Kuchera</a>
+</span> | <span class="category">Posted in: <a href="/gaming/">Opposable Thumbs</a></span></div>
+                  <div class="teaser">
+              <p><em>RAAM's Shadow</em>, a $15 content pack for <em>Gears of War 3</em>, shows what Sera looked like before the war destroyed much of the planet's elegance, and it puts you in control of one of the most powerful characters in the series. </p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/gaming/news/2011/12/raams-shadow.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/gaming/news/2011/12/raams-shadow.ars?comments=1#comments-bar" title="View reader comments (21) on this article">Comment  (21)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-15" class="story report apple">
+  <div class="story-inner">
+        <h2 class="title"><a href="/apple/news/2011/12/design-student-scores-apple-internship-to-spiff-up-ios-notifications.ars" class="article-title" title="">Apple aiming to improve iOS notifications further with fresh&nbsp;talent</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/apple/news/2011/12/design-student-scores-apple-internship-to-spiff-up-ios-notifications.ars"><img src="http://static.arstechnica.net/assets/2011/12/ios5_notifications_list-4ee78d5-intro-thumb-133x75-28549-f.jpg" alt="Apple aiming to improve iOS notifications further with fresh talent" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T18:45:00Z">December 13, 2011 12:45 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/chris-foresman/">Chris Foresman</a>
+</span> | <span class="category">Posted in: <a href="/apple/">Infinite Loop</a></span></div>
+                  <div class="teaser">
+              <p>iOS 5's Notification Center is a vast improvement over what was previously available, but that doesn't mean it's perfect. To improve the situation, Apple has been hiring on some fresh eyes.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/apple/news/2011/12/design-student-scores-apple-internship-to-spiff-up-ios-notifications.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/apple/news/2011/12/design-student-scores-apple-internship-to-spiff-up-ios-notifications.ars?comments=1#comments-bar" title="View reader comments (49) on this article">Comment  (49)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-16" class="story report science">
+  <div class="story-inner">
+        <h2 class="title"><a href="/science/news/2011/12/possible-higgs-boson-signals-but-we-wont-know-for-sure-until-next-year.ars" class="article-title" title="">Possible Higgs boson signals, but we won't know for sure until next&nbsp;year</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/science/news/2011/12/possible-higgs-boson-signals-but-we-wont-know-for-sure-until-next-year.ars"><img src="http://static.arstechnica.net/assets/2011/12/eeee-run167675-evt876658967-rphi-subformat-icon-640-4ee785f-listing-thumb-133x75-28547-f.png" alt="Possible Higgs boson signals, but we won't know for sure until next year" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T17:28:00Z">December 13, 2011 11:28 AM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-13T18:51:10Z">December 13, 2011 12:51 PM</abbr></span> - <span class="author">by <a rel="author" href="/author/john-timmer/">John Timmer</a>
+</span> | <span class="category">Posted in: <a href="/science/">Nobel Intent</a></span></div>
+                  <div class="teaser">
+              <p>If the Higgs exists at anywhere near the energies that we think it must, then it's probably somewhere right around 125GeV. Both of the LHC's detectors see a signal there, but it doesn't yet rise to the level that constitutes evidence for the Higgs.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/science/news/2011/12/possible-higgs-boson-signals-but-we-wont-know-for-sure-until-next-year.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/science/news/2011/12/possible-higgs-boson-signals-but-we-wont-know-for-sure-until-next-year.ars?comments=1#comments-bar" title="View reader comments (50) on this article">Comment  (50)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-17" class="story brief apple">
+  <div class="story-inner">
+        <h2 class="title"><a href="/apple/news/2011/12/apple-reportedly-tweaking-iad-terms-to-better-appeal-to-advertisers.ars" class="article-title" title="">Apple reportedly tweaking iAd terms to better appeal to&nbsp;advertisers</a></h2>
+            <div class="body">
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T17:08:00Z">December 13, 2011 11:08 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/jacqui-cheng/">Jacqui Cheng</a>
+</span> | <span class="category">Posted in: <a href="/apple/">Infinite Loop</a></span></div>
+                  <div class="teaser">
+              <p>Apple's mobile advertising service has seen some success since its launch in 2010, but nowhere near what Steve Jobs initially projected. Now, the company is reportedly changing some of its requirements in order to attract more advertisers.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/apple/news/2011/12/apple-reportedly-tweaking-iad-terms-to-better-appeal-to-advertisers.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/apple/news/2011/12/apple-reportedly-tweaking-iad-terms-to-better-appeal-to-advertisers.ars?comments=1#comments-bar" title="View reader comments (19) on this article">Comment  (19)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-18" class="story report tech-policy">
+  <div class="story-inner">
+        <h2 class="title"><a href="/tech-policy/news/2011/12/fbi-using-carrier-iq-info-for-law-enforcement-purposes-refuses-to-release-records.ars" class="article-title" title="">FBI using Carrier IQ info for "law enforcement purposes," refuses to release&nbsp;records</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/tech-policy/news/2011/12/fbi-using-carrier-iq-info-for-law-enforcement-purposes-refuses-to-release-records.ars"><img src="http://static.arstechnica.net/assets/2011/12/fbi_building-4ee77ca-listing-thumb-133x75-28546-f.jpg" alt="FBI using Carrier IQ info for &quot;law enforcement purposes,&quot; refuses to release records" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T16:40:00Z">December 13, 2011 10:40 AM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-13T16:56:46Z">December 13, 2011 10:56 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/jon-brodkin/">Jon Brodkin</a>
+</span> | <span class="category">Posted in: <a href="/tech-policy/">Law &amp; Disorder</a></span></div>
+                  <div class="teaser">
+              <p>The FBI refuses to release information related to Carrier IQ, the tracking software installed on millions of smartphones. The FBI is using the information in a law enforcement case, but whether it is investigating Carrier IQ for privacy violations or using the information for other investigations is unknown. </p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/tech-policy/news/2011/12/fbi-using-carrier-iq-info-for-law-enforcement-purposes-refuses-to-release-records.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/tech-policy/news/2011/12/fbi-using-carrier-iq-info-for-law-enforcement-purposes-refuses-to-release-records.ars?comments=1#comments-bar" title="View reader comments (81) on this article">Comment  (81)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-19" class="story brief tech-policy">
+  <div class="story-inner">
+        <h2 class="title"><a href="/tech-policy/news/2011/12/sponsor-waters-down-online-blacklisting-bill-but-stop-still-has-issues.ars" class="article-title" title="">Sponsor waters down online blacklisting bill, but STOP still has&nbsp;issues</a></h2>
+            <div class="body">
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T16:25:00Z">December 13, 2011 10:25 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/wiredcom/">David Kravets, wired.com</a>
+</span> | <span class="category">Posted in: <a href="/tech-policy/">Law &amp; Disorder</a></span></div>
+                  <div class="teaser">
+              <p>Rep. Lamar Smith (R-Texas) introduced amendments late Monday to the Stop Online Piracy Act&#8212;changes that dramatically water down the measure's scope. Among the amendments is a clarification that "rogue" sites must be foreign, and that rights holders now do not have the power to demand financial institutions and ad networks to stop doing business with infringing sites.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/tech-policy/news/2011/12/sponsor-waters-down-online-blacklisting-bill-but-stop-still-has-issues.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/tech-policy/news/2011/12/sponsor-waters-down-online-blacklisting-bill-but-stop-still-has-issues.ars?comments=1#comments-bar" title="View reader comments (19) on this article">Comment  (19)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-20" class="story brief gaming">
+  <div class="story-inner">
+        <h2 class="title"><a href="/gaming/news/2011/12/judge-dismisses-other-os-class-action-suit-against-sony.ars" class="article-title" title="">Judge dismisses "Other OS" class-action suit against&nbsp;Sony</a></h2>
+            <div class="body">
+                  <div class="byline"><span class="published"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T15:33:00Z">December 13, 2011 9:33 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/ben-kuchera/">Ben Kuchera</a>
+</span> | <span class="category">Posted in: <a href="/gaming/">Opposable Thumbs</a></span></div>
+                  <div class="teaser">
+              <p>A class-action lawsuit against Sony for removing the "Other OS" features of the PlayStation 3 has been dismissed. The Judge noted that while the move may not have been the best thing for customers, there was no legal argument against Sony's actions in the current suit.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/gaming/news/2011/12/judge-dismisses-other-os-class-action-suit-against-sony.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/gaming/news/2011/12/judge-dismisses-other-os-class-action-suit-against-sony.ars?comments=1#comments-bar" title="View reader comments (152) on this article">Comment  (152)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-21" class="story report business">
+  <div class="story-inner">
+        <h2 class="title"><a href="/business/news/2011/12/creative-commons-ponders-ports-and-database-rights-for-license-update.ars" class="article-title" title="">Creative Commons ponders ports and database rights for license&nbsp;update</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/business/news/2011/12/creative-commons-ponders-ports-and-database-rights-for-license-update.ars"><img src="http://static.arstechnica.net/assets/2011/12/2500_creative_commons_licenses-4ee74a9-listing-thumb-133x75-28543-f.jpg" alt="Creative Commons ponders ports and database rights for license update" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T13:45:00Z">December 13, 2011 7:45 AM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-13T15:54:37Z">December 13, 2011 9:54 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/ryan-paul/">Ryan Paul</a>
+</span> | <span class="category">Posted in: <a href="/business/">Uptime</a></span></div>
+                  <div class="teaser">
+              <p>Creative Commons is planning to issue a major update to its suite of licenses next year. Some topics of discussion include harmonizing with database rights and ending regional ports in favor of improving the international applicability of unported licenses.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/business/news/2011/12/creative-commons-ponders-ports-and-database-rights-for-license-update.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/business/news/2011/12/creative-commons-ponders-ports-and-database-rights-for-license-update.ars?comments=1#comments-bar" title="View reader comments (4) on this article">Comment  (4)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-22" class="story report tech-policy">
+  <div class="story-inner">
+        <h2 class="title"><a href="/tech-policy/news/2011/12/expert-domain-seizure-oversight-too-lax-targets-out-of-luck.ars" class="article-title" title="">Domain seizure oversight lax and broken, targets out of&nbsp;luck</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/tech-policy/news/2011/12/expert-domain-seizure-oversight-too-lax-targets-out-of-luck.ars"><img src="http://static.arstechnica.net/assets/2011/12/cracked-mirror-4ee6b29-listing-thumb-133x75-28521-f.jpg" alt="Domain seizure oversight lax and broken, targets out of luck" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T13:15:00Z">December 13, 2011 7:15 AM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-13T15:20:23Z">December 13, 2011 9:20 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/timothy-b-lee/">Timothy B. Lee</a>
+</span> | <span class="category">Posted in: <a href="/tech-policy/">Law &amp; Disorder</a></span></div>
+                  <div class="teaser">
+              <p>Can the government really hold a domain for a year and then return it without so much as an apology? A legal expert tells Ars the courts have have done a poor job overseeing the domain seizure program, but the victims are unlikely to receive significant compensation.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/tech-policy/news/2011/12/expert-domain-seizure-oversight-too-lax-targets-out-of-luck.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/tech-policy/news/2011/12/expert-domain-seizure-oversight-too-lax-targets-out-of-luck.ars?comments=1#comments-bar" title="View reader comments (80) on this article">Comment  (80)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-23" class="story report microsoft">
+  <div class="story-inner">
+        <h2 class="title"><a href="/microsoft/news/2011/12/azure-price-cuts-bigger-databases-now-with-nodejs-and-mongodb-support-hadoop-on-its-way.ars" class="article-title" title="">Azure price cuts, bigger databases, now with node.js and MongoDB support, Hadoop on its&nbsp;way</a></h2>
+            <div class="body">
+            <div class="story-image"><a href="/microsoft/news/2011/12/azure-price-cuts-bigger-databases-now-with-nodejs-and-mongodb-support-hadoop-on-its-way.ars"><img src="http://static.arstechnica.net/assets/2011/12/ray_ozzie-4ee6b3d-listing-thumb-133x75-28523-f.jpg" alt="Azure price cuts, bigger databases, now with node.js and MongoDB support, Hadoop on its way" width="133" height="75" /></a></div>
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T2:22:00Z">December 12, 2011 8:22 PM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-13T15:33:37Z">December 13, 2011 9:33 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/peter-bright/">Peter Bright</a>
+</span> | <span class="category">Posted in: <a href="/microsoft/">One Microsoft Way</a></span></div>
+                  <div class="teaser">
+              <p>Microsoft has released a set of updates to its Azure cloud computing platform to make it cheaper, more scalable, and easier to manage. On top of that, the company has shipped a new SDK for node.js, new guidance for MongoDB, and has started to offer support for Apache Hadoop.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/microsoft/news/2011/12/azure-price-cuts-bigger-databases-now-with-nodejs-and-mongodb-support-hadoop-on-its-way.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/microsoft/news/2011/12/azure-price-cuts-bigger-databases-now-with-nodejs-and-mongodb-support-hadoop-on-its-way.ars?comments=1#comments-bar" title="View reader comments (58) on this article">Comment  (58)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-24" class="story brief apple">
+  <div class="story-inner">
+        <h2 class="title"><a href="/apple/news/2011/12/apple-extending-airplay-over-low-power-low-latency-bluetooth-40.ars" class="article-title" title="">Apple extending AirPlay to low-power, low-latency Bluetooth&nbsp;4.0</a></h2>
+            <div class="body">
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-13T2:10:00Z">December 12, 2011 8:10 PM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-13T15:13:21Z">December 13, 2011 9:13 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/chris-foresman/">Chris Foresman</a>
+</span> | <span class="category">Posted in: <a href="/apple/">Infinite Loop</a></span></div>
+                  <div class="teaser">
+              <p>Apple will be enabling future iOS devices to connect to accessories using Bluetooth 4.0 instead of WiFi.</p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/apple/news/2011/12/apple-extending-airplay-over-low-power-low-latency-bluetooth-40.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/apple/news/2011/12/apple-extending-airplay-over-low-power-low-latency-bluetooth-40.ars?comments=1#comments-bar" title="View reader comments (25) on this article">Comment  (25)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+
+  <div id="story-25" class="story brief business">
+  <div class="story-inner">
+        <h2 class="title"><a href="/business/news/2011/12/microsoft-expands-presence-on-ios-and-android-with-onenote-and-lync-clients.ars" class="article-title" title="">Microsoft expands presence on iOS and Android with OneNote and Lync&nbsp;apps</a></h2>
+            <div class="body">
+                  <div class="byline"><span class="published updated"><span class="name">Published </span> <abbr class="timeago datetime" title="2011-12-12T23:37:43Z">December 12, 2011 5:37 PM</abbr></span><span class="modified" style="display:none;"><span class="name">Last updated </span> <abbr class="timeago datetime" title="2011-12-13T15:36:13Z">December 13, 2011 9:36 AM</abbr></span> - <span class="author">by <a rel="author" href="/author/jon-brodkin/">Jon Brodkin</a>
+</span> | <span class="category">Posted in: <a href="/business/">Uptime</a></span></div>
+                  <div class="teaser">
+              <p>Microsoft is boosting Office's presence on mobile devices with a new OneNote app designed for Apple's iPad and a Lync application for the major mobile platforms. </p>
+            </div>
+      
+      
+                <div class="read-more-link"> 
+                  <a href="/business/news/2011/12/microsoft-expands-presence-on-ios-and-android-with-onenote-and-lync-clients.ars">Read More</a>
+                </div>
+          
+      
+                  
+      <div class="comment-link">
+        <a rel="nofollow" href="/business/news/2011/12/microsoft-expands-presence-on-ios-and-android-with-onenote-and-lync-clients.ars?comments=1#comments-bar" title="View reader comments (31) on this article">Comment  (31)</a>
+      </div>
+
+          </div>
+     </div>
+</div>
+</div></div>  <div id="more-stories" style="display: none;"><a href="#">Load more stories</a></div>
+
+
+</div>
+        <!--googleoff: all-->
+<div id="sidebar">
+              <div id="features-slider" class="with-divider">
+            <div class="bubble">
+              <div class="bubble-inner">
+                <span class="ars-features">Ars Technica Features:</span>
+                Browse our latest in-depth, full-length stories.
+              </div>
+            </div>
+            <div id="features-slider-viewport-wrapper">
+              <div id="features-slider-viewport">
+                <ul id="featured-slider-items">
+                                                        <li id="feature-0" class="feature ">
+                    <div class="image"><a href="/science/news/2011/12/how-the-epa-linked-fracking-to-contaminated-well-water.ars"><img src="http://static.arstechnica.net/assets/2011/12/against_fracking_01-4ee250d-feature-thumb-280x280-28405-f.jpg" alt="" height="280" width="280" /></a>
+                    </div>
+                    <h2 class="title"><a href="/science/news/2011/12/how-the-epa-linked-fracking-to-contaminated-well-water.ars">How the EPA linked "fracking" to contaminated well water</a></h2>
+                    <div class="byline"><span class="author">by <a rel="author" href="/author/scott-johnson/">Scott K. Johnson</a>
+</span> | <span class="category">Posted in: <a href="/science/">Nobel Intent</a></span></div>
+                    </li>
+                                      <li id="feature-1" class="feature hide">
+                    <div class="image"><a href="/gadgets/guides/2011/12/2011-gadget-gift-guide.ars"><img src="http://static.arstechnica.net/assets/2011/12/gift-guide-2011-4ede3eb-feature-thumb-280x280-28299-f.jpg" alt="" height="280" width="280" /></a>
+                    </div>
+                    <h2 class="title"><a href="/gadgets/guides/2011/12/2011-gadget-gift-guide.ars">Ars Technica's 2011 holiday gift guide extravaganza</a></h2>
+                    <div class="byline"><span class="author">by <a rel="author" href="/author/ohrmazd/">Ars Staff</a>
+</span> | <span class="category">Posted in: <a href="/gadgets/">Gear &amp; Gadgets</a></span></div>
+                    </li>
+                                      <li id="feature-2" class="feature hide">
+                    <div class="image"><a href="/gadgets/news/2011/12/the-shards-bleeding-edge-anatomy-of-a-21st-century-skyscraper.ars"><img src="http://static.arstechnica.net/assets/2011/12/4_sellar_group-4ed9522-feature-thumb-280x280-28247-f.jpg" alt="" height="280" width="280" /></a>
+                    </div>
+                    <h2 class="title"><a href="/gadgets/news/2011/12/the-shards-bleeding-edge-anatomy-of-a-21st-century-skyscraper.ars">The Shard's bleeding edge: anatomy of a 21st century skyscraper</a></h2>
+                    <div class="byline"><span class="author">by <a rel="author" href="/author/ohrmazd/">James Holloway</a>
+</span> | <span class="category">Posted in: <a href="/gadgets/">Gear &amp; Gadgets</a></span></div>
+                    </li>
+                                      <li id="feature-3" class="feature hide">
+                    <div class="image"><a href="/science/news/2011/11/how-the-collapse-of-a-scientific-hypothesis-led-to-a-lawsuit-and-arrest.ars"><img src="http://static.arstechnica.net/assets/2011/11/lab-mouse-4ed55e2-feature-thumb-280x280-28095-f.jpg" alt="" height="280" width="280" /></a>
+                    </div>
+                    <h2 class="title"><a href="/science/news/2011/11/how-the-collapse-of-a-scientific-hypothesis-led-to-a-lawsuit-and-arrest.ars">How a collapsing scientific hypothesis led to a lawsuit and arrest</a></h2>
+                    <div class="byline"><span class="author">by <a rel="author" href="/author/john-timmer/">John Timmer</a>
+</span> | <span class="category">Posted in: <a href="/science/">Nobel Intent</a></span></div>
+                    </li>
+                                      <li id="feature-4" class="feature hide">
+                    <div class="image"><a href="/business/news/2011/11/private-app-stores-does-your-company-need-its-own.ars"><img src="http://static.arstechnica.net/assets/2011/11/private-apps-store-4ec55b6-feature-thumb-280x280-27851-f.jpg" alt="" height="280" width="280" /></a>
+                    </div>
+                    <h2 class="title"><a href="/business/news/2011/11/private-app-stores-does-your-company-need-its-own.ars">Private app stores: does your company need its own?</a></h2>
+                    <div class="byline"><span class="author">by <a rel="author" href="/author/jon-brodkin/">Jon Brodkin</a>
+</span> | <span class="category">Posted in: <a href="/business/">Uptime</a></span></div>
+                    </li>
+                                      <li id="feature-5" class="feature hide">
+                    <div class="image"><a href="/gadgets/reviews/2011/11/lean-mean-consuming-machine-reviewing-the-nook-tablet.ars"><img src="http://static.arstechnica.net/assets/2011/11/nook_tablet_feature-thumb-280x280-28043-f.jpg" alt="" height="280" width="280" /></a>
+                    </div>
+                    <h2 class="title"><a href="/gadgets/reviews/2011/11/lean-mean-consuming-machine-reviewing-the-nook-tablet.ars">Lean, mean consuming machine: the Nook Tablet reviewed</a></h2>
+                    <div class="byline"><span class="author">by <a rel="author" href="/author/casey-johnston/">Casey Johnston</a>
+</span> | <span class="category">Posted in: <a href="/gadgets/">Gear &amp; Gadgets</a></span></div>
+                    </li>
+                                      <li id="feature-6" class="feature hide">
+                    <div class="image"><a href="/gaming/news/2011/11/2011-childs-play-drive-signed-ultima-halo-360-hardware-aliens-themed-nerf-gun.ars"><img src="http://static.arstechnica.net/assets/2011/11/childs-play-bear-4ecd169-feature-thumb-280x280-28003-f.jpg" alt="" height="280" width="280" /></a>
+                    </div>
+                    <h2 class="title"><a href="/gaming/news/2011/11/2011-childs-play-drive-signed-ultima-halo-360-hardware-aliens-themed-nerf-gun.ars">2011 Ars Child's Play Drive begins: Signed Ultima! Halo 360 hardware! Aliens-themed Nerf gun!</a></h2>
+                    <div class="byline"><span class="author">by <a rel="author" href="/author/ben-kuchera/">Ben Kuchera</a>
+</span> | <span class="category">Posted in: <a href="/gaming/">Opposable Thumbs</a></span></div>
+                    </li>
+                                      <li id="feature-7" class="feature hide">
+                    <div class="image"><a href="/business/news/2011/11/bulldozer-server-benchmarks-are-here-and-theyre-a-catastrophe.ars"><img src="http://static.arstechnica.net/assets/2011/11/faildozer-4eca757-feature-thumb-280x280-27933-f.jpg" alt="" height="280" width="280" /></a>
+                    </div>
+                    <h2 class="title"><a href="/business/news/2011/11/bulldozer-server-benchmarks-are-here-and-theyre-a-catastrophe.ars">AMD's Bulldozer server benchmarks are here, and they're a catastrophe</a></h2>
+                    <div class="byline"><span class="author">by <a rel="author" href="/author/peter-bright/">Peter Bright</a>
+</span> | <span class="category">Posted in: <a href="/business/">Uptime</a></span></div>
+                    </li>
+                                      <li id="feature-8" class="feature hide">
+                    <div class="image"><a href="/apple/guides/2011/11/can-the-iphone-4s-replace-a-real-digital-camera-for-many-yes.ars"><img src="http://static.arstechnica.net/assets/2011/11/iphone4s_cameras_feature-4ec703e-feature-thumb-280x280-27899-f.jpg" alt="" height="280" width="280" /></a>
+                    </div>
+                    <h2 class="title"><a href="/apple/guides/2011/11/can-the-iphone-4s-replace-a-real-digital-camera-for-many-yes.ars">Can the iPhone 4S replace a "real" digital camera? Ars investigates</a></h2>
+                    <div class="byline"><span class="author">by <a rel="author" href="/author/chris-foresman/">Chris Foresman</a>
+</span> | <span class="category">Posted in: <a href="/apple/">Infinite Loop</a></span></div>
+                    </li>
+                                      <li id="feature-9" class="feature hide">
+                    <div class="image"><a href="/gadgets/reviews/2011/11/dont-call-it-a-tablet-the-kindle-fire-reviewed.ars"><img src="http://static.arstechnica.net/assets/2011/11/fire-cheese-sq-4ec54c5-feature-thumb-280x280-27848-f.jpg" alt="" height="280" width="280" /></a>
+                    </div>
+                    <h2 class="title"><a href="/gadgets/reviews/2011/11/dont-call-it-a-tablet-the-kindle-fire-reviewed.ars">Don't call it a tablet: the Kindle Fire reviewed</a></h2>
+                    <div class="byline"><span class="author">by <a rel="author" href="/author/casey-johnston/">Casey Johnston</a>
+</span> | <span class="category">Posted in: <a href="/gadgets/">Gear &amp; Gadgets</a></span></div>
+                    </li>
+                                  </ul>
+              </div>
+            </div>
+          </div>
+   
+    <div id="tile-top" class="">
+
+<noscript>
+<div id="help-by-subscribing">
+<a href="/tech-policy/news/2011/12/technology-entrepreneurs-attack-sopa-on-eve-of-hearings.ars/2"><img src="/tech-policy/news/2011/12/technology-entrepreneurs-attack-sopa-on-eve-of-hearings.ars/4" alt="Please subscribe" /></a></div>
+</noscript>
+
+<script type="text/javascript">
+try {
+  var ppanel = cnp.ad.create(cnp.ad.refreshable, false);
+  ppanel.addParameterString('kw=top;');
+  ppanel.addParameter({'sz':'300x250'});
+  ppanel.load();
+} catch(e) {}
+</script>
+</div>
+  <div id="etc" class="with-divider">
+  <h2 class="title">
+    <span class="title">etc</span>      </h2>
+  <div class="body">
+    <ul>
+                                                 
+
+<li id="etc-sidebar-1" class="even apple">
+  <p><a href="/apple/news/2011/12/netflix-has-rolled-out-a.ars?comments=1">Netflix has rolled out a redesigned iOS app that displays more titles within the iOS interface, among other things.</a></p>
+</li>
+                                             
+
+<li id="etc-sidebar-2" class="odd gadgets">
+  <p><a href="/gadgets/news/2011/12/t-mobile-is-launching-the-nokia.ars?comments=1">T-Mobile is launching the Nokia Lumia 710 on January 11 for $50 with two-year contract. This budget variation of the lust-worthy Lumia 800 will be the first Nokia WP7 device to launch in the US.</a></p>
+</li>
+                                             
+
+<li id="etc-sidebar-3" class="even apple">
+  <p><a href="/apple/news/2011/12/the-original-partnership-contracts-that.ars?comments=1">The original partnership contracts that formed Apple Computer in 1976, signed by Steve Jobs, Steve Wozniak, and little-known third partner Ronald Wayne, sold at an auction at Sotheby's on Tuesday for $1.59 million.</a></p>
+</li>
+                                             
+
+<li id="etc-sidebar-4" class="odd apple">
+  <p><a href="/apple/news/2011/12/apple-appears-to-be-poking.ars?comments=1">Apple appears to be poking fun at those that dig into configuration files in iOS to glean information about upcoming iOS devices. The company included profiles for dozens of fake products in iOS 5.1b2.</a></p>
+</li>
+                                             
+
+<li id="etc-sidebar-5" class="even apple">
+  <p><a href="/apple/news/2011/12/apple-launched-the-itunes-stores.ars?comments=1">Apple launched the iTunes Stores in 15 Latin American countries on Tuesday, while Brazilians also got access to iTunes Match in addition to music and movies.</a></p>
+</li>
+                                             
+
+<li id="etc-sidebar-6" class="odd apple">
+  <p><a href="/apple/news/2011/12/the-second-beta-of-ios.ars?comments=1">The second beta of iOS 5.1 has been released to developers with the ability to delete photos from your Photo Stream, which then get pulled from all iOS 5.1 devices.</a></p>
+</li>
+    </ul>
+  </div>
+  <div style="display:none;" id="more-etc"><a href="#">Read more posts</a></div>
+</div>
+
+    <div class="with-divider" id="fb">
+    <iclint src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Ffacebook.com%2Farstechnica&amp;width=300&amp;colorscheme=light&amp;show_faces=false&amp;stream=false&amp;header=false&amp;height=62&amp;border_color=%23FFFFFF" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:62px;" allowTransparency="true"></iclint>
+    <iclint src="http://www.facebook.com/plugins/activity.php?site=arstechnica.com&amp;width=300&amp;height=370&amp;header=false&amp;colorscheme=light&amp;recommendations=false&amp;border_color=%23FFFFFF" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:370px;" allowTransparency="true"></iclint>
+
+      <p><a href="#" class="anonymous">Disable Facebook on Ars</a></p>
+      </div>
+    <div id="tile-bottom" class="">
+
+<noscript>
+<div id="help-by-subscribing">
+<a href="/tech-policy/news/2011/12/technology-entrepreneurs-attack-sopa-on-eve-of-hearings.ars/2"><img src="/tech-policy/news/2011/12/technology-entrepreneurs-attack-sopa-on-eve-of-hearings.ars/4" alt="Please subscribe" /></a></div>
+</noscript>
+
+<script type="text/javascript">
+try {
+  var ppanel = cnp.ad.create(cnp.ad.refreshable, false);
+  ppanel.addParameterString('kw=bottom;');
+  ppanel.addParameter({'sz':'300x250'});
+  ppanel.load();
+} catch(e) {}
+</script>
+</div>
+  <div class="dont-miss with-divider">
+    <h2 class="title">
+      <span class="title">Don't Miss</span>:
+      <span class="sub-title">Promos &amp; Insight</span>
+    </h2>
+    <div class="body">
+      <a href="http://arstechnica.com/business/consumerization-of-it/"><img src="http://static.arstechnica.net/public/shared/images/dell-consumer-x-rail.png" width="300" height="100" alt="Promo image!" /></a>
+      <div class="bubble">
+        <div class="bubble-inner">
+                    <span class="promo">Promo</span>:
+                    <a href="http://arstechnica.com/business/consumerization-of-it/">Consumerization of IT: Ars explores mobility, social media, and rapid development cycles.</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="jobs-ars" class="with-divider">
+    <h2 class="title">
+      <span class="title">Job.Ars</span>:
+      <span class="subtitle">looking for a new job?</span>
+    </h2>
+    <div class="body">
+      <ul>
+      <div id="jobs-ars-content">
+  <ul>
+    
+    <li>
+      <div class="job-title"><a href="//jobs.arstechnica.com/list/1199/">.Net Developer</a> at www.daileyideas.com</div>
+      <div class="job-location">Onsite - West Hollywood, CA</div>
+    </li>
+    
+    <li>
+      <div class="job-title"><a href="//jobs.arstechnica.com/list/1198/">Technical Writer</a> at Synacor</div>
+      <div class="job-location">Buffalo, NY</div>
+    </li>
+    
+    <li>
+      <div class="job-title"><a href="//jobs.arstechnica.com/list/1197/">Release Engineering Tools Administrator</a> at Synacor</div>
+      <div class="job-location">Buffalo, NY</div>
+    </li>
+    
+    <li>
+      <div class="job-title"><a href="//jobs.arstechnica.com/list/1196/">Systems Architect</a> at Synacor</div>
+      <div class="job-location">Buffalo, NY</div>
+    </li>
+    
+    <li>
+      <div class="job-title"><a href="//jobs.arstechnica.com/list/1195/">Storage Administrator</a> at Synacor</div>
+      <div class="job-location">Buffalo</div>
+    </li>
+    
+    <li>
+      <div class="job-title"><a href="//jobs.arstechnica.com/list/1194/">Database Administrator</a> at Synacor</div>
+      <div class="job-location">Buffalo, NY</div>
+    </li>
+    
+    <li>
+      <div class="job-title"><a href="//jobs.arstechnica.com/list/1191/">Web/Media Analyst</a> at BioWare</div>
+      <div class="job-location">Austin, Texas</div>
+    </li>
+    
+    <li>
+      <div class="job-title"><a href="//jobs.arstechnica.com/list/1190/">Network Security Engineer</a> at BioWare</div>
+      <div class="job-location">Austin, Texas</div>
+    </li>
+    
+    <li>
+      <div class="job-title"><a href="//jobs.arstechnica.com/list/1188/">Front-End Engineer</a> at AfterCollege</div>
+      <div class="job-location">San Francisco, CA</div>
+    </li>
+    
+    <li>
+      <div class="job-title"><a href="//jobs.arstechnica.com/list/1187/">Python/Django Developer</a> at Automata Studios</div>
+      <div class="job-location">Silver Spring, Maryland</div>
+    </li>
+    
+  </ul>
+  <div id="more-jobs"><a href="//jobs.arstechnica.com">More Job Listings</a></div>
+</div>      </ul>
+    </div>
+  </div>
+
+</div>
+<!--googleon: all-->
+      </div>
+      <div id="footer">
+        <div id="slogan">Serving the technologist for <span id="decades">1</span> &#x00d7; 10<sup>-1</sup> centuries</div>
+<div id="footer-navigation">
+        <div id="footer-box-1" class="footer-box">
+          <h3>Site Links</h3>
+          <ul>
+                                                <li><a href="http://arstechnica.com/?from=footer" target="_parent">Front Page</a></li>
+            <li><a href="http://arstechnica.com/site/about-ars-technica.ars" target="_parent">About Us</a></li>
+            <li><a href="http://arstechnica.com/site/advertise.ars" target="_parent">Advertise with us</a></li>
+            <li><a href="http://arstechnica.com/site/press/" target="_parent">Press Information</a></li>
+            <li><a href="http://arstechnica.com/site/tv.ars" target="_parent">Ars Technica TV</a></li>
+          </ul>
+          <h3>Site Help</h3>
+          <ul>
+            <li><a href="http://arstechnica.com/site/contact-ars-technica.ars" target="_parent">Contact Us</a></li>
+            <li><a href="http://arstechnica.com/site/faq.ars" target="_parent">General FAQ</a></li>
+            <li><a href="http://arstechnica.com/site/reprints.ars" target="_parent">Reprints</a></li>
+          </ul>
+        </div>
+        <div id="footer-box-2" class="footer-box">
+          <h3>Subscriptions</h3>
+          <ul>
+            <li><a href="http://arstechnica.com/subscriptions/" target="_parent">Subscribe to Ars</a></li>
+            <li><a href="http://arstechnica.com/site/subscriber-faq.ars" target="_parent">Subscription FAQ</a></li>
+          </ul>
+          <h3>More Reading</h3>
+          <ul>
+            <li><a href="http://arstechnica.com/site/rss-feeds.ars" target="_parent">RSS Feeds</a></li>
+            <li><a href="http://arstechnica.com/site/twitter.ars" target="_parent">Twitter</a></li>
+            <li><a href="http://arstechnica.com/site/newsletter-signup.ars" target="_parent">Newsletters</a></li>
+          </ul>
+        </div>
+        <div id="footer-box-3" class="footer-box">
+          <h3>Condé Nast Sites</h3>
+          <ul>
+            <li><a href="http://www.reddit.com" title="NARWHALS!" target="_parent">Reddit</a></li>
+            <li><a href="http://www.wired.com" target="_parent">Wired</a></li>
+            <li><a href="http://www.vanityfair.com/" target="_parent">Vanity Fair</a></li>
+            <li><a href="http://www.style.com/?from-ars" target="_parent">Style</a></li>
+            <li><a href="http://www.details.com/" target="_parent">Details</a></li>
+          </ul>
+          <form action="#" method="get">
+            <div>
+              <select onchange="(this.options[this.selectedIndex].value) ? window.open(this.options[this.selectedIndex].value) : null" name="mag_list" id="mag_list">
+                <option selected="selected" value="">Visit our sister sites</option>
+                <option value="">- - - - - - - - - - - - - -</option>
+                <option value="http://www.gq.com">GQ</option>
+                <option value="http://www.concierge.com">Concierge</option>
+                <option value="http://www.epicurious.com">Epicurious</option>
+                <option value="http://men.style.com">Men.Style.com</option>
+                <option value="http://www.style.com">Style.com</option>
+                <option value="http://www.wired.com">Wired.com</option>
+                <option value="http://www.lipstick.com">Lipstick.com</option>
+                <option value="http://www.nutritiondata.com">NutritionData</option>
+                <option value="http://www.allure.com">Allure</option>
+                <option value="http://www.architecturaldigest.com">Architectural Digest</option>
+                <option value="http://www.bonappetit.com">Bon Appétit</option>
+                <option value="http://www.brides.com">Brides</option>
+                <option value="http://www.portfolio.com">Condé Nast Portfolio</option>
+                <option value="http://www.glamour.com">Glamour</option>
+                <option value="http://www.golfdigest.com">Golf Digest</option>
+                <option value="http://www.golfworld.com">Golf World</option>
+                <option value="http://www.luckymag.com">Lucky</option>
+                <option value="http://www.self.com">Self</option>
+                <option value="http://www.teenvogue.com">Teen Vogue</option>
+                <option value="http://www.newyorker.com">The New Yorker</option>
+                <option value="http://www.vanityfair.com">Vanity Fair</option>
+                <option value="http://www.wmagazine.com">W</option>
+              </select>
+            </div>
+          </form>
+          <form action="#" method="get">
+            <div>
+              <select onchange="(this.options[this.selectedIndex].value) ? window.open(this.options[this.selectedIndex].value) : null" name="sub_list" id="sub_list" size="1">
+                  <option selected="selected" value="">Subscribe to a magazine</option>
+                  <option value="http://www.magazinestoresubscriptions.com?source=univdropdown">View All Titles</option>
+                  <option value="">- - - - - - - - - - - - - -</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Allure?source=SITEFOOTER">Allure</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_ArchitecturalDigest">Architectural Digest</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_BonAppetite?source=SITEFOOTER">Bon Appétit</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Brides?source=SITEFOOTER">Brides</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_CondeNastPortfolio?source=SITEFOOTER">Condé Nast Portfolio</option>
+
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_CondeNastTraveler?source=SITEFOOTER">Condé Nast Traveler</option>
+
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Details?source=SITEFOOTER">Details</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_ElegantBride?source=SITEFOOTER">Elegant Bride</option>
+
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Glamour?source=SITEFOOTER">Glamour</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GolfDigest?source=SITEFOOTER">Golf Digest</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GolfWorld?source=SITEFOOTER">Golf World</option>
+
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GQ?source=SITEFOOTER">GQ</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Lucky?source=SITEFOOTER">Lucky</option>
+
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_ModernBride?source=SITEFOOTER">Modern Bride</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Self?source=SITEFOOTER">Self</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_TeenVogue?source=SITEFOOTER">Teen Vogue</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_NewYorker?source=SITEFOOTER">The New Yorker</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_VanityFair?source=SITEFOOTER">Vanity Fair</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Vogue?source=SITEFOOTER">Vogue</option>
+
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_W?source=SITEFOOTER">W</option>
+                  <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Wired?source=SITEFOOTER">Wired</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div id="footer-box-4" class="footer-box">
+        <p><a href="http://arstechnica.com/?__set=mobile" title="View mobile
+          site" target="_parent"><img src="http://static.arstechnica.net/public/v6/styles/light/images/footer/footer-mobile-badge.png" width="99" height="104" alt="Ars Technica"></a></p>
+         <p><a href="http://arstechnica.com/?__set=mobile" title="View mobile site" target="_parent">View mobile site</a></p>
+        </div>
+      </div>
+      </div>
+    </div> 
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31997-1']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<script type="text/javascript">
+  var page_class = 'home',
+    site_root = "",
+    site_root_rel = '/',
+        discussion_url = false,
+    entry_is_feature = false,
+        fp_layout = 'normal',
+    syntaxhighlighter = "http://static.arstechnica.com/public/full/scripts/syntaxhighlighter.js",
+    new_comments = true,
+    disable_fb = 'false';
+</script>
+   
+
+  <script src="http://static.arstechnica.net//public/v6/scripts/site.min.js?1323894855" type="text/javascript" charset="utf-8"></script>
+
+<noscript>
+<img src="http://b.scorecardresearch.com/b?c1=2&c2=6035094&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="position:absolute; bottom: 0px; right:0px;"
+width="1" height="1" alt="" />
+</noscript>
+
+<span style="display: none" id="ArsTechnicaNews" class="hslice">
+  <span style="display: none" class="entry-title">Ars Technica News</span>
+  <a style="display: none" href="http://www.ieaddons.com/en/ie8slice/Content.ashx?id=330" rel="entry-content"></a>
+</span>
+
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <a id="parsely-cfg" data-parsely-site="arstechnica.com"
+       href="http://parsely.com">Powered by the Parse.ly Publisher Platform (P3).</a>
+</div>
+<script>
+(function(s, p, d) {
+    var h=d.location.protocol, i=p+"-"+s,
+        e=d.getElementById(i), r=d.getElementById(p+"-root");
+    if (e) return;
+    e = d.createElement(s); e.id = i; e.async = true;
+    e.src = h+"//static.parsely.com/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include -->            <script type='text/javascript'>
+        var _sf_async_config={};
+        /** CONFIGURATION START **/
+        _sf_async_config.uid = 27113;
+        _sf_async_config.domain = 'arstechnica.com';
+        _sf_async_config.sections = 'All';  //CHANGE THIS
+                _sf_async_config.path = "http://arstechnica.com/index.php";
+        _sf_async_config.title = '';
+        /** CONFIGURATION END **/
+        (function(){
+          function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src',
+               (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+               'js/chartbeat.js');
+            document.body.appendChild(e);
+          }
+          var oldonload = window.onload;
+          window.onload = (typeof window.onload != 'function') ?
+             loadChartbeat : function() { oldonload(); loadChartbeat(); };
+        })();
+    </script>
+  </body>
+</html>

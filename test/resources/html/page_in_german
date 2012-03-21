@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>
+Telefonanlagen 
+</title>
+<link href="/assets/common.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="/assets/common.js" type="text/javascript"></script>
+<link href='/assets/logo_main.png' rel='image_src'>
+<script type='text/javascript'>
+$(function() { document.title = "orceo: Business Tools > Telefonanlagen "; });
+</script>
+<meta content='k/zDXDzz75H8ODJubppTiu02ZS1MBZWuxMOrTu/XYig=' name='csrf-token'>
+<script id='shared_dialog' type='text/template'>
+<div class='test'>
+<div class='overlay'></div>
+<div class='overlay-wrap'>
+<div class='overlay-content'>
+<div class='spinner'></div>
+</div>
+</div>
+</div>
+
+</script>
+
+
+<meta content='' name='description'>
+<meta content='' name='keywords'>
+</head>
+<body>
+<div class='container'>
+<div class='left'></div>
+<script src="/assets/orceo/header.js" type="text/javascript"></script>
+<div class='header'>
+<a href='/'>
+<img alt="orceo group" class="logo" src="/assets/logo_main.png" />
+</a>
+<div class='search'>
+<form action='/search' method='get'>
+<input name='q' placeholder='Hier Suchbegriff eingeben' type='text'>
+<input type='submit' value=''>
+</form>
+</div>
+<br>
+<ul class='head_navigation'>
+<li>
+<a href="/contact">Kontakt</a>
+|
+</li>
+<li><a href="/users/sign_in" class="hand" id="sign_in_link">Kunden Login</a></li>
+</ul>
+<ul class='main_navigation'>
+<li class='active green'>
+<div class='line_left'></div>
+<div class='line_right'></div>
+<a href='/de/bt/12-home'>
+Business Tools
+</a>
+<div class='wrapper'>
+<ul>
+<div class='left_bg'></div>
+<li>
+<a href="/de/bt/7-telefonanlagen-%28telekommunikation%29">Telefonanlagen</a>
+</li>
+<li>
+<a href="/de/bt/8-it-systeme">IT Systeme</a>
+</li>
+<li>
+<a href="/de/bt/9-netzwerke">Netzwerke</a>
+</li>
+<li>
+<a href="/de/bt/480-dokumenten-management-system-dms">Dokumentenmanagement</a>
+</li>
+<li>
+<a href="/de/bt/82-zahlungssysteme-ec-geraete-kartenterminals">Zahlungssysteme</a>
+</li>
+<div class='right_bg'></div>
+</ul>
+</div>
+</li>
+<li class='red'>
+<div class='line_left'></div>
+<div class='line_right'></div>
+<a href='/de/lt/6-home'>
+Living Tech
+</a>
+<div class='wrapper'>
+<ul>
+<div class='left_bg'></div>
+<li>
+<a href="/de/lt/1-video%C3%BCberwachung-kamera%C3%BCberwachung">Videoüberwachung</a>
+</li>
+<li>
+<a href="/de/lt/2-zutrittskontrolle">Zutrittskontrolle</a>
+</li>
+<div class='right_bg'></div>
+</ul>
+</div>
+</li>
+<li class='blue'>
+<div class='line_left'></div>
+<div class='line_right'></div>
+<a href='/de/rd/18-home'>
+Research &amp; Development
+</a>
+<div class='wrapper'>
+<ul>
+</ul>
+</div>
+</li>
+<li class='gray'>
+<div class='line_left'></div>
+<div class='line_right'></div>
+<a href='/de/orceo/30-home'>
+orceo
+</a>
+<div class='wrapper'>
+<ul>
+<div class='left_bg'></div>
+<li>
+<a href="/de/orceo/262-news-presse">News &amp; Presse</a>
+</li>
+<li>
+<a href="/de/orceo/54-kontakt-oeffnungszeiten">Kontakt und Öffnungszeiten</a>
+</li>
+<li>
+<a href="/de/orceo/26-jobs">Jobs</a>
+</li>
+<div class='right_bg'></div>
+</ul>
+</div>
+</li>
+</ul>
+
+</div>
+
+<div class='green main'>
+<ul class='promoboxes'>
+<li class='promo'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="top: -5px; left: -6px; position: absolute;" class="item"><img class="item" style="left: 0px; top: 0px; position: relative;" alt="Header_ta_2011_06_0000" src="http://www.orceo.com/system/imgs/4e08442c10d0760f2e000001/original/Header_TA_2011_06_0000.jpg?1309164587"></div>
+
+
+
+</li>
+</ul>
+
+<div class='green one-third'>
+<div class='box'>
+<a href='/de/bt/12-home'>
+<div class='icon'></div>
+<h1>
+Business Tools
+
+</h1>
+<div class='clear'></div>
+</a>
+</div>
+<div class='box noborder'>
+<div class='box_top'>
+<div class='corner'></div>
+</div>
+<div class='box_middle' id='side_navigation'>
+<div class='shadow'></div>
+<ul class='subnav'>
+<li class='active'>
+<a href="/de/bt/7-telefonanlagen-%28telekommunikation%29">Telefonanlagen</a>
+</li>
+<ul class='subnav'>
+<li class=''>
+<a href="/de/bt/telefonanlagen-%28telekommunikation%29/224-tk-planung">Lösungen</a>
+</li>
+<li class=''>
+<a href="/de/bt/telefonanlagen-%28telekommunikation%29/226-tk-produkte">Produkte</a>
+</li>
+<li class=''>
+<a href="/de/bt/telefonanlagen-%28telekommunikation%29/386-themen-blog">Themen</a>
+</li>
+</ul>
+
+<li class=''>
+<a href="/de/bt/8-it-systeme">IT Systeme</a>
+</li>
+<li class=''>
+<a href="/de/bt/9-netzwerke">Netzwerke</a>
+</li>
+<li class=''>
+<a href="/de/bt/480-dokumenten-management-system-dms">Dokumentenmanagement</a>
+</li>
+<li class=''>
+<a href="/de/bt/82-zahlungssysteme-ec-geraete-kartenterminals">Zahlungssysteme</a>
+</li>
+<li class=''>
+<a href="/de/bt/484-video%C3%BCberwachung">Videoüberwachung</a>
+</li>
+<li class=''>
+<a href="/de/bt/188-it-service">Service</a>
+</li>
+</ul>
+
+</div>
+<div class='box_bottom'>
+<div class='corner'></div>
+</div>
+</div>
+</div>
+
+<div class='two-thirds'>
+<div class='' id='category'>
+<input id='page_id' type='hidden' val='4e3a90a6255060d2f60447a0'>
+<div class='breadcrumbs' id='breadcrumbs'>
+<div class='text_wrapper'>
+<a href="/de/bt/12-home">Business Tools</a>
+>>
+Telefonanlagen
+</div>
+<div class='icons'>
+<a href='http://www.facebook.com/sharer.php?u=http%3A%2F%2Forceo.com%2F%2Fde%2Fbt%2F7-telefonanlagen-%2528telekommunikation%2529&amp;src=sp' id='facebook_link' name='fb_share' type='box_count'>
+<img alt="Facebook_icon" src="/assets/facebook_icon.png" title="Share on Facebook" />
+</a>
+<div href='/de/pages/4e3a90a6255060d2f60447a0/print' id='print_link'>
+<img alt="Print_icon" src="/assets/print_icon.png" title="Seite drucken" />
+Drucken
+</div>
+<div href='/de/pages/4e3a90a6255060d2f60447a0/email' id='email_link'>
+<img alt="Send_icon" src="/assets/send_icon.png" title="Seite empfehlen" />
+E-Mail die Seite
+</div>
+</div>
+</div>
+
+<h1>Telefonanlagen</h1>
+<div id='content_markdown'><h5></h5><h4></h4><p> </p>
+<h5><strong>Telefonieren ist heute mehr als drehen der Wählscheibe. </strong></h5>
+<p>Sprachübertragung ist noch immer das A und O moderner Telefonanlagen, doch die Möglichkeiten gehen heute weit darüber hinaus. Wir bieten Ihnen zuverlässige Lösungen mit hohem Mehrwert und Investitionssicherheit.</p>
+<p> </p>
+<img src="../../../system/imgs/4dfb7c6010d07644f0000002/original/Wir%20bieten_Header_gr%C3%BCn_etc..jpg?1308327008" />
+<table style="line-height:10%" class="no-border" valign="top" border="0" height="200" width="807">
+  <tbody><tr>
+        <td height="25" width="25">
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /><br /></td>
+        <td height="25" width="325"><strong>Über 10 Jahre Erfahrungen</strong><br /></td>
+        <td height="25" width="30"><br /></td>
+        <td height="25" width="25">
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /><br /></td>      
+        <td height="25" width="325"><strong>Design &amp; Komfort</strong><br /></td>
+    </tr><tr>
+        <td><br /></td>
+        <td><em>Mit Siemens HiPath, Panasonic, Agfeo &amp; Co.<br /></em></td>
+        <td><em><br /></em></td>
+        <td><br /></td>
+        <td><em>Farbdisplays - Alle Infos auf einen Blick</em><br /></td>
+  </tr><tr>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Projektierung &amp; Beratung</strong><br /></td>
+        <td><br /></td>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Vollständige Integration</strong><br /></td>
+  </tr><tr>
+        <td><br /></td>
+        <td><em>Von Bedarfsermittlung bis zur Umsetzung</em><br /></td>
+        <td><br /></td>
+        <td><br /></td>
+        <td>Anrufbeantworter in Outlook, CTI<br /></td>
+  </tr><tr>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /><br /></td>
+        <td><strong>Rundum - Betreuung</strong><br /></td>
+        <td><br /></td>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Einheitliches Look &amp; Feel</strong><br /></td>
+  </tr><tr>
+        <td><br /></td>
+        <td><em>Alle Leistungen inklusive</em><br /></td>
+        <td><br /></td>
+        <td><br /></td>
+        <td><em>Die gleichen Telefone im Homeoffice nutzen</em><br /></td>
+  </tr><tr>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Mietangebote</strong></td>
+        <td><br /></td>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Sicherheit &amp; Compliance</strong><br /></td>
+  </tr><tr>
+        <td><br /></td>
+        <td><em>Direkt absetzbar, kein Anlagevermögen</em><br /></td>
+        <td><br /></td>
+        <td><br /></td>
+        <td><em>Planung und Dokumentation nach ITIL</em><br /></td>
+  </tr>
+        <tr><td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /><br /></td>
+        <td><strong>Inbetriebnahme &amp; Wartung</strong><br /></td>
+        <td><br /></td>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Zuverlässigkeit &amp; Stabilität</strong><br /></td>
+  </tr>
+        <tr><td><br /></td>
+        <td><em>Wenn Sie möchten sogar über Nacht</em><br /></td>
+        <td><br /></td>
+        <td><br /></td>
+        <td><em>Wir garantieren höchste Ausfallsicherheit</em><br /></td>
+  
+</tr></tbody>
+</table>
+<h5>
+</h5><h5></h5><h5></h5><h5></h5><p> </p>
+<p><strong><br /></strong></p>
+<h5><strong>Wir bieten Ihnen ein umfassendes Konzept zur Umsetzung Ihrer Wünsche.<br /></strong></h5>
+<p>Gemeinsam finden wir mit Ihnen heraus, wo die Prioritäten liegen und welche individuell angepasste Telefonanlage einen praktischen Vorteil für Ihre speziellen Geschäftsprozesse bietet. </p>
+<p> </p>
+<p><a href="http://www.orceo.com/link/224">
+<img src="../../../system/imgs/4dfb84fe10d07644f8000001/original/Ablaufdiagramm_%20_schrift.jpg?1308329214" /></a></p>
+<blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><p> </p>
+<p><a href="http://www.orceo.com/link/224">
+<img src="http://www.orceo.com/system/imgs/4df0839010d0765e87000007/original/Mehr%20Informationen%20gr%C3%BCn.jpg?1307609957" /></a>&nbsp;</p>
+<p> </p>
+<p> </p>
+</blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote>
+<h5></h5><h5></h5><h5></h5><h5></h5><h5></h5><h5></h5><h5><strong>Wie sieht das in der Praxis aus?</strong></h5>
+<p><strong>Kommt ganz darauf an... es muss nicht immer eine neue Telefonanlage sein, entscheidend ist das bereits vorhandene System und die Ausschöpfung aller Möglichkeiten um die für Sie notwendige Lösung zu finden. <br /></strong></p>
+<p>Folgen Sie uns auf den nächsten Seiten und lassen Sie sich von den vielfältigen Möglichkeiten heutiger Telefonanlagen inspirieren. Zur Veranschaulichung finden Sie bei uns Anwendungsbeispiele, welche die weitläufigen Möglichkeiten darstellen. Ergänzend finden Sie auch Praxisbeispiele von Kunden die sich bereits auf unsere Telekommunikationslösungen verlassen.</p>
+<p> </p>
+<p><a href="http://www.orceo.com/link/231">
+</a></p>
+<table style="line-height:10%" class="no-border" valign="top" border="0" height="200" width="807">
+  <tbody><tr>
+        <td width="25">
+<img src="http://www.orceo.com/system/imgs/4dff518b10d0763b51000001/original/TA_Landing_Submodul_Kleinstinstallationen.jpg?1308578187" /><br /></td>
+        <td width="325">&nbsp; 
+<img src="http://www.orceo.com/system/imgs/4dff51a010d0763b51000002/original/TA_Landing_Submodul_KMU%20Installationen.jpg?1308578208" /><br /></td>
+ <td>
+<img src="http://www.orceo.com/system/imgs/4dff523110d0763b45000001/original/TA_Landing_Submodul_Vernetzte%20Szenarien.jpg?1308578352" /><br /></td>
+ </tr><tr>
+        <td>
+<a href="http://www.orceo.com/link/231">
+<img src="http://www.orceo.com/system/imgs/4df0839010d0765e87000007/original/Mehr%20Informationen%20gr%C3%BCn.jpg?1307609957" /></a></td>
+        <td>
+<a href="http://www.orceo.com/link/232">
+<img src="http://www.orceo.com/system/imgs/4df0839010d0765e87000007/original/Mehr%20Informationen%20gr%C3%BCn.jpg?1307609957" /></a></td>
+        <td>
+<a href="http://www.orceo.com/link/233">
+<img src="http://www.orceo.com/system/imgs/4df0839010d0765e87000007/original/Mehr%20Informationen%20gr%C3%BCn.jpg?1307609957" /></a></td>
+         
+</tr></tbody>
+</table></div>
+<div id='content'>
+<h5></h5><h4></h4><p> </p>
+<h5><strong>Telefonieren ist heute mehr als drehen der Wählscheibe. </strong></h5>
+<p>Sprachübertragung ist noch immer das A und O moderner Telefonanlagen, doch die Möglichkeiten gehen heute weit darüber hinaus. Wir bieten Ihnen zuverlässige Lösungen mit hohem Mehrwert und Investitionssicherheit.</p>
+<p> </p>
+<img src="../../../system/imgs/4dfb7c6010d07644f0000002/original/Wir%20bieten_Header_gr%C3%BCn_etc..jpg?1308327008" />
+<table style="line-height:10%" class="no-border" valign="top" border="0" height="200" width="807">
+  <tbody><tr>
+        <td height="25" width="25">
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /><br /></td>
+        <td height="25" width="325"><strong>Über 10 Jahre Erfahrungen</strong><br /></td>
+        <td height="25" width="30"><br /></td>
+        <td height="25" width="25">
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /><br /></td>      
+        <td height="25" width="325"><strong>Design &amp; Komfort</strong><br /></td>
+    </tr><tr>
+        <td><br /></td>
+        <td><em>Mit Siemens HiPath, Panasonic, Agfeo &amp; Co.<br /></em></td>
+        <td><em><br /></em></td>
+        <td><br /></td>
+        <td><em>Farbdisplays - Alle Infos auf einen Blick</em><br /></td>
+  </tr><tr>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Projektierung &amp; Beratung</strong><br /></td>
+        <td><br /></td>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Vollständige Integration</strong><br /></td>
+  </tr><tr>
+        <td><br /></td>
+        <td><em>Von Bedarfsermittlung bis zur Umsetzung</em><br /></td>
+        <td><br /></td>
+        <td><br /></td>
+        <td>Anrufbeantworter in Outlook, CTI<br /></td>
+  </tr><tr>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /><br /></td>
+        <td><strong>Rundum - Betreuung</strong><br /></td>
+        <td><br /></td>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Einheitliches Look &amp; Feel</strong><br /></td>
+  </tr><tr>
+        <td><br /></td>
+        <td><em>Alle Leistungen inklusive</em><br /></td>
+        <td><br /></td>
+        <td><br /></td>
+        <td><em>Die gleichen Telefone im Homeoffice nutzen</em><br /></td>
+  </tr><tr>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Mietangebote</strong></td>
+        <td><br /></td>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Sicherheit &amp; Compliance</strong><br /></td>
+  </tr><tr>
+        <td><br /></td>
+        <td><em>Direkt absetzbar, kein Anlagevermögen</em><br /></td>
+        <td><br /></td>
+        <td><br /></td>
+        <td><em>Planung und Dokumentation nach ITIL</em><br /></td>
+  </tr>
+        <tr><td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /><br /></td>
+        <td><strong>Inbetriebnahme &amp; Wartung</strong><br /></td>
+        <td><br /></td>
+        <td>
+<img src="http://www.orceo.com/system/imgs/4dff1b3f10d0763b48000001/original/Haken_1.jpg?1308564287" /></td>
+        <td><strong>Zuverlässigkeit &amp; Stabilität</strong><br /></td>
+  </tr>
+        <tr><td><br /></td>
+        <td><em>Wenn Sie möchten sogar über Nacht</em><br /></td>
+        <td><br /></td>
+        <td><br /></td>
+        <td><em>Wir garantieren höchste Ausfallsicherheit</em><br /></td>
+  
+</tr></tbody>
+</table>
+<h5>
+</h5><h5></h5><h5></h5><h5></h5><p> </p>
+<p><strong><br /></strong></p>
+<h5><strong>Wir bieten Ihnen ein umfassendes Konzept zur Umsetzung Ihrer Wünsche.<br /></strong></h5>
+<p>Gemeinsam finden wir mit Ihnen heraus, wo die Prioritäten liegen und welche individuell angepasste Telefonanlage einen praktischen Vorteil für Ihre speziellen Geschäftsprozesse bietet. </p>
+<p> </p>
+<p><a href="http://www.orceo.com/link/224">
+<img src="../../../system/imgs/4dfb84fe10d07644f8000001/original/Ablaufdiagramm_%20_schrift.jpg?1308329214" /></a></p>
+<blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><p> </p>
+<p><a href="http://www.orceo.com/link/224">
+<img src="http://www.orceo.com/system/imgs/4df0839010d0765e87000007/original/Mehr%20Informationen%20gr%C3%BCn.jpg?1307609957" /></a>&nbsp;</p>
+<p> </p>
+<p> </p>
+</blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote>
+<h5></h5><h5></h5><h5></h5><h5></h5><h5></h5><h5></h5><h5><strong>Wie sieht das in der Praxis aus?</strong></h5>
+<p><strong>Kommt ganz darauf an... es muss nicht immer eine neue Telefonanlage sein, entscheidend ist das bereits vorhandene System und die Ausschöpfung aller Möglichkeiten um die für Sie notwendige Lösung zu finden. <br /></strong></p>
+<p>Folgen Sie uns auf den nächsten Seiten und lassen Sie sich von den vielfältigen Möglichkeiten heutiger Telefonanlagen inspirieren. Zur Veranschaulichung finden Sie bei uns Anwendungsbeispiele, welche die weitläufigen Möglichkeiten darstellen. Ergänzend finden Sie auch Praxisbeispiele von Kunden die sich bereits auf unsere Telekommunikationslösungen verlassen.</p>
+<p> </p>
+<p><a href="http://www.orceo.com/link/231">
+</a></p>
+<table style="line-height:10%" class="no-border" valign="top" border="0" height="200" width="807">
+  <tbody><tr>
+        <td width="25">
+<img src="http://www.orceo.com/system/imgs/4dff518b10d0763b51000001/original/TA_Landing_Submodul_Kleinstinstallationen.jpg?1308578187" /><br /></td>
+        <td width="325">&nbsp; 
+<img src="http://www.orceo.com/system/imgs/4dff51a010d0763b51000002/original/TA_Landing_Submodul_KMU%20Installationen.jpg?1308578208" /><br /></td>
+ <td>
+<img src="http://www.orceo.com/system/imgs/4dff523110d0763b45000001/original/TA_Landing_Submodul_Vernetzte%20Szenarien.jpg?1308578352" /><br /></td>
+ </tr><tr>
+        <td>
+<a href="http://www.orceo.com/link/231">
+<img src="http://www.orceo.com/system/imgs/4df0839010d0765e87000007/original/Mehr%20Informationen%20gr%C3%BCn.jpg?1307609957" /></a></td>
+        <td>
+<a href="http://www.orceo.com/link/232">
+<img src="http://www.orceo.com/system/imgs/4df0839010d0765e87000007/original/Mehr%20Informationen%20gr%C3%BCn.jpg?1307609957" /></a></td>
+        <td>
+<a href="http://www.orceo.com/link/233">
+<img src="http://www.orceo.com/system/imgs/4df0839010d0765e87000007/original/Mehr%20Informationen%20gr%C3%BCn.jpg?1307609957" /></a></td>
+         
+</tr></tbody>
+</table>
+
+
+</div>
+<a class='top' href='#top' rel='nofollow'>
+Zurück zum Anfang
+</a>
+</div>
+
+</div>
+</div>
+<div class='clear'></div>
+<div class='footer'>
+<div class='wrapper'>
+<div class='nav'>
+<a href="/de/impressum/72-home">Impressum</a>
+|
+<a href="/de/nutzungsbedingungen/75-home">Nutzungsbedingungen</a>
+|
+<a href="/sitemap">Themen</a>
+|
+<a href="/mobile">Mobile</a>
+</div>
+<div class='minibox'>
+<h2>
+&copy; 2010 orceo
+</h2>
+</div>
+</div>
+</div>
+
+<div class='right'></div>
+</div>
+<script type='text/javascript'>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-20408814-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 
+'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; 
+s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</body>
+</html>

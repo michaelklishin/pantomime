@@ -12,6 +12,7 @@
   (is (= media/APPLICATION_JSON (media/media-type-named "application/json"))))
 
 (deftest test-base-media-types
-  (is (= media/TEXT_HTML (media/base-type  "text/html; charset=UTF-8")))
-  (is (= media/TEXT_HTML (media/base-type (MediaType/parse "text/html; charset=UTF-8")))))
+  (is (= media/TEXT_HTML         (media/base-type "text/html; charset=UTF-8")))
+  (is (= media/TEXT_HTML         (media/base-type (MediaType/parse "text/html; charset=UTF-8"))))
+  (is (= media/APPLICATION_XHTML (media/base-type "application/xhtml+xml; charset=UTF-8"))))
 

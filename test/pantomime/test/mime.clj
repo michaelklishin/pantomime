@@ -18,6 +18,11 @@
          ;; slurp turns content into a string
          "application/octet-stream" (slurp (io/resource "pdf/qrl.pdf"))
          "application/epub+zip"     "tika_in_action.epub"
+         "application/xhtml+xml"    (io/input-stream (io/resource "html/wired_com_cars1"))
+         "application/xhtml+xml"    (io/input-stream (io/resource "html/wired_com_reviews1"))
+         "application/xhtml+xml"    (.getBytes (slurp (io/resource "html/wired_com_reviews1")))
+         "application/xhtml+xml"    (io/input-stream (io/resource "html/arstechnica.com_full"))
+         "application/xhtml+xml"    (io/input-stream (io/resource "html/page_in_german"))
          "text/plain"               (io/resource "txt/a_text_file1.txt")
          "text/plain"               (io/resource "txt/a_text_file2")
          "text/plain"               tmp-file
