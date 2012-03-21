@@ -1,3 +1,9 @@
+## Changes between Pantomime 1.2.0 and 1.3.0-beta1
+
+No changes so far, 1.3.0 cycle has only started.
+
+
+
 ## Changes between Pantomime 1.1.0 and 1.2.0
 
 ### pantomime.mime/MIMETypeDetection support for byte arrays
