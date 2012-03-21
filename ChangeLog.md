@@ -1,4 +1,9 @@
-## Changes between Pantomime 1.1.0 and 1.2.0-beta1
+## Changes between Pantomime 1.1.0 and 1.2.0
+
+### pantomime.mime/MIMETypeDetection support for byte arrays
+
+pantomime.mime/MIMETypeDetection now supports byte arrays
+
 
 ### Leiningen 2
 
