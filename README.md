@@ -16,14 +16,13 @@ and so on.
 Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "1.1.0"]
+[com.novemberain/pantomime "1.2.0"]
 ```
 
 
 ## Supported Clojure versions
 
-Pantomime was built for Clojure 1.3 and later, although it is a really small library that should
-work fine on 1.2.x as well.
+Pantomime was built for Clojure 1.3 and later, although it is a really small library that may work fine on 1.2.x as well.
 
 
 ## Usage
@@ -41,6 +40,7 @@ An example:
 
 
 (mime-type-of "filename.pdf")
+(mime-type-of (.getBytes "filename.pdf"))
 (mime-type-of (File. "some/file/path.pdf"))
 (mime-type-of (File. "some/file/without/extension"))
 (mime-type-of (URL. "http://domain.com/some/url/path.pdf"))
@@ -56,7 +56,7 @@ CI is hosted by [travis-ci.org](http://travis-ci.org)
 ## Development
 
 Pantomime uses [Leiningen 2](https://github.com/technomancy/leiningen/blob/master/doc/TUTORIAL.md). Make
-sure you have it installed and then run tests against Clojure 1.3.0 and 1.4.0[-beta4] using
+sure you have it installed and then run tests against Clojure 1.3.0 and 1.4.0[-beta5] using
 
     lein2 all test
 
