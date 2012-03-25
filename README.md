@@ -11,13 +11,57 @@ MIME types using several techniques:
 and so on.
 
 
-## Maven Artifact
+## Maven Artifacts
 
-Leiningen:
+### The Latest Release
+
+With Leiningen:
 
 ```clojure
 [com.novemberain/pantomime "1.2.0"]
 ```
+
+With Maven:
+
+    <dependency>
+      <groupId>com.novemberain</groupId>
+      <artifactId>pantomime</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+
+
+### The Latest Preview Release
+
+With Leiningen:
+
+```clojure
+[com.novemberain/pantomime "1.3.0-beta1"]
+```
+
+With Maven:
+
+    <dependency>
+      <groupId>com.novemberain</groupId>
+      <artifactId>pantomime</artifactId>
+      <version>1.3.0-beta1</version>
+    </dependency>
+
+### Snapshots
+
+If you are comfortable with using snapshots, snapshot artifacts are [released to Clojars](https://clojars.org/com.novemberain/pantomime) every 24 hours.
+
+With Leiningen:
+
+    [com.novemberain/pantomime "1.3.0-SNAPSHOT"]
+
+
+With Maven:
+
+    <dependency>
+      <groupId>com.novemberain</groupId>
+      <artifactId>pantomime</artifactId>
+      <version>1.3.0-SNAPSHOT</version>
+    </dependency>
 
 
 ## Supported Clojure versions
@@ -49,6 +93,29 @@ An example:
 ;; by content (as java.net.URL)
 (mime-type-of (URL. "http://domain.com/some/url/path.pdf"))
 ```
+
+### Parsing and Recognizing Media Types
+
+``` clojure
+(ns your.app.namespace
+  (:require [pantomime.media :as mt]))
+
+(mt/parse "application/json")
+
+(mt/base-type "text/html; charset=UTF-8") ;; => media type of "text/html"
+
+(mt/application? "application/json")
+(mt/application? "application/xhtml+xml")
+(mt/application? "application/pdf")
+(mt/application? "application/vnd.ms-excel")
+(mt/application? (mt/parse "application/json"))
+
+(mt/image? "image/jpeg")
+(mt/audio? "audio/mp3")
+(mt/video? "video/quicktime")
+(mt/text?  "text/plain")
+```
+
 
 
 ## Community
