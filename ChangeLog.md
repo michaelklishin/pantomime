@@ -1,6 +1,8 @@
 ## Changes between Pantomime 1.2.0 and 1.3.0-beta1
 
-No changes so far, 1.3.0 cycle has only started.
+### Apache Tika 1.1
+
+Apache Tika dependency has been upgraded to version 1.1.
 
 
 
