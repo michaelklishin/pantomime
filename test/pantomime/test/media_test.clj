@@ -24,6 +24,13 @@
   (is (nil? (media/charset-of "text/html")))
   (is (nil? (media/charset-of "text/html; key=val"))))
 
+(deftest test-parameters-of
+  (let [with-params    (media/parse "text/html; charset=UTF-8")
+        without-params (media/parse "text/html")]
+    (is (= {"charset" "UTF-8"} (media/parameters-of with-params)))
+    (is (media/has-parameters? with-params))
+    (is (= {} (media/parameters-of without-params)))
+    (is (not (media/has-parameters? without-params)))))
 
 (deftest test-multipart-predicate
   (are [mt] (is (media/multipart? mt))

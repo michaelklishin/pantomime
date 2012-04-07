@@ -1,3 +1,12 @@
+## Changes between Pantomime 1.3.0-beta2 and 1.3.0-rc1
+
+### New functions in pantomime.media.MediaTypeOps
+
+New functions that return media type parameters and charset:
+
+* `pantomime.media/has-parameters?`
+
+
 ## Changes between Pantomime 1.3.0-beta1 and 1.3.0-beta2
 
 ### New functions in pantomime.media.MediaTypeOps

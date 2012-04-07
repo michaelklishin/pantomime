@@ -40,6 +40,7 @@
 (defprotocol MediaTypeOps
   (base-type [input] "Returns base media type for given input, for example, text/html for text/html; charset=UTF-8")
   (parameters-of [input] "Returns optional parameters map for given input")
+  (has-parameters? [input] "Returns true if given content type has parameters, false otherwise")
   (charset-of [input] "Returns optional charset given input, for example, UTF-8 for text/html; charset=UTF-8 and nil for text/html")
   (application? [input] "Returns true if input is an application/* media type, false otherwise")
   (text?  [input] "Returns true if input is a text/* media type, false otherwise")
@@ -58,6 +59,9 @@
   (parameters-of
     [^String input]
     (parameters-of (parse input)))
+  (has-parameters?
+    [^String input]
+    (has-parameters? (parse input)))
   (charset-of
     [^String input]
     (charset-of (parse input)))
@@ -92,6 +96,9 @@
     [^MediaType input]
     (when-let [^Map jm (.getParameters input)]
       (into {} jm)))
+  (has-parameters?
+    [^MediaType input]
+    (.hasParameters input))
   (charset-of
     [^MediaType input]
     (when-let [m (parameters-of input)]
