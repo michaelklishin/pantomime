@@ -29,6 +29,10 @@
          "text/plain"               (FileInputStream. tmp-file)
          "image/jpeg"               (URL. "http://www.google.com/logos/2012/newyearsday-2012-hp.jpg")
          "image/gif"                (io/resource "images/feather-small.gif")
+         "image/png"                (io/resource "images/clojure.glyph.png")
+         "image/png"                (io/resource "images/clojure.glyph.png")
+         "application/octet-stream" (.getBytes (slurp (io/resource "images/clojure.glyph.png")))
+         "image/png"                (io/resource "images/png.image.unknown")
          "application/octet-stream" "an_awesome_icon")))
 
 (deftest test-http-response-content-type-detection
@@ -43,4 +47,20 @@
   (testing "detection for XML documents"
     (let [{:keys [^String body headers status]} (http/get "http://www.amazon.com/sitemap-manual-index.xml")]
     (is (= 200 status))
-    (is (= "application/xml" (mime-type-of (.getBytes body)))))))
+    (is (= "application/xml" (mime-type-of (.getBytes body))))))
+  (testing "detection for HTML documents"
+    (let [{:keys [^String body headers status]} (http/get "http://docs.oracle.com/javase/7/docs/index.html")]
+    (is (= 200 status))
+    (is (= "application/xhtml+xml" (mime-type-of (.getBytes body))))))
+  (testing "detection for SVG documents"
+    (let [{:keys [^String body headers status]} (http/get "http://upload.wikimedia.org/wikipedia/en/1/1a/Clojure-glyph.svg")]
+    (is (= 200 status))
+    (is (= "image/svg+xml" (mime-type-of (.getBytes body))))))
+  (testing "detection for PNG documents"
+    (let [{:keys [^String body headers status]} (http/get "http://upload.wikimedia.org/wikipedia/commons/9/9a/PNG_transparency_demonstration_2.png")]
+    (is (= 200 status))
+    (is (= "application/octet-stream" (mime-type-of (.getBytes body))))))
+  (testing "detection for JPEG documents"
+    (let [{:keys [^String body headers status]} (http/get "http://upload.wikimedia.org/wikipedia/commons/e/e9/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png")]
+    (is (= 200 status))
+    (is (= "application/octet-stream" (mime-type-of (.getBytes body)))))))
