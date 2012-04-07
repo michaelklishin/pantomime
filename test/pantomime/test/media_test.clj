@@ -1,7 +1,7 @@
-(ns pantomime.test.media
-  (:use [clojure.test])
+(ns pantomime.test.media-test
+  (:use clojure.test)
   (:require [pantomime.media :as media])
-  (:import [org.apache.tika.mime MediaType]))
+  (:import org.apache.tika.mime.MediaType))
 
 
 (deftest test-media-type-named

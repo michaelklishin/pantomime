@@ -1,9 +1,8 @@
-(ns pantomime.test.mime
-  (:use [pantomime.mime]
-        [clojure.test])
+(ns pantomime.test.mime-test
+  (:use pantomime.mime clojure.test)
   (:require [clojure.java.io :as io])
   (:import [java.io File FileInputStream]
-           [java.net URL]))
+           java.net.URL))
 
 
 (deftest test-content-type-detection
