@@ -13,7 +13,7 @@ and so on.
 
 ## Maven Artifacts
 
-### The Latest Release
+### Latest Release
 
 With Leiningen:
 
@@ -30,12 +30,12 @@ With Maven:
     </dependency>
 
 
-### The Latest Preview Release
+### Latest Preview Release
 
 With Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "1.3.0-beta1"]
+[com.novemberain/pantomime "1.3.0-beta2"]
 ```
 
 With Maven:
@@ -43,7 +43,7 @@ With Maven:
     <dependency>
       <groupId>com.novemberain</groupId>
       <artifactId>pantomime</artifactId>
-      <version>1.3.0-beta1</version>
+      <version>1.3.0-beta2</version>
     </dependency>
 
 ### Snapshots
@@ -136,7 +136,7 @@ CI is hosted by [travis-ci.org](http://travis-ci.org)
 ## Development
 
 Pantomime uses [Leiningen 2](https://github.com/technomancy/leiningen/blob/master/doc/TUTORIAL.md). Make
-sure you have it installed and then run tests against Clojure 1.3.0 and 1.4.0[-beta5] using
+sure you have it installed and then run tests against all supported Clojure versions using
 
     lein2 all test
 
