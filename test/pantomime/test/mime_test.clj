@@ -32,7 +32,15 @@
          "application/octet-stream" "an_awesome_icon")))
 
 (deftest test-http-response-content-type-detection
-  (let [{:keys [body headers status]} (http/get "http://files.travis-ci.org/docs/amqp/0.9.1/AMQP091Specification.pdf")]
+  (testing "detection for PDF documents"
+    (let [{:keys [^String body headers status]} (http/get "http://files.travis-ci.org/docs/amqp/0.9.1/AMQP091Specification.pdf")]
     (is (= 200 status))
     (is (= "application/pdf" (mime-type-of (.getBytes body))))))
-
+  (testing "detection for text documents"
+    (let [{:keys [^String body headers status]} (http/get "http://github.com/robots.txt")]
+    (is (= 200 status))
+    (is (= "text/plain" (mime-type-of (.getBytes body))))))
+  (testing "detection for XML documents"
+    (let [{:keys [^String body headers status]} (http/get "http://www.amazon.com/sitemap-manual-index.xml")]
+    (is (= 200 status))
+    (is (= "application/xml" (mime-type-of (.getBytes body)))))))
