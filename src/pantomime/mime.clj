@@ -18,28 +18,30 @@
 ;;
 
 (defprotocol MIMETypeDetection
-  (mime-type-of  [path] "Returns MIME type of file at given path or with given filename"))
+  (mime-type-of  [input] "Returns MIME type of given input. Supports array of bytes, files, input streams and file names.
+                         With file names, detector uses only file extension. With arrays of bytes and inputs that can be coerced
+                         to input stream, several additional detection methods are performed (magic bytes, tag detection for XML-based formats, etc)"))
 
 (extend-protocol MIMETypeDetection
   String
   (mime-type-of
-    [^String path]
-    (.detect detector path))
+    [^String input]
+    (.detect detector input))
 
   File
   (mime-type-of
-    [^File path]
-    (.detect detector path))
+    [^File input]
+    (.detect detector input))
 
   URL
   (mime-type-of
-    [^URL path]
-    (.detect detector path))
+    [^URL input]
+    (.detect detector input))
 
   InputStream
   (mime-type-of
-    [^InputStream is]
-    (.detect detector is)))
+    [^InputStream input]
+    (.detect detector input)))
 
 (extend byte-array-type
   MIMETypeDetection

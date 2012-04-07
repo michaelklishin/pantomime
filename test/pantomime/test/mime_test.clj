@@ -1,6 +1,7 @@
 (ns pantomime.test.mime-test
   (:use pantomime.mime clojure.test)
-  (:require [clojure.java.io :as io])
+  (:require [clojure.java.io :as io]
+            [clj-http.client :as http])
   (:import [java.io File FileInputStream]
            java.net.URL))
 
@@ -29,3 +30,9 @@
          "image/jpeg"               (URL. "http://www.google.com/logos/2012/newyearsday-2012-hp.jpg")
          "image/gif"                (io/resource "images/feather-small.gif")
          "application/octet-stream" "an_awesome_icon")))
+
+(deftest test-http-response-content-type-detection
+  (let [{:keys [body headers status]} (http/get "http://files.travis-ci.org/docs/amqp/0.9.1/AMQP091Specification.pdf")]
+    (is (= 200 status))
+    (is (= "application/pdf" (mime-type-of (.getBytes body))))))
+
