@@ -1,3 +1,13 @@
+## Changes between Pantomime 1.3.0-beta1 and 1.3.0-beta2
+
+### New functions in pantomime.media.MediaTypeOps
+
+New functions that return media type parameters and charset:
+
+* `pantomime.media/parameters-of`
+* `pantomime.media/charset-of`
+
+
 ## Changes between Pantomime 1.2.0 and 1.3.0-beta1
 
 ### New predicate functions in pantomime.media.MediaTypeOps

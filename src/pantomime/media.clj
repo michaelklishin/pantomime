@@ -18,6 +18,9 @@
 (def ^{:const true :private true}
   multipart-media-type "multipart")
 
+(def ^{:const true :private true}
+  charset-key "charset")
+
 
 
 ;;
@@ -36,13 +39,15 @@
 
 (defprotocol MediaTypeOps
   (base-type [input] "Returns base media type for given input, for example, text/html for text/html; charset=UTF-8")
+  (parameters-of [input] "Returns optional parameters map for given input")
+  (charset-of [input] "Returns optional charset given input, for example, UTF-8 for text/html; charset=UTF-8 and nil for text/html")
   (application? [input] "Returns true if input is an application/* media type, false otherwise")
   (text?  [input] "Returns true if input is a text/* media type, false otherwise")
   (image? [input] "Returns true if input is a image/* media type, false otherwise")
   (audio? [input] "Returns true if input is a audio/* media type, false otherwise")
   (video? [input] "Returns true if input is a video/* media type, false otherwise")
   (multipart? [input] "Returns true if input is a multipart/* media type, false otherwise")
-  (parse [input] "Parses the given input into a media type"))
+  (^org.apache.tika.mime.MediaType parse [input] "Parses the given input into a media type"))
 
 
 (extend-protocol MediaTypeOps
@@ -50,6 +55,12 @@
   (base-type
     [^String input]
     (.getBaseType ^MediaType (media-type-named input)))
+  (parameters-of
+    [^String input]
+    (parameters-of (parse input)))
+  (charset-of
+    [^String input]
+    (charset-of (parse input)))
   (parse
     [^String input]
     (MediaType/parse input))
@@ -77,6 +88,14 @@
   (base-type
     [^MediaType input]
     (.getBaseType input))
+  (parameters-of
+    [^MediaType input]
+    (when-let [^Map jm (.getParameters input)]
+      (into {} jm)))
+  (charset-of
+    [^MediaType input]
+    (when-let [m (parameters-of input)]
+      (get m charset-key)))
   (parse
     [^MediaType input]
     input)

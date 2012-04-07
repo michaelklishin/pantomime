@@ -17,6 +17,14 @@
   (is (= media/APPLICATION_XHTML (media/base-type "application/xhtml+xml; charset=UTF-8"))))
 
 
+(deftest test-charset
+  (is (= "iso-8859-1" (media/charset-of "text/html; charset=iso-8859-1")))
+  (is (= "UTF-8"      (media/charset-of (MediaType/parse "text/html; charset=UTF-8"))))
+  (is (= "UTF-8"      (media/charset-of "application/xhtml+xml; charset=UTF-8")))
+  (is (nil? (media/charset-of "text/html")))
+  (is (nil? (media/charset-of "text/html; key=val"))))
+
+
 (deftest test-multipart-predicate
   (are [mt] (is (media/multipart? mt))
        "multipart/form-data"
