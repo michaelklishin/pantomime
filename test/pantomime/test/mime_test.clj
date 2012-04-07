@@ -36,31 +36,13 @@
          "application/octet-stream" "an_awesome_icon")))
 
 (deftest test-http-response-content-type-detection
-  (testing "detection for PDF documents"
-    (let [{:keys [^String body headers status]} (http/get "http://files.travis-ci.org/docs/amqp/0.9.1/AMQP091Specification.pdf")]
-    (is (= 200 status))
-    (is (= "application/pdf" (mime-type-of (.getBytes body))))))
-  (testing "detection for text documents"
-    (let [{:keys [^String body headers status]} (http/get "http://github.com/robots.txt")]
-    (is (= 200 status))
-    (is (= "text/plain" (mime-type-of (.getBytes body))))))
-  (testing "detection for XML documents"
-    (let [{:keys [^String body headers status]} (http/get "http://www.amazon.com/sitemap-manual-index.xml")]
-    (is (= 200 status))
-    (is (= "application/xml" (mime-type-of (.getBytes body))))))
-  (testing "detection for HTML documents"
-    (let [{:keys [^String body headers status]} (http/get "http://docs.oracle.com/javase/7/docs/index.html")]
-    (is (= 200 status))
-    (is (= "application/xhtml+xml" (mime-type-of (.getBytes body))))))
-  (testing "detection for SVG documents"
-    (let [{:keys [^String body headers status]} (http/get "http://upload.wikimedia.org/wikipedia/en/1/1a/Clojure-glyph.svg")]
-    (is (= 200 status))
-    (is (= "image/svg+xml" (mime-type-of (.getBytes body))))))
-  (testing "detection for PNG documents"
-    (let [{:keys [^String body headers status]} (http/get "http://upload.wikimedia.org/wikipedia/commons/9/9a/PNG_transparency_demonstration_2.png")]
-    (is (= 200 status))
-    (is (= "application/octet-stream" (mime-type-of (.getBytes body))))))
-  (testing "detection for JPEG documents"
-    (let [{:keys [^String body headers status]} (http/get "http://upload.wikimedia.org/wikipedia/commons/e/e9/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png")]
-    (is (= 200 status))
-    (is (= "application/octet-stream" (mime-type-of (.getBytes body)))))))
+  (are [url expected-mime] (let [{:keys [^String body headers status]} (http/get url)]
+                             (is (= 200 status))
+                             (is (= expected-mime (mime-type-of (.getBytes body)))))
+       "http://files.travis-ci.org/docs/amqp/0.9.1/AMQP091Specification.pdf" "application/pdf"
+       "http://github.com/robots.txt"                                        "text/plain"
+       "http://www.amazon.com/sitemap-manual-index.xml"                      "application/xml"
+       "http://docs.oracle.com/javase/7/docs/index.html"                     "application/xhtml+xml"
+       "http://upload.wikimedia.org/wikipedia/en/1/1a/Clojure-glyph.svg"     "image/svg+xml"
+       "http://upload.wikimedia.org/wikipedia/commons/9/9a/PNG_transparency_demonstration_2.png" "application/octet-stream"
+       "http://upload.wikimedia.org/wikipedia/commons/e/e9/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png" "application/octet-stream"))
