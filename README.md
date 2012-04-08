@@ -35,7 +35,7 @@ With Maven:
 With Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "1.3.0-beta2"]
+[com.novemberain/pantomime "1.3.0-rc1"]
 ```
 
 With Maven:
@@ -43,7 +43,7 @@ With Maven:
     <dependency>
       <groupId>com.novemberain</groupId>
       <artifactId>pantomime</artifactId>
-      <version>1.3.0-beta2</version>
+      <version>1.3.0-rc1</version>
     </dependency>
 
 ### Snapshots
