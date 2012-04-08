@@ -1,7 +1,8 @@
 (defproject com.novemberain/pantomime "1.3.0-SNAPSHOT"
   :min-lein-version "2.0.0"
-  :description "A tiny Clojure library that deals with MIME types"  
+  :description "A tiny Clojure library that deals with MIME types"
   :license { :name "Eclipse Public License" }
+  :source-paths ["src/clojure"]
   :dependencies [[org.clojure/clojure "1.3.0"]
                  [org.apache.tika/tika-core "1.1"]]
   :profiles {:dev {:resource-paths ["test/resources"]

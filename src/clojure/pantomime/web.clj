@@ -1,0 +1,49 @@
+(ns ^{:doc "Contains the same functions as pantomime.mime but is Web-oriented. Apache Tika as of April 2012 cannot
+            detect PNG, JPEG and other image bytes for byte arrays. However, it is not uncommon to see broken Web
+            frameworks, apps and servers that serve, say, PDF files claiming that they are text/html. pantomime.web
+            attempts to improve the situation by providing special MIME type detection functions that can use
+            content-based detection and Content-Type header at the same time."}
+  pantomime.web
+  (:use pantomime.internal)
+  (:require [pantomime.mime :as mime])
+  (:import [java.io File InputStream]
+           [java.net URL]
+           [org.apache.tika Tika]
+           [org.apache.tika.mime MediaType MimeType]))
+
+(def ^Tika detector (Tika.))
+(def ^{:private true :const true}
+  default-mime-type "application/octet-stream")
+
+(defn ^{:private true}
+  pick-preference
+  [body-content-type headers-content-type]
+  (if (= default-mime-type body-content-type)
+    (or headers-content-type default-mime-type)
+    body-content-type))
+
+;;
+;; API
+;;
+
+(defprotocol MIMETypeDetection
+  (mime-type-of  [body headers] "Returns MIME type of given response body, headers and url. Detection will try content-based detection
+                                 (magic bytes, tag detection for XML-based formats, etc) for response body as well as
+                                 Content-Type header."))
+
+(extend-protocol MIMETypeDetection
+  String
+  (mime-type-of
+    [^String body {content-type "content-type"}]
+    (pick-preference (mime/mime-type-of (.getBytes body)) content-type))
+
+  InputStream
+  (mime-type-of
+    [^InputStream body {content-type "content-type"}]
+    (pick-preference (mime/mime-type-of body) content-type)))
+
+(extend byte-array-type
+  MIMETypeDetection
+  {:mime-type-of (fn [^bytes body {content-type "content-type"}]
+                   (let [bct (mime/mime-type-of body)]
+                     (pick-preference bct content-type))) })

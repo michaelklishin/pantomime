@@ -1,5 +1,18 @@
 ## Changes between Pantomime 1.3.0-beta2 and 1.3.0-rc1
 
+### pantomime.web
+
+Contains the same functions as pantomime.mime but is Web-oriented. Apache Tika as of April 2012 cannot
+detect PNG, JPEG and other image bytes for byte arrays. However, it is not uncommon to see broken Web
+frameworks, apps and servers that serve, say, PDF files claiming that they are text/html. pantomime.web
+attempts to improve the situation by providing special MIME type detection functions that can use
+content-based detection and Content-Type header at the same time.
+
+New functions:
+
+* `pantomime.web/mime-type-of`
+
+
 ### New functions in pantomime.media.MediaTypeOps
 
 New functions that return media type parameters and charset:
