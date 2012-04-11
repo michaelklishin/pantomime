@@ -17,4 +17,5 @@
        "http://docs.oracle.com/javase/7/docs/index.html"                     "application/xhtml+xml"
        "http://upload.wikimedia.org/wikipedia/en/1/1a/Clojure-glyph.svg"     "image/svg+xml"
        "http://upload.wikimedia.org/wikipedia/commons/9/9a/PNG_transparency_demonstration_2.png" "image/png"
-       "http://creativecommons.org/images/deed/cc-logo.jpg" "image/jpeg"))
+       "http://creativecommons.org/images/deed/cc-logo.jpg" "image/jpeg"
+       "http://elpais.com.uy/formatos/rss/index.asp?seccion=umomento" "application/rss+xml"))
