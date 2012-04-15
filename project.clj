@@ -7,6 +7,10 @@
                  [org.apache.tika/tika-core "1.1"]]
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "0.3.6"]]}
-             :1.4 {:dependencies [[org.clojure/clojure "1.4.0-beta7"]] }}
+             :1.4 {:dependencies [[org.clojure/clojure "1.4.0"]] }}
+  :repositories {"clojure-releases" "http://build.clojure.org/releases"
+                 "sonatype" {:url "http://oss.sonatype.org/content/repositories/releases"
+                             :snapshots false,
+                             :releases {:checksum :fail :update :always}}}
   :aliases  { "all" ["with-profile" "dev:dev,1.4"] }
   :warn-on-reflection true)
