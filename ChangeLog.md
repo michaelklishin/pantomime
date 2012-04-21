@@ -1,4 +1,9 @@
-## Changes between Pantomime 1.3.0-beta2 and 1.3.0-rc1
+## Changes between Pantomime 1.3.0 and 1.4.0
+
+No changes yet.
+
+
+## Changes between Pantomime 1.3.0-beta2 and 1.3.0
 
 ### pantomime.web
 

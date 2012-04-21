@@ -18,7 +18,7 @@ and so on.
 With Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "1.2.0"]
+[com.novemberain/pantomime "1.3.0"]
 ```
 
 With Maven:
@@ -26,47 +26,13 @@ With Maven:
     <dependency>
       <groupId>com.novemberain</groupId>
       <artifactId>pantomime</artifactId>
-      <version>1.2.0</version>
-    </dependency>
-
-
-### Latest Preview Release
-
-With Leiningen:
-
-```clojure
-[com.novemberain/pantomime "1.3.0-rc1"]
-```
-
-With Maven:
-
-    <dependency>
-      <groupId>com.novemberain</groupId>
-      <artifactId>pantomime</artifactId>
-      <version>1.3.0-rc1</version>
-    </dependency>
-
-### Snapshots
-
-If you are comfortable with using snapshots, snapshot artifacts are [released to Clojars](https://clojars.org/com.novemberain/pantomime) every 24 hours.
-
-With Leiningen:
-
-    [com.novemberain/pantomime "1.3.0-SNAPSHOT"]
-
-
-With Maven:
-
-    <dependency>
-      <groupId>com.novemberain</groupId>
-      <artifactId>pantomime</artifactId>
-      <version>1.3.0-SNAPSHOT</version>
+      <version>1.3.0</version>
     </dependency>
 
 
 ## Supported Clojure versions
 
-Pantomime was built for Clojure 1.3 and later, although it is a really small library that may work fine on 1.2.x as well.
+Pantomime was built for Clojure 1.3 and later.
 
 
 ## Usage
@@ -94,6 +60,26 @@ An example:
 (mime-type-of (URL. "http://domain.com/some/url/path.pdf"))
 ```
 
+Pantomime has a variation of `mime-type-of` function that is suitable for cases when content was fetched from the Web and
+HTTP headers are also available:
+
+``` clojure
+(ns your.app.namespace
+  (:use [pantomime.web]))
+
+;; string body
+(mime-type-of )
+(mime-type-of body-stream)
+```
+
+In this case, Pantomime will try to detect content type from response body first (because there are applications, frameworks
+and servers that report content type incorrectly, for example, serve PDFs as `text/html`) and if it fails, will use content
+type header.
+
+HTTP headers map must contain "content-type" key for content type header to be used. Most Clojure HTTP client, for instance, [clj-http](https://github.com/dakrone/clj-http),
+use lowercase strings for header names so Pantomime follows this convention.
+
+
 ### Parsing and Recognizing Media Types
 
 ``` clojure
@@ -114,6 +100,10 @@ An example:
 (mt/audio? "audio/mp3")
 (mt/video? "video/quicktime")
 (mt/text?  "text/plain")
+(mt/has-parameters? "text/html; charset=UTF-8") ;; => true
+(mt/has-parameters? "text/html") ;; => false
+(mt/parameters-of "text/html; charset=UTF-8") ;; => {"charset" "UTF-8"}
+(mt/charset-of "text/html; charset=UTF-8") ;; => "UTF-8"
 ```
 
 
