@@ -46,7 +46,7 @@ An example:
 
 ``` clojure
 (ns your.app.namespace
-  (:use [pantomime.mime]))
+  (:use pantomime.mime))
 
 ;; by content (as byte array)
 (mime-type-of (.getBytes "filename.pdf"))
@@ -65,11 +65,11 @@ HTTP headers are also available:
 
 ``` clojure
 (ns your.app.namespace
-  (:use [pantomime.web]))
+  (:use pantomime.web))
 
-;; string body
-(mime-type-of )
-(mime-type-of body-stream)
+;; body is a string or input stream, headers is a map of lowercased headers.
+;; Ring and clj-http both use this format for headers, for example.
+(mime-type-of body headers)
 ```
 
 In this case, Pantomime will try to detect content type from response body first (because there are applications, frameworks
