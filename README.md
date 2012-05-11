@@ -116,6 +116,14 @@ To subscribe for announcements of releases, important changes and so on, please 
 
 
 
+## Pantomime Is a ClojureWerkz Project
+
+Pantomime is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
+[Monger](https://github.com/michaelklishin/monger), [Langohr](https://github.com/michaelklishin/langohr), [Neocons](https://github.com/clojurewerkz/neocons), [Elastisch](https://github.com/clojurewerkz/elastisch), [Quartzite](https://github.com/michaelklishin/quartzite) and several others.
+
+
+
+
 ## Continuous Integration
 
 [![Continuous Integration status](https://secure.travis-ci.org/michaelklishin/pantomime.png)](http://travis-ci.org/michaelklishin/pantomime)
