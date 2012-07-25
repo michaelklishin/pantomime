@@ -25,6 +25,7 @@
          "application/xhtml+xml"    (io/input-stream (io/resource "html/page_in_german"))
          "text/plain"               (io/resource "txt/a_text_file1.txt")
          "text/plain"               (io/resource "txt/a_text_file2")
+         "image/svg+xml"            (io/resource "images/svg-logo.svg")
          "text/plain"               tmp-file
          "text/plain"               (FileInputStream. tmp-file)
          "image/jpeg"               (URL. "http://www.google.com/logos/2012/newyearsday-2012-hp.jpg")
@@ -43,6 +44,5 @@
        "http://github.com/robots.txt"                                        "text/plain"
        "http://www.amazon.com/sitemap-manual-index.xml"                      "application/xml"
        "http://docs.oracle.com/javase/7/docs/index.html"                     "application/xhtml+xml"
-       "http://upload.wikimedia.org/wikipedia/en/1/1a/Clojure-glyph.svg"     "image/svg+xml"
        "http://upload.wikimedia.org/wikipedia/commons/9/9a/PNG_transparency_demonstration_2.png" "application/octet-stream"
        "http://upload.wikimedia.org/wikipedia/commons/e/e9/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png" "application/octet-stream"))
