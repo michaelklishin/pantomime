@@ -1,6 +1,13 @@
-## Changes between Pantomime 1.3.0 and 1.4.0
+## Changes between Pantomime 1.4.0 and 1.5.0
 
 No changes yet.
+
+
+## Changes between Pantomime 1.3.0 and 1.4.0
+
+### Apache Tika 1.2
+
+Apache Tika dependency has been upgraded to [version 1.2](http://www.apache.org/dist/tika/CHANGES-1.2.txt).
 
 
 ## Changes between Pantomime 1.3.0-beta2 and 1.3.0
