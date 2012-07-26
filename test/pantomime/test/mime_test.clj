@@ -34,7 +34,15 @@
          "image/png"                (io/resource "images/clojure.glyph.png")
          "application/octet-stream" (.getBytes (slurp (io/resource "images/clojure.glyph.png")))
          "image/png"                (io/resource "images/png.image.unknown")
-         "application/octet-stream" "an_awesome_icon")))
+         "application/octet-stream" "an_awesome_icon"
+
+         "application/javascript"   (io/resource "application/javascript/mootools.uncompressed.js")
+         "text/plain"               (io/input-stream (io/resource "application/javascript/mootools.uncompressed.js"))
+         "application/javascript"   (io/as-file (io/resource "application/javascript/mootools.uncompressed.js"))
+
+         "application/javascript"   (io/resource "application/javascript/mootools.compressed.js")
+         "text/plain"               (io/input-stream (io/resource "application/javascript/mootools.compressed.js"))
+         "application/javascript"   (io/as-file (io/resource "application/javascript/mootools.compressed.js")))))
 
 (deftest test-http-response-content-type-detection
   (are [url expected-mime] (let [{:keys [^String body headers status]} (http/get url)]
