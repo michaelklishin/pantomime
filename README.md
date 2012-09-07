@@ -32,7 +32,7 @@ With Maven:
 
 ## Supported Clojure versions
 
-Pantomime was built for Clojure 1.3 and later.
+Pantomime was built for Clojure 1.3 and later. Clojure 1.4 is highly recommended.
 
 
 ## Usage
