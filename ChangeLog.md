@@ -1,5 +1,9 @@
 ## Changes between Pantomime 1.4.0 and 1.5.0
 
+### Apache Tika 1.3
+
+Apache Tika dependency has been upgraded to [version 1.3](http://www.apache.org/dist/tika/CHANGES-1.3.txt).
+
 ### Clojure 1.4 By Default
 
 Pantomime now depends on `org.clojure/clojure` version `1.4.0`. It is still compatible with Clojure 1.3 and if your `project.clj` depends
