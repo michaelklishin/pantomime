@@ -1,3 +1,8 @@
+## Changes between Pantomime 1.5.0 and 1.6.0
+
+No changes yet.
+
+
 ## Changes between Pantomime 1.4.0 and 1.5.0
 
 ### Apache Tika 1.3
