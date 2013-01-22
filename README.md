@@ -18,7 +18,7 @@ and so on.
 With Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "1.4.0"]
+[com.novemberain/pantomime "1.5.0"]
 ```
 
 With Maven:
@@ -26,13 +26,13 @@ With Maven:
     <dependency>
       <groupId>com.novemberain</groupId>
       <artifactId>pantomime</artifactId>
-      <version>1.4.0</version>
+      <version>1.5.0</version>
     </dependency>
 
 
 ## Supported Clojure versions
 
-Pantomime was built for Clojure 1.3 and later. Clojure 1.4 is highly recommended.
+Pantomime was built for Clojure 1.3 and later. The most recent stable release is highly recommended.
 
 
 ## Usage
