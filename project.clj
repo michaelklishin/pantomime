@@ -3,7 +3,7 @@
   :description "A tiny Clojure library that deals with MIME types"
   :license { :name "Eclipse Public License" }
   :source-paths ["src/clojure"]
-  :dependencies [[org.clojure/clojure "1.5.0"]
+  :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.apache.tika/tika-core "1.3"]]
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "0.6.4"]]}

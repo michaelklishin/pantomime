@@ -1,6 +1,9 @@
 ## Changes between Pantomime 1.6.0 and 1.7.0
 
-No changes yet.
+### Clojure 1.5.1 By Default
+
+Pantomime now depends on `org.clojure/clojure` version `1.5.1` which
+includes an important bug fix.
 
 
 
