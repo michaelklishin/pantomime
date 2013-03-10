@@ -1,3 +1,9 @@
+## Changes between Pantomime 1.6.0 and 1.7.0
+
+No changes yet.
+
+
+
 ## Changes between Pantomime 1.5.0 and 1.6.0
 
 ### Clojure 1.5 By Default

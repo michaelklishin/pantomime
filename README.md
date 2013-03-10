@@ -1,4 +1,4 @@
-# What is Pantomime
+# Pantomime, a Library For Working With MIME Types In Clojure
 
 Pantomime is a tiny Clojure library that deals with MIME types (Internet media types, sometimes referred to as "content types"). It uses [Apache Tika](http://tika.apache.org/) under the hood to detect
 MIME types using several techniques:
@@ -18,7 +18,7 @@ and so on.
 With Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "1.5.0"]
+[com.novemberain/pantomime "1.6.0"]
 ```
 
 With Maven:
@@ -26,7 +26,7 @@ With Maven:
     <dependency>
       <groupId>com.novemberain</groupId>
       <artifactId>pantomime</artifactId>
-      <version>1.5.0</version>
+      <version>1.6.0</version>
     </dependency>
 
 
