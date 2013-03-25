@@ -17,5 +17,5 @@
                  "sonatype-snapshots" {:url "http://oss.sonatype.org/content/repositories/snapshots"
                                        :snapshots true
                                        :releases {:checksum :fail :update :always}}}
-  :aliases  {"all" ["with-profile" "dev:dev,1.3:dev,1.4:dev,1.6:dev,master"]}
+  :aliases  {"all" ["with-profile" "+dev:+1.3:+1.4:+1.6:+master"]}
   :warn-on-reflection true)
