@@ -46,7 +46,7 @@ An example:
 
 ``` clojure
 (ns your.app.namespace
-  (:use pantomime.mime))
+  (:require [pantomime.mime :refer [mime-type-of]]))
 
 ;; by content (as byte array)
 (mime-type-of (.getBytes "filename.pdf"))
@@ -65,7 +65,7 @@ HTTP headers are also available:
 
 ``` clojure
 (ns your.app.namespace
-  (:use pantomime.web))
+  (:require [pantomime.web :refer [mime-type-of]]))
 
 ;; body is a string or input stream, headers is a map of lowercased headers.
 ;; Ring and clj-http both use this format for headers, for example.
