@@ -4,7 +4,7 @@
   :license { :name "Eclipse Public License" }
   :source-paths ["src/clojure"]
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.apache.tika/tika-core "1.3"]]
+                 [org.apache.tika/tika-core "1.4"]]
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "0.6.4"]]}
              :1.3 {:dependencies [[org.clojure/clojure "1.3.0"]]}
