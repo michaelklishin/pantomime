@@ -1,3 +1,10 @@
+## Changes between Pantomime 1.7.0 and 1.8.0
+
+### Apache Tika 1.4
+
+Apache Tika dependency has been upgraded to [version 1.4](http://www.apache.org/dist/tika/CHANGES-1.4.txt).
+
+
 ## Changes between Pantomime 1.6.0 and 1.7.0
 
 ### Clojure 1.5.1 By Default
