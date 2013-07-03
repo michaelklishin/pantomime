@@ -48,7 +48,7 @@
   (are [url expected-mime] (let [{:keys [^String body headers status]} (http/get url)]
                              (is (= 200 status))
                              (is (= expected-mime (mime-type-of (.getBytes body)))))
-       "http://files.travis-ci.org/docs/amqp/0.9.1/AMQP091Specification.pdf" "application/pdf"
+       "https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf"              "application/pdf"
        "http://github.com/robots.txt"                                        "text/plain"
        "http://www.amazon.com/sitemap-manual-index.xml"                      "application/xml"
        "http://docs.oracle.com/javase/7/docs/index.html"                     "application/xhtml+xml"
