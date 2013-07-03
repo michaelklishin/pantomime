@@ -1,3 +1,22 @@
+## Changes between Pantomime 1.8.0 and 2.0.0
+
+### Language Detection Support
+
+`pantomime.languages` is a new namespace that provides functions for
+detecting natural languages:
+
+``` clojure
+(require '[pantomime.languages :as pl])
+
+(pl/detect-language "this is English, it should not be hard to detect")
+;= "en"
+
+(pl/detect-language "parlez-vous Français")
+;= "fr"
+```
+
+
+
 ## Changes between Pantomime 1.7.0 and 1.8.0
 
 ### Apache Tika 1.4
