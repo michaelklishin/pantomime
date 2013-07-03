@@ -1,6 +1,6 @@
 (ns pantomime.test.media-test
-  (:use clojure.test)
-  (:require [pantomime.media :as media])
+  (:require [clojure.test :refer :all]
+            [pantomime.media :as media])
   (:import org.apache.tika.mime.MediaType))
 
 

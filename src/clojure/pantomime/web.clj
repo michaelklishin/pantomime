@@ -4,7 +4,7 @@
             attempts to improve the situation by providing special MIME type detection functions that can use
             content-based detection and Content-Type header at the same time."}
   pantomime.web
-  (:use pantomime.internal)
+  (:require [pantomime.internal :refer :all])
   (:require [pantomime.mime :as mime])
   (:import [java.io File InputStream]
            [java.net URL]

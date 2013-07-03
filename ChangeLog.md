@@ -1,5 +1,9 @@
 ## Changes between Pantomime 1.8.0 and 2.0.0
 
+### Clojure 1.3 is No Longer Supported
+
+Pantomime `2.0` drops support for Clojure 1.3.
+
 ### Language Detection Support
 
 `pantomime.languages` is a new namespace that provides functions for

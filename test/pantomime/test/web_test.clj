@@ -1,7 +1,8 @@
 (ns pantomime.test.web-test
-  (:use pantomime.web clojure.test)
   (:require [clojure.java.io :as io]
-            [clj-http.client :as http]))
+            [clj-http.client :as http]
+            [clojure.test  :refer :all]
+            [pantomime.web :refer :all]))
 
 
 

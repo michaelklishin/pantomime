@@ -1,5 +1,5 @@
 (ns pantomime.mime
-  (:use pantomime.internal)
+  (:require [pantomime.internal :refer :all])
   (:import [java.io File InputStream]
            [java.net URL]
            [org.apache.tika Tika]

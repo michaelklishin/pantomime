@@ -1,7 +1,8 @@
 (ns pantomime.test.mime-test
-  (:use pantomime.mime clojure.test)
   (:require [clojure.java.io :as io]
-            [clj-http.client :as http])
+            [clj-http.client :as http]
+            [pantomime.mime  :refer :all]
+            [clojure.test    :refer :all])
   (:import [java.io File FileInputStream]
            java.net.URL))
 
