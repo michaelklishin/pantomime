@@ -107,6 +107,25 @@ use lowercase strings for header names so Pantomime follows this convention.
 (mt/charset-of "text/html; charset=UTF-8") ;; => "UTF-8"
 ```
 
+### Language Detection
+
+`pantomime.languages` is a new that provides functions for
+detecting natural languages:
+
+``` clojure
+(require '[pantomime.languages :as pl])
+
+(pl/detect-language "this is English, it should not be hard to detect")
+;= "en"
+
+(pl/detect-language "parlez-vous Français")
+;= "fr"
+```
+
+Note that Tika (and, in turn, Pantomime) supports detection of a limited number
+of languages. To get the list of supported languages, use the `pantomime.languages/supported-languages`
+var.
+
 
 
 ## Community
