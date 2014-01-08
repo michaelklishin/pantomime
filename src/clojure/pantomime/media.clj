@@ -94,7 +94,7 @@
     (.getBaseType input))
   (parameters-of
     [^MediaType input]
-    (when-let [^Map jm (.getParameters input)]
+    (when-let [jm (.getParameters input)]
       (into {} jm)))
   (has-parameters?
     [^MediaType input]
