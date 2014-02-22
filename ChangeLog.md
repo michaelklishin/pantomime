@@ -2,7 +2,7 @@
 
 ### Apache Tika 1.5
 
-Apache Tika dependency has been upgraded to [version 1.4](http://www.apache.org/dist/tika/CHANGES-1.5.txt).
+Apache Tika dependency has been upgraded to [version 1.5](http://www.apache.org/dist/tika/CHANGES-1.5.txt).
 
 
 
