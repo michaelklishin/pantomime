@@ -13,12 +13,25 @@ and so on.
 
 ## Maven Artifacts
 
+Pantomime artifacts are [released to
+Clojars](https://clojars.org/com.novemberain/pantomime). If you are
+using Maven, add the following repository definition to your
+`pom.xml`:
+
+``` xml
+<repository>
+  <id>clojars.org</id>
+  <url>http://clojars.org/repo</url>
+</repository>
+```
+
+
 ### Latest Release
 
 With Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "2.0.0"]
+[com.novemberain/pantomime "2.1.0"]
 ```
 
 With Maven:
@@ -26,7 +39,7 @@ With Maven:
     <dependency>
       <groupId>com.novemberain</groupId>
       <artifactId>pantomime</artifactId>
-      <version>2.0.0</version>
+      <version>2.1.0</version>
     </dependency>
 
 
