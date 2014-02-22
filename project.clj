@@ -6,7 +6,7 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.apache.tika/tika-core "1.5"]]
   :profiles {:dev {:resource-paths ["test/resources"]
-                   :dependencies [[clj-http "0.7.4"]]}
+                   :dependencies [[clj-http "0.7.9"]]}
              :1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
              :1.6 {:dependencies [[org.clojure/clojure "1.6.0-beta1"]]}
              :master {:dependencies [[org.clojure/clojure "1.6.0-master-SNAPSHOT"]]}}
