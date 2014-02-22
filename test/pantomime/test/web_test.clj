@@ -12,10 +12,10 @@
                              (is (= expected-mime
                                     (mime-type-of (.getBytes body) headers)
                                     (mime-type-of body headers))))
-       "http://files.travis-ci.org/docs/amqp/0.9.1/AMQP091Specification.pdf" "application/pdf"
-       "http://github.com/robots.txt"                                        "text/plain"
-       "http://www.amazon.com/sitemap-manual-index.xml"                      "application/xml"
-       "http://docs.oracle.com/javase/7/docs/index.html"                     "application/xhtml+xml"
+       "http://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf" "application/pdf"
+       "http://github.com/robots.txt"                          "text/plain"
+       "http://www.amazon.com/sitemap-manual-index.xml"        "application/xml"
+       "http://docs.oracle.com/javase/7/docs/index.html"       "application/xhtml+xml"
        "http://upload.wikimedia.org/wikipedia/commons/9/9a/PNG_transparency_demonstration_2.png" "image/png"
        "http://creativecommons.org/images/deed/cc-logo.jpg" "image/jpeg"
        "http://elpais.com.uy/formatos/rss/index.asp?seccion=umomento" "application/rss+xml"))
