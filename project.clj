@@ -8,7 +8,7 @@
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "0.7.9"]]}
              :1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
-             :1.6 {:dependencies [[org.clojure/clojure "1.6.0-rc1"]]}
+             :1.6 {:dependencies [[org.clojure/clojure "1.6.0-RC1"]]}
              :master {:dependencies [[org.clojure/clojure "1.6.0-master-SNAPSHOT"]]}}
   :repositories {"sonatype" {:url "http://oss.sonatype.org/content/repositories/releases"
                              :snapshots false
