@@ -1,3 +1,11 @@
+## Changes between Pantomime 2.1.0 and 2.2.0
+
+## Clojure 1.6
+
+The library now depends on Clojure 1.6.
+
+
+
 ## Changes between Pantomime 2.0.0 and 2.1.0
 
 ### Apache Tika 1.5
