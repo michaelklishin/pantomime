@@ -31,7 +31,7 @@ using Maven, add the following repository definition to your
 With Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "2.1.0"]
+[com.novemberain/pantomime "2.2.0"]
 ```
 
 With Maven:
@@ -39,7 +39,7 @@ With Maven:
     <dependency>
       <groupId>com.novemberain</groupId>
       <artifactId>pantomime</artifactId>
-      <version>2.1.0</version>
+      <version>2.2.0</version>
     </dependency>
 
 
