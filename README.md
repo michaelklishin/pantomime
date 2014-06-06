@@ -15,9 +15,9 @@ and so on.
 
 ## Maven Artifacts
 
-Pantomime artifacts are [released to
-Clojars](https://clojars.org/com.novemberain/pantomime). If you are
+Pantomime artifacts are [released to Clojars](https://clojars.org/com.novemberain/pantomime). If you are
 using Maven, add the following repository definition to your
+
 `pom.xml`:
 
 ``` xml
