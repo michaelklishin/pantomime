@@ -61,4 +61,6 @@
     "application/json"         ".json"
     "application/vnd.ms-excel" ".xls"
     "image/jpeg"               ".jpg"
+    "application/xhtml+xml"    ".xhtml"
+    "application/octet-stream" ".bin"
     "g-d/knows/what"           ""))
