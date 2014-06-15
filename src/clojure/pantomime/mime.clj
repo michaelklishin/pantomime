@@ -52,10 +52,14 @@
   {:mime-type-of (fn [^bytes input]
                    (.detect detector input)) })
 
+(defn ^MimeType for-name
+  [^String s]
+  (.forName registry s))
+
 (defn ^String extension-for-name
   [^String s]
   (try
-    (if-let [mt (.forName registry s)]
+    (if-let [mt (for-name s)]
     (.getExtension mt)
     "")
     (catch MimeTypeException _
