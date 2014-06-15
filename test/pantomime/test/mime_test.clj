@@ -55,3 +55,10 @@
        "http://docs.oracle.com/javase/7/docs/index.html"                     "application/xhtml+xml"
        "http://upload.wikimedia.org/wikipedia/commons/9/9a/PNG_transparency_demonstration_2.png" "application/octet-stream"
        "http://upload.wikimedia.org/wikipedia/commons/e/e9/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png" "application/octet-stream"))
+
+(deftest test-extension-for-name
+  (are [name ext] (is (= ext (extension-for-name name)))
+    "application/json"         ".json"
+    "application/vnd.ms-excel" ".xls"
+    "image/jpeg"               ".jpg"
+    "g-d/knows/what"           ""))

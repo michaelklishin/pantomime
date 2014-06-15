@@ -12,9 +12,10 @@
   (:import [java.io File InputStream]
            [java.net URL]
            [org.apache.tika Tika]
-           [org.apache.tika.mime MediaType MimeType]))
+           [org.apache.tika.mime MediaType MimeType MimeTypes MimeTypeException]))
 
 (def ^Tika detector (Tika.))
+(def ^MimeTypes registry (MimeTypes/getDefaultMimeTypes))
 
 ;;
 ;; API
@@ -50,3 +51,12 @@
   MIMETypeDetection
   {:mime-type-of (fn [^bytes input]
                    (.detect detector input)) })
+
+(defn ^String extension-for-name
+  [^String s]
+  (try
+    (if-let [mt (.forName registry s)]
+    (.getExtension mt)
+    "")
+    (catch MimeTypeException _
+      "")))
