@@ -53,10 +53,14 @@
                    (.detect detector input)) })
 
 (defn ^MimeType for-name
+  "Returns a MimeType for provided name, e.g. image/png"
   [^String s]
   (.forName registry s))
 
 (defn ^String extension-for-name
+  "Returns the most common known extension for provided
+   MIME type name (e.g. image/jpeg) with a leading dot, e.g.
+   \".jpg\""
   [^String s]
   (try
     (if-let [mt (for-name s)]
