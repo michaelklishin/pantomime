@@ -68,8 +68,6 @@ An example:
 (mime-type-of (.getBytes "filename.pdf"))
 ;; by file extension
 (mime-type-of "filename.pdf")
-;; by file extension + content
-(mime-type-of (File. "some/file/path.pdf"))
 ;; by file content (as java.io.File)
 (mime-type-of (File. "some/file/without/extension"))
 ;; by content (as java.net.URL)
