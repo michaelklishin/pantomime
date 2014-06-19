@@ -1,4 +1,4 @@
-(defproject com.novemberain/pantomime "2.3.0"
+(defproject com.novemberain/pantomime "2.4.0-SNAPSHOT"
   :min-lein-version "2.3.0"
   :description "A tiny Clojure library that deals with MIME types"
   :license { :name "Eclipse Public License" }
