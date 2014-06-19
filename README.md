@@ -94,6 +94,23 @@ HTTP headers map must contain "content-type" key for content type header to be u
 use lowercase strings for header names so Pantomime follows this convention.
 
 
+### Extension Recommendation
+
+Pantomime can recommend an extension (one of the well known ones)
+for a MIME type:
+
+``` clojure
+(require '[pantomime.mime :as pm])
+
+(pm/extension-for-name "application/vnd.ms-excel")
+;= ".xls"
+(pm/extension-for-name "image/jpeg")
+;= ".jpg"
+(pm/extension-for-name "application/octet-stream")
+;= ".bin"
+```
+
+
 ### Parsing and Recognizing Media Types
 
 ``` clojure
