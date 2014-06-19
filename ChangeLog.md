@@ -1,3 +1,22 @@
+## Changes between Pantomime 2.2.0 and 2.3.0
+
+### Extension Detection From MIME Type
+
+`pantomime.mime/extension-for-name` is a new function that suggests
+common extensions for MIME type names:
+
+``` clojure
+(require '[pantomime.mime :as pm])
+
+(pm/extension-for-name "application/vnd.ms-excel")
+;= ".xls"
+(pm/extension-for-name "image/jpeg")
+;= ".jpg"
+(pm/extension-for-name "application/octet-stream")
+;= ".bin"
+```
+
+
 ## Changes between Pantomime 2.1.0 and 2.2.0
 
 ## Clojure 1.6
