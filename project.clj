@@ -1,5 +1,5 @@
 (defproject com.novemberain/pantomime "2.4.0-SNAPSHOT"
-  :min-lein-version "2.4.2"
+  :min-lein-version "2.4.3"
   :description "A tiny Clojure library that deals with MIME types"
   :license { :name "Eclipse Public License" }
   :source-paths ["src/clojure"]
