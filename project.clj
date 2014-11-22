@@ -8,6 +8,7 @@
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "0.9.1"]]}
              :1.5 {:dependencies [[org.clojure/clojure "1.5.1"]]}
+             :1.7 {:dependencies [[org.clojure/clojure "1.7.0-alpha4"]]}
              :master {:dependencies [[org.clojure/clojure "1.7.0-master-SNAPSHOT"]]}}
   :repositories {"sonatype" {:url "http://oss.sonatype.org/content/repositories/releases"
                              :snapshots false
@@ -15,5 +16,5 @@
                  "sonatype-snapshots" {:url "http://oss.sonatype.org/content/repositories/snapshots"
                                        :snapshots true
                                        :releases {:checksum :fail :update :always}}}
-  :aliases  {"all" ["with-profile" "+dev:+1.5:+master"]}
+  :aliases  {"all" ["with-profile" "+dev:+1.5:+1.7:+master"]}
   :global-vars {*warn-on-reflection* true})
