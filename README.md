@@ -47,7 +47,7 @@ With Maven:
 
 ## Supported Clojure versions
 
-Pantomime was built for Clojure 1.4 and later. The most recent stable
+Pantomime requires Clojure 1.6+. The most recent stable
 release is highly recommended.
 
 
