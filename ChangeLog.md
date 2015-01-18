@@ -1,5 +1,13 @@
 ## Changes between Pantomime 2.2.0 and 2.3.0
 
+### Apache Tika 1.7
+
+Apache Tika dependency has been upgraded to [version 1.7](http://www.apache.org/dist/tika/CHANGES-1.7.txt).
+
+
+
+## Changes between Pantomime 2.2.0 and 2.3.0
+
 ### Extension Detection From MIME Type
 
 `pantomime.mime/extension-for-name` is a new function that suggests
