@@ -51,7 +51,7 @@
                              (is (= expected-mime (mime-type-of (.getBytes body)))))
        "https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf"              "application/pdf"
        "http://github.com/robots.txt"                                        "text/plain"
-       "http://www.amazon.com/sitemap-manual-index.xml"                      "application/xml"
+       "https://www.xml-sitemaps.com/sitemap.xml"                            "application/xml"
        "http://docs.oracle.com/javase/7/docs/index.html"                     "application/xhtml+xml"
        "http://upload.wikimedia.org/wikipedia/commons/9/9a/PNG_transparency_demonstration_2.png" "application/octet-stream"
        "http://upload.wikimedia.org/wikipedia/commons/e/e9/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png" "application/octet-stream"))
