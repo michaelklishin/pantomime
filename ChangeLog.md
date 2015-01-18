@@ -1,4 +1,4 @@
-## Changes between Pantomime 2.2.0 and 2.3.0
+## Changes between Pantomime 2.3.0 and 2.4.0
 
 ### Apache Tika 1.7
 
