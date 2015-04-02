@@ -1,20 +1,10 @@
 # Pantomime, a Library For Working With MIME Types In Clojure
 
-Pantomime is a tiny Clojure library that deals with MIME types
-(Internet media types, sometimes referred to as "content types"). It
-uses [Apache Tika](http://tika.apache.org/) under the hood to detect
-MIME types using several techniques:
+Pantomime is a Clojure interface to [Apache Tika](http://tika.apache.org/).
 
- * Known file extensions
- * Magic bytes
- * Content-type information for resources served via HTTP
- * XML schema information
-
-and so on.
-
-Pantomime also exposes Tika's ability to extract file metadata and
-text content.
-
+Originally created as a library that deals with MIME types
+(Internet media types, sometimes referred to as "content types"), it now also
+supports extraction of document metadata and text content.
 
 ## Maven Artifacts
 
@@ -103,7 +93,7 @@ Pantomime can recommend an extension (one of the well known ones)
 for a MIME type:
 
 ``` clojure
-(require '[pantomime.mime :as pm])
+(require [pantomime.mime :as pm])
 
 (pm/extension-for-name "application/vnd.ms-excel")
 ;= ".xls"
@@ -146,7 +136,7 @@ for a MIME type:
 detecting natural languages:
 
 ``` clojure
-(require '[pantomime.languages :as pl])
+(require [pantomime.languages :as pl])
 
 (pl/detect-language "this is English, it should not be hard to detect")
 ;= "en"
@@ -169,7 +159,8 @@ java.io.File instances.
 An example:
 
 ``` clojure
-(require '[clojure.java.io :as io] '[pantomime.extract :as extract])
+(require [clojure.java.io :as io]
+         [pantomime.extract :as extract])
 
 (pprint (extract/parse "test/resources/pdf/qrl.pdf"))
 
