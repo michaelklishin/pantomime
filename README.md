@@ -12,6 +12,9 @@ MIME types using several techniques:
 
 and so on.
 
+Pantomime also exposes Tika's ability to extract file metadata and
+text content.
+
 
 ## Maven Artifacts
 
@@ -156,7 +159,41 @@ Note that Tika (and, in turn, Pantomime) supports detection of a limited number
 of languages. To get the list of supported languages, use the `pantomime.languages/supported-languages`
 var.
 
+### Metadata and Text Extraction
 
+`pantomime.extract` provides the single function `parse` for extracting
+metadata and text content from byte arrays, java.io.InputStream and
+java.net.URL instances as well as filenames as strings and
+java.io.File instances.
+
+An example:
+
+``` clojure
+(require '[clojure.java.io :as io] '[pantomime.extract :as extract])
+
+(pprint (extract/parse "test/resources/pdf/qrl.pdf"))
+
+;= {:producer ("GNU Ghostscript 7.05"),
+;=  :pdf:pdfversion ("1.2"),
+;=  :dc:title ("main.dvi"),
+;=  :dc:format ("application/pdf; version=1.2"),
+;=  :xmp:creatortool ("dvips(k) 5.86 Copyright 1999 Radical Eye Software"),
+;=  :pdf:encrypted ("false"),
+;=  ...
+;=  :text "\nQuickly Reacquirable Locks∗\n\nDave Dice Mark Moir ... "
+;= }
+```
+
+If extraction fails, `extract.parse` will return the following:
+
+``` clojure
+{:text "",
+ :content-type ("application/octet-stream"),
+ :x-parsed-by ("org.apache.tika.parser.EmptyParser")}
+```
+
+`extract/parse` is a simple interface to Tika's own
+[Parser.parse method](https://tika.apache.org/1.7/parser.html).
 
 ## Community
 
