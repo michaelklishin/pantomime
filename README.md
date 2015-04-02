@@ -161,14 +161,17 @@ var.
 
 ### Metadata and Text Extraction
 
-`pantomime.extact` provides the single function `parse` for extracting
-metadata and text content from byte arrays, Strings, and
-java.io.InputStream, java.net.URL, and java.io.File instances.
+`pantomime.extract` provides the single function `parse` for extracting
+metadata and text content from byte arrays, java.io.InputStream and
+java.net.URL instances as well as filenames as strings and
+java.io.File instances.
+
+An example:
 
 ``` clojure
 (require '[clojure.java.io :as io] '[pantomime.extract :as extract])
 
-(pprint (extract/parse (io/resource "resources/pdf/qrl.pdf")))
+(pprint (extract/parse "test/resources/pdf/qrl.pdf"))
 
 ;= {:producer ("GNU Ghostscript 7.05"),
 ;=  :pdf:pdfversion ("1.2"),
@@ -179,6 +182,14 @@ java.io.InputStream, java.net.URL, and java.io.File instances.
 ;=  ...
 ;=  :text "\nQuickly Reacquirable Locks∗\n\nDave Dice Mark Moir ... "
 ;= }
+```
+
+If extraction fails, `extract.parse` will return the following:
+
+``` clojure
+{:text "",
+ :content-type ("application/octet-stream"),
+ :x-parsed-by ("org.apache.tika.parser.EmptyParser")}
 ```
 
 `extract/parse` is a simple interface to Tika's own

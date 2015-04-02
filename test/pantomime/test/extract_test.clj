@@ -10,7 +10,7 @@
 (deftest test-extract-metadata
   (let [parsed (->  "resources/pdf/qrl.pdf"
                     io/resource
-                    extract/parse)]                    
+                    extract/parse)]
     (are [x y] (= (x parsed) (list y))
          :pdf:pdfversion  "1.2"
          :dc:title        "main.dvi")))
@@ -37,33 +37,28 @@
 ;; http://alexander-hill.tumblr.com/post/88883810180/working-with-binary-files-in-clojure
 ;; https://github.com/ztellman/byte-streams
 (deftest test-extract-metadata-byte-array
-  (let [file-path "test/resources/pdf/qrl.pdf"]  
+  (let [file-path "test/resources/pdf/qrl.pdf"]
     (with-open [reader (io/input-stream (io/file file-path))]
       (let [length  (.length (clojure.java.io/file file-path))
             buffer  (byte-array length)
-            _       (.read reader buffer 0 length)            
+            _       (.read reader buffer 0 length)
             parsed  (extract/parse buffer)]
         (are [x y] (= (x parsed) (list y))
              :pdf:pdfversion  "1.2"
              :dc:title        "main.dvi")))))
 
-(deftest test-extract-metadata-string    
-  (let [test-file    "resources/txt/english.txt"
-        parsed       (-> test-file
-                         io/resource
-                         slurp
-                         extract/parse)]
+(deftest test-extract-metadata-string
+  (let [parsed (extract/parse "test/resources/txt/english.txt")]
     (are [x y] (= (x parsed) (list y))
          :content-encoding "ISO-8859-1")))
-         
+
 (deftest test-extract-text-contents
   (let [test-file    "resources/txt/english.txt"
-        parsed       (-> test-file
-                         io/resource
-                         slurp
-                         extract/parse)        
+        parsed       (extract/parse "test/resources/txt/english.txt")
         file-content (slurp (str "test/" test-file))]
-    (is (= (:text parsed) file-content))))
+    ;; org.apache.tika.parser.txt.TXTParser (I think) adds a newline
+    ;; to parsed text :/
+    (is (= (:text parsed) (str file-content "\n")))))
 
 (deftest test-extract-URL
   (let [parsed (-> "https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf"

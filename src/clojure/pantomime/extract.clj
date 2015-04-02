@@ -1,5 +1,5 @@
 (ns pantomime.extract
-  (:require [pantomime.internal :refer :all])            
+  (:require [pantomime.internal :refer :all])
   (:import [java.io File InputStream ByteArrayInputStream]
            [org.apache.tika Tika]
            [java.net URL]
@@ -39,17 +39,20 @@
 ;; for hints about String->InputStream, and that parsers seem to like
 ;; ByteArrayInputStream rather than InputStream
 (extend-protocol ExtractionOps
-  String  
-  (parse [^String contents]
-    (parse
-     (ByteArrayInputStream.
-      (.getBytes (.trim contents))))))
+  String
+  (parse [^String filename]
+    (with-open [is (input-stream filename)] (parse is))))
+
+  ;; (parse [^String contents]
+  ;;   (parse
+  ;;    (ByteArrayInputStream.
+  ;;     (.getBytes (.trim contents))))))
                              
 (extend-protocol ExtractionOps
   URL
   (parse [^URL url] (with-open [is (input-stream url)] (parse is))))
 
-(extend byte-array-type  
+(extend byte-array-type
   ExtractionOps
   {:parse (fn [^bytes input]
             (parse (ByteArrayInputStream. input)))})
