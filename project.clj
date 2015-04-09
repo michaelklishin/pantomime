@@ -1,6 +1,7 @@
 (defproject com.novemberain/pantomime "2.6.0-SNAPSHOT"
   :min-lein-version "2.5.1"
   :description "A tiny Clojure library that deals with MIME types"
+  :url "http://github.com/michaelklishin/pantomime"
   :license { :name "Eclipse Public License" }
   :source-paths ["src/clojure"]
   :dependencies [[org.clojure/clojure "1.6.0"]                 
