@@ -1,4 +1,4 @@
-## Changes between Pantomime 2.3.0 and 2.4.0
+## Changes between Pantomime 2.4.0 and 2.5.0
 
 ### Content Extraction API
 
@@ -35,6 +35,10 @@ If extraction fails, `extract.parse` will return the following:
 
 Contributed by Joshua Thayer.
 
+
+
+
+## Changes between Pantomime 2.3.0 and 2.4.0
 
 ### Apache Tika 1.7
 
