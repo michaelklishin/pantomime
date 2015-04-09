@@ -1,5 +1,41 @@
 ## Changes between Pantomime 2.3.0 and 2.4.0
 
+### Content Extraction API
+
+Pantomime now provdes access to Tika's content extraction
+functionality via `pantomime.extract/parse`:
+
+``` clojure
+(require [clojure.java.io :as io]
+         [pantomime.extract :as extract])
+
+(pprint (extract/parse "test/resources/pdf/qrl.pdf"))
+
+;= {:producer ("GNU Ghostscript 7.05"),
+;=  :pdf:pdfversion ("1.2"),
+;=  :dc:title ("main.dvi"),
+;=  :dc:format ("application/pdf; version=1.2"),
+;=  :xmp:creatortool ("dvips(k) 5.86 Copyright 1999 Radical Eye Software"),
+;=  :pdf:encrypted ("false"),
+;=  ...
+;=  :text "\nQuickly Reacquirable Locks∗\n\nDave Dice Mark Moir ... "
+;= }
+```
+
+If extraction fails, `extract.parse` will return the following:
+
+``` clojure
+{:text "",
+ :content-type ("application/octet-stream"),
+ :x-parsed-by ("org.apache.tika.parser.EmptyParser")}
+```
+
+`extract/parse` is a simple interface to Tika's own
+[Parser.parse method](https://tika.apache.org/1.7/parser.html).
+
+Contributed by Joshua Thayer.
+
+
 ### Apache Tika 1.7
 
 Apache Tika dependency has been upgraded to [version 1.7](http://www.apache.org/dist/tika/CHANGES-1.7.txt).
