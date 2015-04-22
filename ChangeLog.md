@@ -1,3 +1,10 @@
+## Changes between Pantomime 2.5.0 and 2.6.0
+
+### Apache Tika 1.8
+
+Apache Tika dependency has been upgraded to [version 1.8](http://www.apache.org/dist/tika/CHANGES-1.8.txt).
+
+
 ## Changes between Pantomime 2.4.0 and 2.5.0
 
 ### Content Extraction API
