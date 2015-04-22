@@ -1,4 +1,4 @@
-(defproject com.novemberain/pantomime "2.6.0-SNAPSHOT"
+(defproject com.novemberain/pantomime "2.6.0"
   :min-lein-version "2.5.1"
   :description "A tiny Clojure library that deals with MIME types"
   :url "http://github.com/michaelklishin/pantomime"
