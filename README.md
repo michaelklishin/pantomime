@@ -152,10 +152,10 @@ var.
 ### Metadata and Text Extraction
 
 `pantomime.extract` provides two functions for extracting metadata,
-content, and embedded files from from byte arrays, java.io.InputStream
-and java.net.URL instances as well as filenames as strings and
-java.io.File instances. The functions differ in how they handle
-embedded documents.
+content, and embedded files from byte arrays, java.io.InputStream and
+java.net.URL instances as well as filenames as strings and
+java.io.File instances. The extraction functions differ in how they
+handle embedded documents.
 
 `pantomime.extract/parse` takes as its single argument any of the
 types mentioned above. It returns a map containing all the metadata
@@ -185,16 +185,18 @@ An example:
 `pantomime.extract/parse-extract-embedded` also returns Tika-extracted
 metadata and document text, but it handles embedded documents
 differently. Instead of returning the concatenation of all embedded
-document text, it saves each embedded file to the filesystem, and
-includes a vector of file names and paths in the returned data.
+document text, it saves each embedded file to the filesystem and
+includes a vector of file names and paths in the returned
+data. Remember to remove those files when you're done with them!
 
-For example, the file `fileAttachment.pdf` contains a single attached file, which gets saved to `/tmp/pantomime1430952739353-590574117`:
+For example, the file `fileAttachment.pdf` contains a single attached
+file, which gets saved to `/tmp/pantomime1430952739353-590574117`:
 
 ``` clojure
 (require [clojure.java.io :as io]
          [pantomime.extract :as extract])
 
-(pprint (extract/parse "test/resources/pdf/fileAttachment.pdf"))
+(pprint (extract/parse-extract-embedded "test/resources/pdf/fileAttachment.pdf"))
 
 ;= {:date ("2012-11-23T14:40:50Z"),
 ;=  :producer ("Acrobat Distiller 9.5.2 (Windows)"),
@@ -207,6 +209,8 @@ For example, the file `fileAttachment.pdf` contains a single attached file, whic
 ;=              :name "KSBASE.WQ2"}],
 ;=  ...}
 ```
+
+Note that `parse-extract-embedded` saves files to the temp dir returned by `java.io.tmpdir` (via https://github.com/Raynes/fs/).
 
 If extraction fails, the functions will return the following:
 
