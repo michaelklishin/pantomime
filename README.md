@@ -151,10 +151,17 @@ var.
 
 ### Metadata and Text Extraction
 
-`pantomime.extract` provides the single function `parse` for extracting
-metadata and text content from byte arrays, java.io.InputStream and
-java.net.URL instances as well as filenames as strings and
-java.io.File instances.
+`pantomime.extract` provides two functions for extracting metadata,
+content, and embedded files from from byte arrays, java.io.InputStream
+and java.net.URL instances as well as filenames as strings and
+java.io.File instances. The functions differ in how they handle
+embedded documents.
+
+`pantomime.extract/parse` takes as its single argument any of the
+types mentioned above. It returns a map containing all the metadata
+Tika was able to extract from the document, and the text content of
+the document concatenated with the text of all embedded documents,
+recursively.
 
 An example:
 
@@ -175,16 +182,39 @@ An example:
 ;= }
 ```
 
-If extraction fails, `extract.parse` will return the following:
+`pantomime.extract/parse-extract-embedded` also returns Tika-extracted
+metadata and document text, but it handles embedded documents
+differently. Instead of returning the concatenation of all embedded
+document text, it saves each embedded file to the filesystem, and
+includes a vector of file names and paths in the returned data.
+
+For example, the file `fileAttachment.pdf` contains a single attached file, which gets saved to `/tmp/pantomime1430952739353-590574117`:
+
+``` clojure
+(require [clojure.java.io :as io]
+         [pantomime.extract :as extract])
+
+(pprint (extract/parse "test/resources/pdf/fileAttachment.pdf"))
+
+;= {:date ("2012-11-23T14:40:50Z"),
+;=  :producer ("Acrobat Distiller 9.5.2 (Windows)"),
+;=  :creator ("van der Knijff"),
+;=  :pdf:pdfversion ("1.7"),
+;=  :dc:title ("This is a test document"),
+;=  :text "\nThis is a test document. It contains a file attachment..."
+;=  ...
+;=  :embedded [{:path "/tmp/pantomime1430952739353-590574117",
+;=              :name "KSBASE.WQ2"}],
+;=  ...}
+```
+
+If extraction fails, the functions will return the following:
 
 ``` clojure
 {:text "",
  :content-type ("application/octet-stream"),
  :x-parsed-by ("org.apache.tika.parser.EmptyParser")}
 ```
-
-`extract/parse` is a simple interface to Tika's own
-[Parser.parse method](https://tika.apache.org/1.7/parser.html).
 
 ## Community
 
