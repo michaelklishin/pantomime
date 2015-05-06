@@ -60,6 +60,15 @@
     ;; to parsed text :/
     (is (= (:text parsed) (str file-content "\n")))))
 
+(deftest test-extract-embedded
+  (let [parsed       (extract/parse-extract-embedded "test/resources/pdf/example_041.pdf")
+        embedded     (:path (first (:embedded parsed)))
+        _            (.deleteOnExit (io/file embedded))
+        embedded-parsed (extract/parse embedded)]
+    (are [x y] (= (x embedded-parsed) (list y))
+         :content-type     "text/plain; charset=UTF-8"
+         :content-encoding "UTF-8")))
+
 (deftest test-extract-URL
   (let [parsed (-> "https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf"
                    io/as-url
