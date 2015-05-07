@@ -1,6 +1,5 @@
 (ns pantomime.extract
-  (:require [pantomime.internal :refer :all]
-            [me.raynes.fs       :as fs])
+  (:require [pantomime.internal :refer :all])
   (:import [java.io File InputStream ByteArrayInputStream]
            [org.apache.tika Tika]
            [java.net URL]
@@ -25,7 +24,7 @@
     (getSupportedTypes [context]
       (.getSupportedTypes ^Parser autodetectparser context))
     (parse [stream handler metadata context]
-      (let [tmp-fh           (fs/temp-file "pantomime")
+      (let [tmp-fh           (File/createTempFile "pantomime-" "-embedded")
             meta             {:path (.getPath ^File tmp-fh)
                               :name (.get ^Metadata metadata "resourceName")}]
         (do

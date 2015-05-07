@@ -190,7 +190,7 @@ includes a vector of file names and paths in the returned
 data. Remember to remove those files when you're done with them!
 
 For example, the file `fileAttachment.pdf` contains a single attached
-file, which gets saved to `/tmp/pantomime1430952739353-590574117`:
+file, which gets saved to `/tmp/pantomime-3207476364135900258-embedded`:
 
 ``` clojure
 (require [clojure.java.io :as io]
@@ -205,12 +205,13 @@ file, which gets saved to `/tmp/pantomime1430952739353-590574117`:
 ;=  :dc:title ("This is a test document"),
 ;=  :text "\nThis is a test document. It contains a file attachment..."
 ;=  ...
-;=  :embedded [{:path "/tmp/pantomime1430952739353-590574117",
+;=  :embedded [{:path "/tmp/pantomime-3207476364135900258-embedded",
 ;=              :name "KSBASE.WQ2"}],
 ;=  ...}
 ```
 
-Note that `parse-extract-embedded` saves files to the temp dir returned by `java.io.tmpdir` (via https://github.com/Raynes/fs/).
+Note that `parse-extract-embedded` creates temporary files in the
+JVM's default location.
 
 If extraction fails, the functions will return the following:
 
