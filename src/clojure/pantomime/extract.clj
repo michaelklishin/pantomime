@@ -9,7 +9,8 @@
             AutoDetectParser ParseContext])
   (:use [clojure.java.io :only [input-stream copy]]))
 
-(defn conv-metadata [^Metadata mdata]
+(defn conv-metadata
+  [^Metadata mdata]
   (let [names (.names mdata)]
     (zipmap (map #(keyword (.toLowerCase ^String %1)) names)
             (map #(seq (.getValues mdata ^String %1)) names))))
@@ -18,8 +19,9 @@
 
 (def ^{:private true} autodetectparser (AutoDetectParser.))
 
-;; parser for embedded docs
-(defn extract-parser [embedded-meta]
+(defn extract-parser
+  "Parser for embedded documents"
+  [embedded-meta]
   (proxy [AbstractParser] []
     (getSupportedTypes [context]
       (.getSupportedTypes ^Parser autodetectparser context))
@@ -37,7 +39,8 @@
   saving any embedded documents as temp files, returning paths to
   saved files in metadata"))
 
-(defn do-parse [ifile ex]
+(defn do-parse
+  [ifile ex]
   (let [parser   (AutoDetectParser.)
         context  (ParseContext.)
         metadata (Metadata.)
