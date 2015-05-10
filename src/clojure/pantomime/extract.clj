@@ -1,13 +1,13 @@
 (ns pantomime.extract
-  (:require [pantomime.internal :refer :all])
+  (:require [pantomime.internal :refer :all]
+            [clojure.java.io :refer [input-stream copy]])
   (:import [java.io File InputStream ByteArrayInputStream]
            [org.apache.tika Tika]
            [java.net URL]
            [org.apache.tika.metadata Metadata]
            [org.apache.tika.sax BodyContentHandler XHTMLContentHandler]
            [org.apache.tika.parser Parser AbstractParser
-            AutoDetectParser ParseContext])
-  (:use [clojure.java.io :only [input-stream copy]]))
+            AutoDetectParser ParseContext]))
 
 (defn conv-metadata
   [^Metadata mdata]
