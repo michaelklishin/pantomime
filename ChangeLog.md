@@ -1,3 +1,10 @@
+## Changes between Pantomime 2.6.0 and 2.7.0
+
+### Apache Tika 1.9
+
+Apache Tika dependency has been upgraded to [version 1.9](http://www.apache.org/dist/tika/CHANGES-1.9.txt).
+
+
 ## Changes between Pantomime 2.5.0 and 2.6.0
 
 ### Apache Tika 1.8
