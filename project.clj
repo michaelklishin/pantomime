@@ -8,7 +8,7 @@
                  [org.apache.tika/tika-parsers "1.8"]]
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "1.0.1"]]}
-             :1.7 {:dependencies [[org.clojure/clojure "1.7.0-beta1"]]}
+             :1.7 {:dependencies [[org.clojure/clojure "1.7.0-RC2"]]}
              :master {:dependencies [[org.clojure/clojure "1.7.0-master-SNAPSHOT"]]}}
   :repositories {"sonatype" {:url "http://oss.sonatype.org/content/repositories/releases"
                              :snapshots false
