@@ -68,3 +68,16 @@
     "")
     (catch MimeTypeException _
       "")))
+
+(def ^MimeTypes factory (-> detector
+                            .getDetector
+                            .getDetectors
+                            last))
+
+(defn add-pattern
+  "Adds a new MimeType pattern to pantomime"
+  [name pattern test]
+  (when-not (= name (mime-type-of test))
+    (let [mime-type (.forName factory name)]
+      (.addPattern factory mime-type pattern true))
+      (assert (= name (mime-type-of test)))))
