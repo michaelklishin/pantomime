@@ -69,15 +69,18 @@
     (catch MimeTypeException _
       "")))
 
-(def ^MimeTypes factory (-> detector
-                            .getDetector
-                            .getDetectors
-                            last))
+(def ^MimeTypes mime-adder
+  (->> detector
+       .getDetector
+       .getDetectors
+       (filter #(instance? org.apache.tika.mime.MimeTypes %))
+       first))
 
 (defn add-pattern
   "Adds a new MimeType pattern to pantomime"
   [name pattern test]
-  (when-not (= name (mime-type-of test))
-    (let [mime-type (.forName factory name)]
-      (.addPattern factory mime-type pattern true))
+  (when-not (and (= name (mime-type-of test))
+                 (nil? mime-adder))
+    (let [mime-type (.forName mime-adder name)]
+      (.addPattern mime-adder mime-type pattern true))
       (assert (= name (mime-type-of test)))))
