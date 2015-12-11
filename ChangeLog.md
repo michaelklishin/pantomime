@@ -17,6 +17,9 @@ it possible to extent MIME patterns used by the library:
 
 Contributed by Daniel Woelfel and Tommi Reinikainen.
 
+## Clojure 1.7
+
+The library now depends on Clojure 1.7.
 
 
 ## Changes between Pantomime 2.6.0 and 2.7.0

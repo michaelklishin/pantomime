@@ -4,11 +4,11 @@
   :url "http://github.com/michaelklishin/pantomime"
   :license { :name "Eclipse Public License" }
   :source-paths ["src/clojure"]
-  :dependencies [[org.clojure/clojure "1.6.0"]                 
+  :dependencies [[org.clojure/clojure "1.7.0"]                 
                  [org.apache.tika/tika-parsers "1.11"]]
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "1.0.1"]]}
-             :1.7 {:dependencies [[org.clojure/clojure "1.7.0"]]}
+             :1.8 {:dependencies [[org.clojure/clojure "1.8.0-RC3"]]}
              :master {:dependencies [[org.clojure/clojure "1.8.0-master-SNAPSHOT"]]}}
   :repositories {"sonatype" {:url "http://oss.sonatype.org/content/repositories/releases"
                              :snapshots false
