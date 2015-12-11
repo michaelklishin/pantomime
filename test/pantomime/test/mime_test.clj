@@ -66,6 +66,6 @@
     "g-d/knows/what"           ""))
 
 (deftest test-adding-pattern
-  (is (= (mime-type-of "lorem.ipsum") "application/octet-stream")) ; fallback mime type
+  (is (= (mime-type-of "lorem.ipsum") "application/octet-stream")) ;; fallback mime type
   (add-pattern "text/lorem-ipsum" ".+\\.ipsum$" "lorem.ipsum")
   (is (= (mime-type-of "lorem.ipsum") "text/lorem-ipsum")))
