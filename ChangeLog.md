@@ -1,3 +1,20 @@
+## Changes between Pantomime 2.7.0 and 2.8.0
+
+### MIME Pattern Extension
+
+`pantomime.mime/add-pattern` is a new function that makes
+it possible to extent MIME patterns used by the library:
+
+``` clojure
+(require '[pantomime.mime :as pm])
+
+(pm/add-pattern "text/lorem-ipsum" ".+\\.ipsum$" "lorem.ipsum")
+```
+
+Contributed by Daniel Woelfel and Tommi Reinikainen.
+
+
+
 ## Changes between Pantomime 2.6.0 and 2.7.0
 
 ### Apache Tika 1.9
