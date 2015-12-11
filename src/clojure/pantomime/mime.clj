@@ -79,8 +79,8 @@
 (defn add-pattern
   "Adds a new MimeType pattern to pantomime"
   [name pattern test]
-  (when-not (and (= name (mime-type-of test))
-                 (nil? mime-adder))
+  {:pre  [(not= name (mime-type-of test))]
+   :post [(= name (mime-type-of test))]}
+  (when-not (nil? mime-adder)
     (let [mime-type (.forName mime-adder name)]
-      (.addPattern mime-adder mime-type pattern true))
-      (assert (= name (mime-type-of test)))))
+      (.addPattern mime-adder mime-type pattern true))))
