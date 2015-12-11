@@ -1,5 +1,9 @@
 ## Changes between Pantomime 2.7.0 and 2.8.0
 
+### Apache Tika 1.11
+
+Apache Tika dependency has been upgraded to [version 1.11](http://www.apache.org/dist/tika/CHANGES-1.11.txt).
+
 ### MIME Pattern Extension
 
 `pantomime.mime/add-pattern` is a new function that makes
