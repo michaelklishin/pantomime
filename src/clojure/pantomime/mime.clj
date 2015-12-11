@@ -68,3 +68,19 @@
     "")
     (catch MimeTypeException _
       "")))
+
+(def ^MimeTypes mime-adder
+  (->> detector
+       .getDetector
+       .getDetectors
+       (filter #(instance? org.apache.tika.mime.MimeTypes %))
+       first))
+
+(defn add-pattern
+  "Adds a new MimeType pattern to pantomime"
+  [name pattern test]
+  {:pre  [(not= name (mime-type-of test))]
+   :post [(= name (mime-type-of test))]}
+  (when-not (nil? mime-adder)
+    (let [mime-type (.forName mime-adder name)]
+      (.addPattern mime-adder mime-type pattern true))))
