@@ -1,10 +1,7 @@
 (ns pantomime.test.extract-test
   (:require [clojure.java.io   :as io]
             [pantomime.extract :as extract]
-            [clj-http.client :as http]
-            [clojure.test      :refer :all])
-  (:import [java.io File FileInputStream]
-           java.net.URL))
+            [clojure.test      :refer :all]))
 
 
 (deftest test-extract-metadata
@@ -12,8 +9,8 @@
                     io/resource
                     extract/parse)]
     (are [x y] (= (x parsed) (list y))
-         :pdf:pdfversion  "1.2"
-         :dc:title        "main.dvi")))
+         :pdf/pdfversion  "1.2"
+         :dc/title        "main.dvi")))
 
 (deftest test-extract-metadata-input-stream
   (let [parsed (-> "resources/pdf/qrl.pdf"
@@ -21,8 +18,8 @@
                    io/input-stream
                    extract/parse)]
     (are [x y] (= (x parsed) (list y))
-         :pdf:pdfversion  "1.2"
-         :dc:title        "main.dvi")))
+         :pdf/pdfversion  "1.2"
+         :dc/title        "main.dvi")))
 
 (deftest test-extract-metadata-file
   (let [parsed (-> "resources/pdf/qrl.pdf"
@@ -30,8 +27,8 @@
                    io/as-file
                    extract/parse)]
     (are [x y] (= (x parsed) (list y))
-         :pdf:pdfversion  "1.2"
-         :dc:title        "main.dvi")))
+         :pdf/pdfversion  "1.2"
+         :dc/title        "main.dvi")))
 
 ;; http://stackoverflow.com/questions/7181658/byte-collection-to-string-on-clojure
 ;; http://alexander-hill.tumblr.com/post/88883810180/working-with-binary-files-in-clojure
@@ -44,8 +41,8 @@
             _       (.read reader buffer 0 length)
             parsed  (extract/parse buffer)]
         (are [x y] (= (x parsed) (list y))
-             :pdf:pdfversion  "1.2"
-             :dc:title        "main.dvi")))))
+             :pdf/pdfversion  "1.2"
+             :dc/title        "main.dvi")))))
 
 (deftest test-extract-metadata-string
   (let [parsed (extract/parse "test/resources/txt/english.txt")]
@@ -74,5 +71,5 @@
                    io/as-url
                    extract/parse)]
     (are [x y] (= (x parsed) (list y))
-         :pdf:pdfversion  "1.4"
-         :dc:title        "Advanced Message Queuing Protocol Specification")))
+         :pdf/pdfversion  "1.4"
+         :dc/title        "Advanced Message Queuing Protocol Specification")))
