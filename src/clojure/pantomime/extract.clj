@@ -1,18 +1,28 @@
 (ns pantomime.extract
   (:require [pantomime.internal :refer :all]
+            [clojure.string :as string]
             [clojure.java.io :refer [input-stream copy]])
   (:import [java.io File InputStream ByteArrayInputStream]
            [org.apache.tika Tika]
            [java.net URL]
            [org.apache.tika.metadata Metadata]
-           [org.apache.tika.sax BodyContentHandler XHTMLContentHandler]
+           [org.apache.tika.sax BodyContentHandler]
            [org.apache.tika.parser Parser AbstractParser
             AutoDetectParser ParseContext]))
+
+(defn convert-key [k]
+  (let [lisp-case (.toLowerCase ^String  (string/replace k \_ \-))
+        segments (string/split lisp-case #":")
+        nspace (butlast segments)
+        n (last segments)]
+    (if (seq nspace)
+      (keyword (string/join "." nspace) n)
+      (keyword n))))
 
 (defn conv-metadata
   [^Metadata mdata]
   (let [names (.names mdata)]
-    (zipmap (map #(keyword (.toLowerCase ^String %1)) names)
+    (zipmap (map convert-key names)
             (map #(seq (.getValues mdata ^String %1)) names))))
 
 (def ^{:private true} tika-class (Tika.))
