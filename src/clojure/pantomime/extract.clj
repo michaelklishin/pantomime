@@ -10,7 +10,8 @@
            [org.apache.tika.parser Parser AbstractParser
             AutoDetectParser ParseContext]))
 
-(defn convert-key [k]
+(defn convert-key
+  [k]
   (let [lisp-case (.toLowerCase ^String  (string/replace k \_ \-))
         segments (string/split lisp-case #":")
         nspace (butlast segments)
