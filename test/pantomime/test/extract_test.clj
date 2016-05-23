@@ -66,10 +66,23 @@
     (are [x y] (= (x embedded-parsed) (list y))
          :content-type     "application/x-123")))
          
-(deftest test-extract-URL
+;; rabbitmq doesn't respond to this any longer
+#_(deftest test-extract-URL
   (let [parsed (-> "https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf"
                    io/as-url
                    extract/parse)]
     (are [x y] (= (x parsed) (list y))
          :pdf/pdfversion  "1.4"
          :dc/title        "Advanced Message Queuing Protocol Specification")))
+
+(deftest test-make-config
+  (let [config (extract/make-config "test/resources/no-tesseract.xml")]
+    (is config)
+    (is (= (type config) org.apache.tika.config.TikaConfig))))
+
+(deftest test-extract-no-tesseract
+  (let [config (extract/make-config "test/resources/no-tesseract.xml")
+        parsed-with-tesseract (extract/parse "test/resources/images/i_am_an_image.jpg")
+        parsed-without-tesseract (extract/parse "test/resources/images/i_am_an_image.jpg" config)]
+    (is (= (:text parsed-with-tesseract) "I am an image\n\n\n"))
+    (is (empty? (:text parsed-without-tesseract)))))
