@@ -46,11 +46,11 @@
           (swap! embedded-meta conj meta))))))
 
 (defprotocol ExtractionOps
-  (parse [input] [input ^TikaConfig config] "Extract content and metadata.")
+  (parse [input] [input ^TikaConfig config] "Extract content and metadata, optionally with a Tika config.")
   (parse-extract-embedded [input] [input ^TikaConfig config] "Extract content and metadata,
   saving any embedded documents as temp files, returning paths to
-  saved files in metadata")
-  (make-config [input] "Make a Tika configuration object to subsequently tweak the parser"))
+  saved files in metadata.  Optionally provide a Tika config")
+  (make-config [input] "Make a Tika config object to subsequently tweak the parser"))
 
 (defn do-parse
   [ifile ex config]
