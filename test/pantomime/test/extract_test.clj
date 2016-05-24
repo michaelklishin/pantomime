@@ -66,8 +66,7 @@
     (are [x y] (= (x embedded-parsed) (list y))
          :content-type     "application/x-123")))
          
-;; rabbitmq doesn't respond to this any longer
-#_(deftest test-extract-URL
+(deftest test-extract-URL
   (let [parsed (-> "https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf"
                    io/as-url
                    extract/parse)]

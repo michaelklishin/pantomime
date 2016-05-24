@@ -49,8 +49,7 @@
   (are [url expected-mime] (let [{:keys [^String body headers status]} (http/get url)]
                              (is (= 200 status))
                              (is (= expected-mime (mime-type-of (.getBytes body)))))
-       ;;Doesn't respond
-       ;;"https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf"              "application/pdf"
+       "https://partners.adobe.com/public/developer/en/xml/AdobeXMLFormsSamples.pdf" "application/pdf"
        "http://github.com/robots.txt"                                        "text/plain"
        "https://www.xml-sitemaps.com/sitemap.xml"                            "application/xml"
        "http://docs.oracle.com/javase/7/docs/index.html"                     "application/xhtml+xml"
