@@ -81,7 +81,5 @@
 
 (deftest test-extract-no-tesseract
   (let [config (extract/make-config "test/resources/no-tesseract.xml")
-        parsed-with-tesseract (extract/parse "test/resources/images/i_am_an_image.jpg")
         parsed-without-tesseract (extract/parse "test/resources/images/i_am_an_image.jpg" config)]
-    (is (= (:text parsed-with-tesseract) "I am an image\n\n\n"))
     (is (empty? (:text parsed-without-tesseract)))))
