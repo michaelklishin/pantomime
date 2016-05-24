@@ -5,11 +5,11 @@
   :license { :name "Eclipse Public License" }
   :source-paths ["src/clojure"]
   :dependencies [[org.clojure/clojure "1.7.0"]                 
-                 [org.apache.tika/tika-parsers "1.11"]]
+                 [org.apache.tika/tika-parsers "1.13"]]
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "2.0.0"]]}
-             :1.8 {:dependencies [[org.clojure/clojure "1.8.0-RC3"]]}
-             :master {:dependencies [[org.clojure/clojure "1.8.0-master-SNAPSHOT"]]}}
+             :1.8 {:dependencies [[org.clojure/clojure "1.8.0"]]}
+             :master {:dependencies [[org.clojure/clojure "1.9.0-master-SNAPSHOT"]]}}
   :repositories {"sonatype" {:url "http://oss.sonatype.org/content/repositories/releases"
                              :snapshots false
                              :releases {:checksum :fail :update :always}}
