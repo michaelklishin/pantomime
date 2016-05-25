@@ -12,10 +12,12 @@
   (:import [java.io File InputStream]
            [java.net URL]
            [org.apache.tika Tika]
-           [org.apache.tika.mime MediaType MimeType MimeTypes MimeTypeException]))
+           [org.apache.tika.mime MediaType MimeType MimeTypes
+            MediaTypeRegistry MimeTypeException]))
 
 (def ^Tika detector (Tika.))
 (def ^MimeTypes registry (MimeTypes/getDefaultMimeTypes))
+(def ^MediaTypeRegistry media-type-registry (.getMediaTypeRegistry registry))
 
 ;;
 ;; API
@@ -84,3 +86,34 @@
   (when-not (nil? mime-adder)
     (let [mime-type (.forName mime-adder name)]
       (.addPattern mime-adder mime-type pattern true))))
+
+;; I would love to know why there are two separate, completely
+;; independent mechanisms for representing these kinds of objects. -djt
+
+;; Nevertheless, coercions are handy for switching between them.
+
+(defprotocol MimeTypeCoercions
+  (as-mime-type  [x] "Turn a { String, MediaType } object into a MimeType.")
+  (as-media-type [x] "Turn a { String, MimeType } object into a MediaType.")
+)
+
+(extend-protocol MimeTypeCoercions
+  String
+  ;; XXX exception behaviour for these two is an architecture decision. -djt
+  (as-mime-type  [^String x] (try (for-name x)))
+  (as-media-type [^String x] (try (.getType (as-mime-type x))))
+  MimeType
+  (as-mime-type  [^MimeType x] x)
+  (as-media-type [^MimeType x] (.getType x))
+  MediaType
+  (as-mime-type  [^MediaType x] (for-name (.toString (.getBaseType x))))
+  (as-media-type [^MediaType x] x)
+)
+
+;; don't collide with 'core/instance?'
+(defn type-instance?
+  "Check if the first { MIME, media } type is an instance of the second."
+  [a b]
+  ;; only MediaTypes can be compared this way via the MediaTypeRegistry. 
+  (let [^MediaType ta (as-media-type a) ^MediaType tb (as-media-type b)]
+    (.isInstanceOf media-type-registry ta tb)))
