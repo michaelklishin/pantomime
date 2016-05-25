@@ -111,7 +111,7 @@
 )
 
 ;; don't collide with 'core/instance?'
-(defn type-instance?
+(defn instance-of?
   "Check if the first { MIME, media } type is an instance of the second."
   [a b]
   ;; only MediaTypes can be compared this way via the MediaTypeRegistry. 

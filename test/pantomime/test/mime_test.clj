@@ -78,7 +78,7 @@
 )
 
 (deftest test-type-inheritance
-  (is (type-instance? "application/java-archive" "application/zip"))
-  (is (type-instance? "image/svg+xml" "text/xml"))
-  (is (not (type-instance? "application/octet-stream" "text/plain")))
+  (is (instance-of? "application/java-archive" "application/zip"))
+  (is (instance-of? "image/svg+xml" "text/xml"))
+  (is (not (instance-of? "application/octet-stream" "text/plain")))
 )
