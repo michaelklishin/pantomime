@@ -69,3 +69,16 @@
   (is (= (mime-type-of "lorem.ipsum") "application/octet-stream")) ;; fallback mime type
   (add-pattern "text/lorem-ipsum" ".+\\.ipsum$" "lorem.ipsum")
   (is (= (mime-type-of "lorem.ipsum") "text/lorem-ipsum")))
+
+(deftest test-coercions
+  (is (instance? org.apache.tika.mime.MimeType (as-mime-type "text/plain")))
+  (is (instance? org.apache.tika.mime.MediaType (as-media-type "text/plain")))
+  (is (instance? org.apache.tika.mime.MediaType (as-media-type (as-mime-type "text/plain"))))
+  (is (instance? org.apache.tika.mime.MimeType (as-mime-type (as-media-type "text/plain"))))
+)
+
+(deftest test-type-inheritance
+  (is (instance-of? "application/java-archive" "application/zip"))
+  (is (instance-of? "image/svg+xml" "text/xml"))
+  (is (not (instance-of? "application/octet-stream" "text/plain")))
+)
