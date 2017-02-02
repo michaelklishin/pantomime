@@ -1,3 +1,26 @@
+## Changes between Pantomime 2.8.0 and 2.9.0
+
+### Apache Tika 1.14
+
+Apache Tika dependency has been upgraded to [1.14](https://tika.apache.org/1.14/index.html).
+
+### `TikaConfig` Instance Support
+
+Several functions now accept `TikaConfig` instances.
+
+Contributed by ejshoen.
+
+### Namespaced Keys
+
+Extraction functions now return namespaced keywords.
+
+Contributed by Ole Krüger.
+
+### Switch to `instance-of?` instead of `type-instance?`
+
+Contributed by Dorian Taylor.
+
+
 ## Changes between Pantomime 2.7.0 and 2.8.0
 
 ### Apache Tika 1.11
