@@ -7,7 +7,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.apache.tika/tika-parsers "1.14"]]
   :profiles {:dev {:resource-paths ["test/resources"]
-                   :dependencies [[clj-http "2.0.0"]]}
+                   :dependencies [[clj-http "3.4.1"]]}
              :1.7 {:dependencies [[org.clojure/clojure "1.7.0"]]}
              :master {:dependencies [[org.clojure/clojure "1.9.0-master-SNAPSHOT"]]}}
   :repositories {"sonatype" {:url "http://oss.sonatype.org/content/repositories/releases"
