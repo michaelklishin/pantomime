@@ -10,6 +10,12 @@ Several functions now accept `TikaConfig` instances.
 
 Contributed by ejshoen.
 
+
+## Clojure 1.8
+
+The library now depends on Clojure 1.8.
+
+
 ### Namespaced Keys
 
 Extraction functions now return namespaced keywords.
