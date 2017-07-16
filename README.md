@@ -44,6 +44,15 @@ Pantomime requires Clojure 1.6+. The most recent stable
 release is highly recommended.
 
 
+## Caveats
+
+Pantomime depends on a reasonably modern version of `org.apache.commons/commons-compress`.
+This may [cause confusing issues](https://github.com/michaelklishin/pantomime/issues/14#issuecomment-315018885) with other libraries.
+If you run into issues with undefined classes, missing methods and such,
+use `lein deps :tree` to see if you may have conflicting dependencies then [exclude dependencies](https://github.com/technomancy/leiningen/blob/master/doc/FAQ.md)
+(either in libraries that bring in older `commons-compress` versions or Pantomime) as a workaround.
+
+
 ## Usage
 
 ### Detecting MIME type
