@@ -1,4 +1,15 @@
-## Changes between Pantomime 2.8.0 and 2.9.0
+## Changes between Pantomime 2.9.0 and 2.10.0 (Jan 19th, 2018)
+
+### Apache Tika 1.17
+
+Apache Tika dependency has been upgraded to [1.14](https://tika.apache.org/1.17/index.html).
+
+## Clojure 1.9
+
+The library now depends on Clojure 1.9.
+
+
+## Changes between Pantomime 2.8.0 and 2.9.0 (Feb 2nd, 2017)
 
 ### Apache Tika 1.14
 
