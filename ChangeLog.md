@@ -1,3 +1,8 @@
+## Changes between Pantomime 2.10.0 and 2.11.0 (unreleased)
+
+No changes yet.
+
+
 ## Changes between Pantomime 2.9.0 and 2.10.0 (Jan 19th, 2018)
 
 ### Apache Tika 1.17
