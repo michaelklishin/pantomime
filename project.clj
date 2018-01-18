@@ -10,12 +10,14 @@
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "3.7.0"]]}
              :1.7 {:dependencies [[org.clojure/clojure "1.7.0"]]}
-             :master {:dependencies [[org.clojure/clojure "1.9.0"]]}}
+             :1.8 {:dependencies [[org.clojure/clojure "1.8.0"]]}
+;;             :master {:dependencies [[org.clojure/clojure "1.9.0"]]}
+             }
   :repositories {"sonatype" {:url "http://oss.sonatype.org/content/repositories/releases"
                              :snapshots false
                              :releases {:checksum :fail :update :always}}
                  "sonatype-snapshots" {:url "http://oss.sonatype.org/content/repositories/snapshots"
                                        :snapshots true
                                        :releases {:checksum :fail :update :always}}}
-  :aliases  {"all" ["with-profile" "+dev:+1.7:+master"]}
+  :aliases  {"all" ["with-profile" "+dev:+1.7:+1.8"]}
   :global-vars {*warn-on-reflection* true})
