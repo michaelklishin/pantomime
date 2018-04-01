@@ -268,6 +268,6 @@ tests pass, submit a pull request on Github.
 
 ## License
 
-Copyright (C) 2011-2016 Michael S. Klishin, and the ClojureWerkz team.
+Copyright (C) 2011-2018 Michael S. Klishin, and the ClojureWerkz team.
 
 Distributed under the Eclipse Public License, the same as Clojure.
