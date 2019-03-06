@@ -1,16 +1,16 @@
-(defproject com.novemberain/pantomime "2.11.0-SNAPSHOT"
+(defproject com.novemberain/pantomime "2.11.0"
   :min-lein-version "2.5.1"
   :description "A minimalistic Clojure interface to Apache Tika"
   :url "http://github.com/michaelklishin/pantomime"
   :license { :name "Eclipse Public License" }
   :source-paths ["src/clojure"]
-  :dependencies [[org.clojure/clojure "1.9.0"]
+  :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.apache.tika/tika-parsers "1.19.1"]
                  [org.apache.commons/commons-compress "1.18"]]
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "3.9.1"]]}
-             :1.8 {:dependencies [[org.clojure/clojure "1.8.0"]]}
-             :master {:dependencies [[org.clojure/clojure "1.10.0-master-SNAPSHOT"]]}
+             :1.9 {:dependencies [[org.clojure/clojure "1.9.0"]]}
+             :master {:dependencies [[org.clojure/clojure "1.11.0-master-SNAPSHOT"]]}
              }
   :repositories {"sonatype" {:url "https://oss.sonatype.org/content/repositories/releases"
                              :snapshots false
