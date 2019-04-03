@@ -27,21 +27,17 @@
     (zipmap (map convert-key names)
             (map #(seq (.getValues mdata ^String %1)) names))))
 
-(def ^{:private true} autodetect-parser (AutoDetectParser.))
-
 (defn extract-parser
   "Parser for embedded documents"
-  [embedded-meta]
+  [parser ^Metadata meta]
   (proxy [AbstractParser] []
     (getSupportedTypes [context]
-      (.getSupportedTypes ^Parser autodetect-parser context))
+      (.getSupportedTypes ^Parser parser context))
     (parse [stream handler metadata context]
-      (let [tmp-fh           (File/createTempFile "pantomime-" "-embedded")
-            meta             {:path (.getPath ^File tmp-fh)
-                              :name (.get ^Metadata metadata "resourceName")}]
-        (do
-          (copy stream tmp-fh)
-          (swap! embedded-meta conj meta))))))
+      (.parse parser stream handler metadata context)
+      (doseq [^String name (.names metadata)]
+        (doseq [^String value (.getValues metadata name)]
+          (.add meta name value))))))
 
 (defprotocol ExtractionOps
   (parse
@@ -61,15 +57,13 @@
                    (AutoDetectParser.))
         context  (ParseContext.)
         metadata (Metadata.)
-        handler  (BodyContentHandler. -1)
-        embedded-meta (atom [])]
+        handler  (BodyContentHandler. -1)]
     (if ex
       (do
-        (.set context Parser (extract-parser embedded-meta))
+        (.set context Parser (extract-parser parser metadata))
         (.parse parser ifile handler metadata context)
         (assoc (conv-metadata metadata)
-               :text     (.toString handler)
-               :embedded @embedded-meta))
+               :text     (.toString handler)))
       (do
         (.set context Parser parser)
         (.parse parser ifile handler metadata context)

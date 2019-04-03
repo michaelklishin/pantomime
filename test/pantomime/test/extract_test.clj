@@ -56,15 +56,6 @@
     ;; org.apache.tika.parser.txt.TXTParser (I think) adds a newline
     ;; to parsed text :/
     (is (= (:text parsed) (str file-content "\n")))))
-
-(deftest test-extract-embedded
-  (let [parsed       (extract/parse-extract-embedded
-                      "test/resources/pdf/fileAttachment.pdf")
-        embedded     (:path (first (:embedded parsed)))
-        embedded-parsed (extract/parse embedded)
-        _            (io/delete-file embedded)]
-    (are [x y] (= (x embedded-parsed) (list y))
-         :content-type     "application/x-123")))
          
 (deftest test-extract-URL
   (let [parsed (-> "https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf"

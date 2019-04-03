@@ -1,4 +1,4 @@
-(defproject com.novemberain/pantomime "2.10.0"
+(defproject com.github.tsukiji86/pantomime "2.10.0"
   :min-lein-version "2.5.1"
   :description "A minimalistic Clojure interface to Apache Tika"
   :url "http://github.com/michaelklishin/pantomime"
@@ -6,6 +6,7 @@
   :source-paths ["src/clojure"]
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.apache.tika/tika-parsers "1.17"]
+                 [org.apache.tika/tika-dl "1.17"]
                  [org.apache.commons/commons-compress "1.15"]]
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "3.7.0"]]}
