@@ -39,9 +39,8 @@
       (let [tmp-fh           (File/createTempFile "pantomime-" "-embedded")
             meta             {:path (.getPath ^File tmp-fh)
                               :name (.get ^Metadata metadata "resourceName")}]
-        (do
-          (copy stream tmp-fh)
-          (swap! embedded-meta conj meta))))))
+        (copy stream tmp-fh)
+        (swap! embedded-meta conj meta)))))
 
 (defn embed-parser
   "Parser for parsing embedded documents.  Rolls up name-value pairs into parent metadata."

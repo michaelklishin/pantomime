@@ -1,4 +1,4 @@
-(defproject com.github.tsukiji86/pantomime "2.10.1"
+(defproject com.novemberain/pantomime "2.10.1"
   :min-lein-version "2.5.1"
   :description "A minimalistic Clojure interface to Apache Tika"
   :url "http://github.com/michaelklishin/pantomime"
