@@ -27,17 +27,33 @@
     (zipmap (map convert-key names)
             (map #(seq (.getValues mdata ^String %1)) names))))
 
+(def ^{:private true} autodetect-parser (AutoDetectParser.))
+
 (defn extract-parser
-  "Parser for embedded documents"
+  "Parser for extracting embedded documents"
+  [embedded-meta]
+  (proxy [AbstractParser] []
+    (getSupportedTypes [context]
+      (.getSupportedTypes ^Parser autodetect-parser context))
+    (parse [stream handler metadata context]
+      (let [tmp-fh           (File/createTempFile "pantomime-" "-embedded")
+            meta             {:path (.getPath ^File tmp-fh)
+                              :name (.get ^Metadata metadata "resourceName")}]
+        (do
+          (copy stream tmp-fh)
+          (swap! embedded-meta conj meta))))))
+
+(defn embed-parser
+  "Parser for parsing embedded documents.  Rolls up name-value pairs into parent metadata."
   [parser ^Metadata meta]
   (proxy [AbstractParser] []
     (getSupportedTypes [context]
       (.getSupportedTypes ^Parser parser context))
     (parse [stream handler metadata context]
       (.parse parser stream handler metadata context)
-      (doseq [^String name (.names metadata)]
-        (doseq [^String value (.getValues metadata name)]
-          (.add meta name value))))))
+      (doseq [^String name (.names metadata)
+              ^String value (.getValues metadata name)]
+        (.add meta name value)))))
 
 (defprotocol ExtractionOps
   (parse
@@ -48,6 +64,10 @@
     [input ^TikaConfig config] "Extract content and metadata,
   saving any embedded documents as temp files, returning paths to
   saved files in metadata.  Optionally provide a Tika config")
+  (parse-embedded
+    [input]
+    [input ^TikaConfig config] "Extract content and metadata, rolling up any embedded metadata,
+    optionally with a Tika config.")
   (make-config [input] "Make a Tika config object to subsequently tweak the parser"))
 
 (defn do-parse
@@ -55,33 +75,40 @@
   (let [parser   (if config
                    (AutoDetectParser. ^TikaConfig config)
                    (AutoDetectParser.))
-        context  (ParseContext.)
+        embedded-meta (atom [])
         metadata (Metadata.)
+        context-parser (case ex
+                         :extract (extract-parser embedded-meta)
+                         :parse (embed-parser parser metadata)
+                         parser)
+        context  (ParseContext.)
         handler  (BodyContentHandler. -1)]
-    (if ex
-      (do
-        (.set context Parser (extract-parser parser metadata))
-        (.parse parser ifile handler metadata context)
-        (assoc (conv-metadata metadata)
-               :text     (.toString handler)))
-      (do
-        (.set context Parser parser)
-        (.parse parser ifile handler metadata context)
-        (assoc (conv-metadata metadata)
-               :text     (.toString handler))))))                          
+    (.set context Parser context-parser)
+    (.parse parser ifile handler metadata context)
+    (if (= ex :extract)
+      (assoc (conv-metadata metadata)
+        :text     (.toString handler)
+        :embedded @embedded-meta)
+      (assoc (conv-metadata metadata)
+        :text     (.toString handler)))))
 
 (extend-protocol ExtractionOps
   InputStream
   (parse
     ([^InputStream ifile]
-       (do-parse ifile false nil))
+       (do-parse ifile :default nil))
     ([^InputStream ifile ^TikaConfig config]
-       (do-parse ifile false config)))
+       (do-parse ifile :default config)))
   (parse-extract-embedded
     ([^InputStream ifile]
-       (do-parse ifile true nil))
+       (do-parse ifile :extract nil))
     ([^InputStream ifile ^TikaConfig config]
-       (do-parse ifile true config)))
+       (do-parse ifile :extract config)))
+  (parse-embedded
+    ([^InputStream ifile]
+       (do-parse ifile :parse nil))
+    ([^InputStream ifile ^TikaConfig config]
+       (do-parse ifile :parse config)))
   (make-config [^InputStream ifile]
     (TikaConfig. ifile)))
      
@@ -95,8 +122,13 @@
   (parse-extract-embedded
     ([^File file]
        (with-open [is (input-stream file)] (parse-extract-embedded is)))
-      ([^File file ^TikaConfig config]
+    ([^File file ^TikaConfig config]
        (with-open [is (input-stream file)] (parse-extract-embedded is config))))
+  (parse-embedded
+    ([^File file]
+       (with-open [is (input-stream file)] (parse-embedded is)))
+    ([^File file ^TikaConfig config]
+       (with-open [is (input-stream file)] (parse-embedded is config))))
   (make-config [^File file] (TikaConfig. file)))
     
 (extend-protocol ExtractionOps
@@ -107,6 +139,9 @@
       ([^String filename] (with-open [is (input-stream filename)] (parse-extract-embedded is)))
       ([^String filename ^TikaConfig config]
     (with-open [is (input-stream filename)] (parse-extract-embedded is config))))
+  (parse-embedded
+      ([^String filename] (with-open [is (input-stream filename)] (parse-embedded is)))
+      ([^String filename ^TikaConfig config] (with-open [is (input-stream filename)] (parse-embedded is config))))
   (make-config [^String filename]
     (with-open [is (input-stream filename)] (make-config is))))
   
@@ -122,6 +157,11 @@
        (with-open [is (input-stream url)] (parse-extract-embedded is)))
     ([^URL url ^TikaConfig config]
        (with-open [is (input-stream url)] (parse-extract-embedded is config))))
+  (parse-embedded
+    ([^URL url]
+       (with-open [is (input-stream url)] (parse-embedded is)))
+    ([^URL url ^TikaConfig config]
+       (with-open [is (input-stream url)] (parse-embedded is config))))
   (make-config [^URL url]
     (with-open [is (input-stream url)] (make-config is))))
 
