@@ -3,7 +3,6 @@
             [clojure.string :as string]
             [clojure.java.io :refer [input-stream copy]])
   (:import [java.io File InputStream ByteArrayInputStream]
-           [org.apache.tika Tika]
            [java.net URL]
            [org.apache.tika.metadata Metadata]
            [org.apache.tika.sax BodyContentHandler]

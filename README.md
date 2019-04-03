@@ -26,21 +26,23 @@ using Maven, add the following repository definition to your
 With Leiningen:
 
 ```clojure
-[com.novemberain/pantomime "2.9.0"]
+[com.novemberain/pantomime "2.11.0"]
 ```
 
 With Maven:
 
-    <dependency>
-      <groupId>com.novemberain</groupId>
-      <artifactId>pantomime</artifactId>
-      <version>2.9.0</version>
-    </dependency>
+``` xml
+<dependency>
+  <groupId>com.novemberain</groupId>
+  <artifactId>pantomime</artifactId>
+  <version>2.11.0</version>
+</dependency>
+```
 
 
 ## Supported Clojure versions
 
-Pantomime requires Clojure 1.6+. The most recent stable
+Pantomime requires Clojure 1.8+. The most recent stable
 release is highly recommended.
 
 
@@ -266,6 +268,6 @@ tests pass, submit a pull request on Github.
 
 ## License
 
-Copyright (C) 2011-2016 Michael S. Klishin, and the ClojureWerkz team.
+Copyright (C) 2011-2019 Michael S. Klishin, and the ClojureWerkz team.
 
 Distributed under the Eclipse Public License, the same as Clojure.

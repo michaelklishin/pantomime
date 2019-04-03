@@ -1,3 +1,20 @@
+## Changes between Pantomime 2.11.0 and 2.12.0 (unreleased)
+
+No changes yet.
+
+
+## Changes between Pantomime 2.10.0 and 2.11.0 (March 6th, 2019)
+
+### Apache Tika 1.19.1
+
+Apache Tika dependency has been upgraded to [1.19.1](https://tika.apache.org/1.19.1/index.html).
+
+GitHub issue: [#29](https://github.com/michaelklishin/pantomime/issues/29)
+
+### Clojure 1.10
+
+The library now depends on Clojure 1.10.
+
 ## Changes between Pantomime 2.9.0 and 2.10.0 (Jan 19th, 2018)
 
 ### Apache Tika 1.17
@@ -21,11 +38,9 @@ Several functions now accept `TikaConfig` instances.
 
 Contributed by ejshoen.
 
-
-## Clojure 1.8
+### Clojure 1.8
 
 The library now depends on Clojure 1.8.
-
 
 ### Namespaced Keys
 
