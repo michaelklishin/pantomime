@@ -59,12 +59,12 @@
 
 (deftest test-extract-embedded
   (let [parsed       (extract/parse-extract-embedded
-                      "test/resources/pdf/fileAttachment.pdf")
+                       "test/resources/pdf/fileAttachment.pdf")
         embedded     (:path (first (:embedded parsed)))
         embedded-parsed (extract/parse embedded)
         _            (io/delete-file embedded)]
     (are [x y] (= (x embedded-parsed) (list y))
-         :content-type     "application/x-123")))
+               :content-type     "application/x-123")))
          
 (deftest test-extract-URL
   (let [parsed (-> "https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf"

@@ -6,6 +6,7 @@
   :source-paths ["src/clojure"]
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.apache.tika/tika-parsers "1.19.1"]
+                 [org.apache.tika/tika-dl "1.19.1"]
                  [org.apache.commons/commons-compress "1.18"]]
   :profiles {:dev {:resource-paths ["test/resources"]
                    :dependencies [[clj-http "3.9.1"]]}
