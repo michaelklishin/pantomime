@@ -8,10 +8,8 @@ supports extraction of document metadata and text content.
 
 ## Maven Artifacts
 
-Pantomime artifacts are [released to Clojars](https://clojars.org/com.novemberain/pantomime). If you are
-using Maven, add the following repository definition to your
-
-`pom.xml`:
+Pantomime artifacts are [released to Clojars](https://clojars.org/com.novemberain/pantomime).
+For Maven, add the following repository definition to `pom.xml`:
 
 ``` xml
 <repository>
@@ -20,8 +18,25 @@ using Maven, add the following repository definition to your
 </repository>
 ```
 
+### Latest Series (3.x)
 
-### Latest Release
+With Leiningen:
+
+```clojure
+[com.novemberain/pantomime "3.0.0"]
+```
+
+With Maven:
+
+``` xml
+<dependency>
+  <groupId>com.novemberain</groupId>
+  <artifactId>pantomime</artifactId>
+  <version>3.0.0</version>
+</dependency>
+```
+
+### 2.x Series
 
 With Leiningen:
 
@@ -38,6 +53,7 @@ With Maven:
   <version>2.11.0</version>
 </dependency>
 ```
+
 
 ## Supported Clojure Versions
 
