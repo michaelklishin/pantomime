@@ -1,6 +1,8 @@
 ## Changes between Pantomime 3.0.0 and 3.1.0 (unreleased)
 
-No changes yet.
+### Bug Fixes
+
+ * `pantomime.extract/parse` ignored a custom `TikaConfig` when called with a URL input
 
 
 ## Changes between Pantomime 2.11.0 and 3.0.0 (Jan 18, 2025)

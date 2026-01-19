@@ -157,8 +157,8 @@
   (parse
     ([^URL url]
        (with-open [is (input-stream url)] (parse is)))
-    ([^URL url config]
-       (with-open [is (input-stream url)] (parse is url))))
+    ([^URL url ^TikaConfig config]
+       (with-open [is (input-stream url)] (parse is config))))
   (parse-extract-embedded
     ([^URL url]
        (with-open [is (input-stream url)] (parse-extract-embedded is)))

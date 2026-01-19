@@ -77,6 +77,11 @@
     (is (contains? parsed :pdf/pdfversion))
     (is (contains? parsed :text))))
 
+(deftest test-extract-URL-with-config
+  (let [config (extract/make-config "test/resources/no-tesseract.xml")
+        parsed (extract/parse (io/resource "resources/images/i_am_an_image.jpg") config)]
+    (is (empty? (:text parsed)))))
+
 (deftest test-make-config
   (let [config (extract/make-config "test/resources/no-tesseract.xml")]
     (is config)
