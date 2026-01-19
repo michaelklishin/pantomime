@@ -58,27 +58,18 @@ With Maven:
 ## Supported Clojure Versions
 
 Pantomime supports Clojure versions going back to at least 1.10.
-The default dependency starting with the (future) 3.x series is Clojure `1.12.x`.
+The default dependency starting with the 3.x series is Clojure `1.12.x`.
 
 
 ## Supported Java (JRE, JDK) Versions
 
 ### Pantomime 3.x
 
-The upcoming 3.x release depends on Apache Tika 3.x which requires JDK 
+Pantomime 3.x depends on Apache Tika 3.x which requires JDK 17+.
 
 ### Pantomime 2.x
 
 Pantomime 2.x supports JDK 8+.
-
-
-## Caveats
-
-Pantomime depends on a reasonably modern version of `org.apache.commons/commons-compress`.
-This may [cause confusing issues](https://github.com/michaelklishin/pantomime/issues/14#issuecomment-315018885) with other libraries.
-If you run into issues with undefined classes, missing methods and such,
-use `lein deps :tree` to see if you may have conflicting dependencies then [exclude dependencies](https://github.com/technomancy/leiningen/blob/master/doc/FAQ.md)
-(either in libraries that bring in older `commons-compress` versions or Pantomime) as a workaround.
 
 
 ## Usage
@@ -120,7 +111,7 @@ In this case, Pantomime will try to detect content type from response body first
 and servers that report content type incorrectly, for example, serve PDFs as `text/html`) and if it fails, will use content
 type header.
 
-HTTP headers map must contain "content-type" key for content type header to be used. Most Clojure HTTP client, for instance, [clj-http](https://github.com/dakrone/clj-http),
+HTTP headers map must contain "content-type" key for content type header to be used. Most Clojure HTTP clients, for instance, [clj-http](https://github.com/dakrone/clj-http),
 use lowercase strings for header names so Pantomime follows this convention.
 
 
@@ -169,7 +160,7 @@ for a MIME type:
 
 ### Language Detection
 
-`pantomime.languages` is a new that provides functions for
+`pantomime.languages` is a namespace that provides functions for
 detecting natural languages:
 
 ``` clojure
@@ -209,11 +200,11 @@ An example:
 (pprint (extract/parse "test/resources/pdf/qrl.pdf"))
 
 ;= {:producer ("GNU Ghostscript 7.05"),
-;=  :pdf:pdfversion ("1.2"),
-;=  :dc:title ("main.dvi"),
-;=  :dc:format ("application/pdf; version=1.2"),
-;=  :xmp:creatortool ("dvips(k) 5.86 Copyright 1999 Radical Eye Software"),
-;=  :pdf:encrypted ("false"),
+;=  :pdf/pdfversion ("1.2"),
+;=  :dc/title ("main.dvi"),
+;=  :dc/format ("application/pdf; version=1.2"),
+;=  :xmp/creatortool ("dvips(k) 5.86 Copyright 1999 Radical Eye Software"),
+;=  :pdf/encrypted ("false"),
 ;=  ...
 ;=  :text "\nQuickly Reacquirable Locks∗\n\nDave Dice Mark Moir ... "
 ;= }
@@ -238,8 +229,8 @@ file, which gets saved to `/tmp/pantomime-3207476364135900258-embedded`:
 ;= {:date ("2012-11-23T14:40:50Z"),
 ;=  :producer ("Acrobat Distiller 9.5.2 (Windows)"),
 ;=  :creator ("van der Knijff"),
-;=  :pdf:pdfversion ("1.7"),
-;=  :dc:title ("This is a test document"),
+;=  :pdf/pdfversion ("1.7"),
+;=  :dc/title ("This is a test document"),
 ;=  :text "\nThis is a test document. It contains a file attachment..."
 ;=  ...
 ;=  :embedded [{:path "/tmp/pantomime-3207476364135900258-embedded",
