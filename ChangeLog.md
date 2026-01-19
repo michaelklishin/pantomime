@@ -10,7 +10,7 @@ No changes yet.
  * `pantomime.extract/parse` ignored a custom `TikaConfig` when called with a URL input
 
 
-## Changes between Pantomime 2.11.0 and 3.0.0 (Jan 18, 2025)
+## Changes between Pantomime 2.11.0 and 3.0.0 (Jan 18, 2026)
 
 ### Apache Tika 3.2.x
 
