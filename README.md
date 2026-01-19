@@ -39,11 +39,21 @@ With Maven:
 </dependency>
 ```
 
+## Supported Clojure Versions
 
-## Supported Clojure versions
+Pantomime supports Clojure versions going back to at least 1.10.
+The default dependency starting with the (future) 3.x series is Clojure `1.12.x`.
 
-Pantomime requires Clojure 1.8+. The most recent stable
-release is highly recommended.
+
+## Supported Java (JRE, JDK) Versions
+
+### Pantomime 3.x
+
+The upcoming 3.x release depends on Apache Tika 3.x which requires JDK 
+
+### Pantomime 2.x
+
+Pantomime 2.x supports JDK 8+.
 
 
 ## Caveats
