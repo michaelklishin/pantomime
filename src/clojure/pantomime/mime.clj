@@ -1,4 +1,4 @@
-;; Copyright (c) 2011-2014 Michael S. Klishin, Alex Petrov, and the ClojureWerkz Team
+;; Copyright (c) 2011-2026 Michael S. Klishin, Alex Petrov, and the ClojureWerkz Team
 ;;
 ;; The use and distribution terms for this software are covered by the
 ;; Eclipse Public License 1.0 (http://opensource.org/licenses/eclipse-1.0.php)
@@ -12,6 +12,7 @@
   (:import [java.io File InputStream]
            [java.net URL]
            [org.apache.tika Tika]
+           [org.apache.tika.detect CompositeDetector]
            [org.apache.tika.mime MediaType MimeType MimeTypes
             MediaTypeRegistry MimeTypeException]))
 
@@ -72,9 +73,9 @@
       "")))
 
 (def ^MimeTypes mime-adder
-  (->> detector
-       .getDetector
-       .getDetectors
+  (->> (.getDetector detector)
+       ^CompositeDetector (identity)
+       (.getDetectors)
        (filter #(instance? org.apache.tika.mime.MimeTypes %))
        first))
 
@@ -99,9 +100,8 @@
 
 (extend-protocol MimeTypeCoercions
   String
-  ;; XXX exception behaviour for these two is an architecture decision. -djt
   (as-mime-type  [^String x] (try (for-name x)))
-  (as-media-type [^String x] (try (.getType (as-mime-type x))))
+  (as-media-type [^String x] (try (.getType ^MimeType (as-mime-type x))))
   MimeType
   (as-mime-type  [^MimeType x] x)
   (as-media-type [^MimeType x] (.getType x))
@@ -114,6 +114,6 @@
 (defn instance-of?
   "Check if the first { MIME, media } type is an instance of the second."
   [a b]
-  ;; only MediaTypes can be compared this way via the MediaTypeRegistry. 
+  ;; only MediaTypes can be compared this way via the MediaTypeRegistry.
   (let [^MediaType ta (as-media-type a) ^MediaType tb (as-media-type b)]
     (.isInstanceOf media-type-registry ta tb)))

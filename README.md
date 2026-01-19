@@ -232,35 +232,14 @@ If extraction fails, the functions will return the following:
  :x-parsed-by ("org.apache.tika.parser.EmptyParser")}
 ```
 
-## Community
-
-[Pantomime has a mailing list](https://groups.google.com/group/clojure-pantomime). Feel free to join it and ask any questions you may have.
-
-To subscribe for announcements of releases, important changes and so on, please follow [@ClojureWerkz](https://twitter.com/#!/clojurewerkz) on Twitter.
-
-
-
-## Pantomime Is a ClojureWerkz Project
-
-Pantomime is part of the [group of libraries known as ClojureWerkz](http://clojurewerkz.org), together with
-[Monger](https://github.com/michaelklishin/monger), [Langohr](https://github.com/michaelklishin/langohr), [Neocons](https://github.com/clojurewerkz/neocons), [Elastisch](https://github.com/clojurewerkz/elastisch), [Quartzite](https://github.com/michaelklishin/quartzite) and several others.
-
-
-
-
-## Continuous Integration
-
-[![Continuous Integration status](https://secure.travis-ci.org/michaelklishin/pantomime.png)](http://travis-ci.org/michaelklishin/pantomime)
-
-CI is hosted by [travis-ci.org](http://travis-ci.org)
-
-
 ## Development
 
-Pantomime uses [Leiningen 2](https://github.com/technomancy/leiningen/blob/master/doc/TUTORIAL.md). Make
+Pantomime uses [Leiningen](https://codeberg.org/leiningen/leiningen). Make
 sure you have it installed and then run tests against all supported Clojure versions using
 
-    lein all test
+```
+lein all test
+```
 
 Then create a branch and make your changes on it. Once you are done with your changes and all
 tests pass, submit a pull request on Github.
@@ -268,6 +247,6 @@ tests pass, submit a pull request on Github.
 
 ## License
 
-Copyright (C) 2011-2019 Michael S. Klishin, and the ClojureWerkz team.
+Copyright (C) 2011-2026 Michael S. Klishin, and the ClojureWerkz team.
 
 Distributed under the Eclipse Public License, the same as Clojure.

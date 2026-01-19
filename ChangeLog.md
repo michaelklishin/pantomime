@@ -1,6 +1,30 @@
-## Changes between Pantomime 2.11.0 and 2.12.0 (unreleased)
+## Changes between Pantomime 2.11.0 and 3.0.0 (unreleased)
 
-No changes yet.
+### Apache Tika 3.2.x
+
+Apache Tika dependency has been upgraded from 1.19.1 to [3.2.3](https://tika.apache.org/3.2.3/index.html).
+
+This is a major upgrade that includes breaking changes:
+
+ * This Tika version, and therefore Pantomime, requires Java 11+
+ * Language detection now uses `OptimaizeLangDetector` instead of deprecated `LanguageIdentifier`
+ * Several of Tika's artifacts and transient dependencies have changed
+ 
+### MIME Type Detection Changes
+
+Tika 3.x also has a few MIME detection behavior changes:
+
+ * JavaScript files now detected as `text/javascript` instead of `application/javascript`
+ * `robots.txt` files now detected as `text/x-robots` instead of `text/plain`
+ 
+### Clojure 1.12
+
+The library now depends on Clojure 1.12.4 by default.
+
+### Dependency Updates
+
+ * clj-http upgraded to 3.13.1
+ * Added managed dependencies for Bouncy Castle libraries
 
 
 ## Changes between Pantomime 2.10.0 and 2.11.0 (March 6th, 2019)

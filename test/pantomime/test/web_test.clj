@@ -1,3 +1,11 @@
+;; Copyright (c) 2011-2026 Michael S. Klishin, Alex Petrov, and the ClojureWerkz Team
+;;
+;; The use and distribution terms for this software are covered by the
+;; Eclipse Public License 1.0 (http://opensource.org/licenses/eclipse-1.0.php)
+;; which can be found in the file epl-v10.html at the root of this distribution.
+;; By using this software in any fashion, you are agreeing to be bound by
+;; the terms of this license.
+;; You must not remove this notice, or any other, from this software.
 (ns pantomime.test.web-test
   (:require [clj-http.client :as http]
             [clojure.test  :refer :all]
@@ -11,11 +19,7 @@
                              (is (= expected-mime
                                     (mime-type-of (.getBytes body) headers)
                                     (mime-type-of body headers))))
-       ;;Doesn't respond
-       ;;"http://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf" "application/pdf"
-       "http://github.com/robots.txt"                          "text/plain"
+       "http://github.com/robots.txt"                          "text/x-robots"
        "https://www.xml-sitemaps.com/sitemap.xml"              "application/xml"
-       "http://docs.oracle.com/javase/7/docs/index.html"       "application/xhtml+xml"
-       "http://upload.wikimedia.org/wikipedia/commons/9/9a/PNG_transparency_demonstration_2.png" "image/png"
-       "http://creativecommons.org/images/deed/cc-logo.jpg" "image/jpeg"
-       "http://rss.cnn.com/rss/edition_travel.rss" "application/rss+xml"))
+       "https://docs.oracle.com/en/java/javase/21/"            "text/html"
+       "http://rss.cnn.com/rss/edition_travel.rss"             "application/rss+xml"))

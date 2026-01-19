@@ -1,3 +1,12 @@
+;; Copyright (c) 2011-2026 Michael S. Klishin, Alex Petrov, and the ClojureWerkz Team
+;;
+;; The use and distribution terms for this software are covered by the
+;; Eclipse Public License 1.0 (http://opensource.org/licenses/eclipse-1.0.php)
+;; which can be found in the file epl-v10.html at the root of this distribution.
+;; By using this software in any fashion, you are agreeing to be bound by
+;; the terms of this license.
+;; You must not remove this notice, or any other, from this software.
+
 (ns pantomime.extract
   (:require [pantomime.internal :refer :all]
             [clojure.string :as string]
@@ -48,9 +57,9 @@
     (getSupportedTypes [context]
       (.getSupportedTypes ^Parser parser context))
     (parse [stream handler metadata context]
-      (.parse parser stream handler metadata context)
-      (doseq [^String name (.names metadata)
-              ^String value (.getValues metadata name)]
+      (.parse ^Parser parser stream handler metadata context)
+      (doseq [^String name (.names ^Metadata metadata)
+              ^String value (.getValues ^Metadata metadata name)]
         (.add meta name value)))))
 
 (defprotocol ExtractionOps
@@ -109,7 +118,7 @@
        (do-parse ifile :parse config)))
   (make-config [^InputStream ifile]
     (TikaConfig. ifile)))
-     
+
 (extend-protocol ExtractionOps
   java.io.File
   (parse
@@ -128,7 +137,7 @@
     ([^File file ^TikaConfig config]
        (with-open [is (input-stream file)] (parse-embedded is config))))
   (make-config [^File file] (TikaConfig. file)))
-    
+
 (extend-protocol ExtractionOps
   String
   (parse ([^String filename] (with-open [is (input-stream filename)] (parse is)))
@@ -142,7 +151,7 @@
       ([^String filename ^TikaConfig config] (with-open [is (input-stream filename)] (parse-embedded is config))))
   (make-config [^String filename]
     (with-open [is (input-stream filename)] (make-config is))))
-  
+
 (extend-protocol ExtractionOps
   URL
   (parse
@@ -170,4 +179,3 @@
    :parse-extract-embedded (fn [^bytes input]
                              (parse-extract-embedded
                               (ByteArrayInputStream. input)))})
-

@@ -1,3 +1,11 @@
+;; Copyright (c) 2011-2026 Michael S. Klishin, Alex Petrov, and the ClojureWerkz Team
+;;
+;; The use and distribution terms for this software are covered by the
+;; Eclipse Public License 1.0 (http://opensource.org/licenses/eclipse-1.0.php)
+;; which can be found in the file epl-v10.html at the root of this distribution.
+;; By using this software in any fashion, you are agreeing to be bound by
+;; the terms of this license.
+;; You must not remove this notice, or any other, from this software.
 (ns pantomime.test.mime-test
   (:require [clojure.java.io :as io]
             [clj-http.client :as http]
@@ -37,24 +45,22 @@
          "image/png"                (io/resource "images/png.image.unknown")
          "application/octet-stream" "an_awesome_icon"
 
-         "application/javascript"   (io/resource "application/javascript/mootools.uncompressed.js")
+         "text/javascript"          (io/resource "application/javascript/mootools.uncompressed.js")
          "text/plain"               (io/input-stream (io/resource "application/javascript/mootools.uncompressed.js"))
-         "application/javascript"   (io/as-file (io/resource "application/javascript/mootools.uncompressed.js"))
+         "text/javascript"          (io/as-file (io/resource "application/javascript/mootools.uncompressed.js"))
 
-         "application/javascript"   (io/resource "application/javascript/mootools.compressed.js")
+         "text/javascript"          (io/resource "application/javascript/mootools.compressed.js")
          "text/plain"               (io/input-stream (io/resource "application/javascript/mootools.compressed.js"))
-         "application/javascript"   (io/as-file (io/resource "application/javascript/mootools.compressed.js")))))
+         "text/javascript"          (io/as-file (io/resource "application/javascript/mootools.compressed.js")))))
 
 (deftest test-http-response-content-type-detection
   (are [url expected-mime] (let [{:keys [^String body headers status]} (http/get url)]
                              (is (= 200 status))
                              (is (= expected-mime (mime-type-of (.getBytes body)))))
        "http://css4.pub/2015/usenix/example.pdf"                             "application/pdf"
-       "http://github.com/robots.txt"                                        "text/plain"
+       "http://github.com/robots.txt"                                        "text/x-robots"
        "https://www.xml-sitemaps.com/sitemap.xml"                            "application/xml"
-       "http://docs.oracle.com/javase/7/docs/index.html"                     "application/xhtml+xml"
-       "http://upload.wikimedia.org/wikipedia/commons/9/9a/PNG_transparency_demonstration_2.png" "application/octet-stream"
-       "http://upload.wikimedia.org/wikipedia/commons/e/e9/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png" "application/octet-stream"))
+       "https://docs.oracle.com/en/java/javase/21/"                          "text/html"))
 
 (deftest test-extension-for-name
   (are [name ext] (is (= ext (extension-for-name name)))

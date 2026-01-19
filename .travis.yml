@@ -1,5 +1,0 @@
-language: clojure
-sudo: false
-script: lein all test
-jdk:
-  - oraclejdk8
