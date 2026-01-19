@@ -1,4 +1,4 @@
-(defproject com.novemberain/pantomime "3.1.0-SNAPSHOT"
+(defproject com.novemberain/pantomime "3.1.0"
   :min-lein-version "2.5.1"
   :description "A minimalistic Clojure interface to Apache Tika"
   :url "http://github.com/michaelklishin/pantomime"
@@ -23,6 +23,8 @@
                  "sonatype-snapshots" {:url "https://oss.sonatype.org/content/repositories/snapshots"
                                        :snapshots true
                                        :releases {:checksum :fail :update :always}}}
-  :deploy-repositories {"releases" {:url "https://repo.clojars.org" :creds :gpg}}
+  :deploy-repositories {"releases" {:url "https://repo.clojars.org"
+                                    :username :env/clojars_username
+                                    :password :env/clojars_password}}
   :aliases  {"all" ["with-profile" "+dev:+1.10:+1.11:+1.12"]}
   :global-vars {*warn-on-reflection* true})

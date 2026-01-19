@@ -1,4 +1,4 @@
-## Changes between Pantomime 3.0.0 and 3.1.0 (unreleased)
+## Changes between Pantomime 3.0.0 and 3.1.0 (Jan 18, 2026)
 
 ### Bug Fixes
 
